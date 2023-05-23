@@ -1,16 +1,15 @@
-LINK_TARGET = crawler
+CXX = g++
+CFLAGS = -pthread -std=c++11 -Wall
 
-OBJS = main.o # add name of files here 
+SOURCES = main.cpp 
+OBJECTS = main.o 
 
-REBUILDABLES = $(OBJS) $(LINK_TARGET)
+crawler: $(OBJECTS)
+	$(CXX) $(CFLAGS) -o crawler $(OBJECTS) 
 
-all : $(LINK_TARGET)
+main.o: main.cpp 
+	$(CXX) -c $(CFLAGS) -o main.o main.cpp
 
-clean: 
-	rm -f $(REBUILDABLES)
-
-$(LINK_TARGET) : $(OBJS)
-	g++ -g -o $@ $^
-
-%.o : %.c
-	g++ -g -Wall -o $@ -c $<
+clean:
+	rm -f *.o
+	rm -f crawler

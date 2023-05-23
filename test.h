@@ -7,6 +7,10 @@
 #include "link_extractor.h"
 
 #include <fstream>
+#include<sstream>
+
+#include <set>
+
 
 namespace test
 {
@@ -65,23 +69,28 @@ namespace test
 
     void test_extracting(){
         std::ifstream myfile; 
-        myfile.open("links_example.txt"); 
+        myfile.open("some_website.txt"); 
         std::string mystring; 
         if(myfile.is_open()){
-            myfile >> mystring; 
-            std::cout << mystring;
+            std::ostringstream ss;
+            ss << myfile.rdbuf(); 
+            mystring = ss.str(); 
         }
         std::cout << " =============== " << std::endl << "Now running extractor function" << std::endl; 
+        std::cout << "Input string is" << mystring << std::endl; 
+        std::cout << " =============== " << std::endl; 
 
         
 
         std::vector<std::string> links; 
 
-        links = extract_links(mystring, 5); 
+        links = extract_links(mystring, 10); 
 
         std::cout << "Finished extracting..." << std::endl; 
-        for (size_t i = 0; i < links.size(); i++){
-            std::cout << i << " " << links[i] << std::endl; 
+        int i = 0;
+        for (auto it = links.begin(); it != links.end(); it++){
+            std::cout << i << " " << *it << std::endl; 
+            i += 1;
         }
     }
 
