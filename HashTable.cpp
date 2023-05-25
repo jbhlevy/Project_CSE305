@@ -13,6 +13,9 @@ protected:
         Node(T val) : value(val) {}
         std::mutex mutex;
         T value;
+        //int key;
+        //T* parent; //implement similatrily to node in td7
+        //int capacity; //add as setqueeu td7
     };
 
     std::vector<std::list<std::unique_ptr<Node>>> table;
@@ -70,6 +73,7 @@ private:
     std::vector<std::mutex> locks;
 
 public:
+    StripedHashSet(){};
     StripedHashSet(int capacity) : BaseHashSet<T>(capacity), locks(capacity) {}
 
     void acquire(T x) {
@@ -82,7 +86,7 @@ public:
 
 };
 
-
+/*
 
 void testHashSet(StripedHashSet<int>& set, int start, int end) {
     for (int i = start; i < end; i++) {
@@ -113,3 +117,4 @@ int main() {
 
     return 0;
 }
+*/

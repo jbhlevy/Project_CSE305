@@ -6,9 +6,10 @@
 #include <string>
 #include <iostream>
 
+std::string extract_link(int begin, int end, std::string html, int maxLinks){}
 
 
-std::vector<std::string> extract_links(std::string html, int maxLinks)
+std::vector<std::string> extract_links(std::string html, int maxLinks) //html of parsed link, capacity
 {
     std::cout << "Hello from extract_links" << std::endl; 
     const std::regex url_re(R"!!(<\s*A\s+[^>]*href\s*=\s*"([^"]*)")!!", std::regex_constants::icase);
@@ -59,7 +60,9 @@ std::vector<std::string> extract_links(std::string html, int maxLinks)
 				a.find('{') == std::string::npos &&
 				a.find('}') == std::string::npos &&
 				a.find(' ') == std::string::npos)
-		{
+		{	
+			
+			// a launch new thread, conditional veriable???, 
 
 			links.push_back(a);
 			if (links.size() >= maxLinks)
