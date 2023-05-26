@@ -6,38 +6,63 @@
 
 #include <thread>
 
+//BUGS marked with OBS
+
+template<typename T>
+class Node {
+    public:
+        //Node(){};
+        Node(T val){
+            value = val;
+            parent = nullptr;
+            depth = 0;
+        }
+
+        Node(T val, Node<T>* par) : value(val), parent(par) {
+            depth = parent->depth +1;
+        }
+        
+        
+        T value;
+        int depth;
+        std::mutex mutex;
+        //int key;
+        Node<T>* parent; //implement similatrily to node in tdgit7
+        
+};
+
+
 template<typename T>
 class BaseHashSet {
-protected:
-    struct Node {
-        Node(T val) : value(val) {}
-        std::mutex mutex;
-        T value;
-        //int key;
-        //T* parent; //implement similatrily to node in td7
-        //int capacity; //add as setqueeu td7
-    };
+    //std::condition_variable not_full;
 
-    std::vector<std::list<std::unique_ptr<Node>>> table;
+    
     //std::vector<std::unique_ptr<Node>> table;
-    int setSize;
 
 public:
+    std::vector<std::list<std::unique_ptr<Node<T>>>> table;
+    int max_depth;
+    int count;
 /*
-    BaseHashSet(int capacity) : setSize(0), table(capacity) {
-        for (int i = 0; i < capacity; i++) {
+    BaseHashSet(int max_depth) : setSize(0), table(max_depth) {
+        for (int i = 0; i < max_depth; i++) {
             table[i] = std::list<std::unique_ptr<Node>>();
         }
     }
     */
+   BaseHashSet(){};
 
-    BaseHashSet(int capacity) : setSize(0), table(capacity) {
-        for (int i = 0; i < capacity; i++) { 
+    BaseHashSet(int max_depth) : count(0), table(max_depth) {
+        for (int i = 0; i < max_depth; i++) { 
             //table[i] = std::list<std::unique_ptr<Node>>{std::unique_ptr<Node>(new Node(T{}))};
-            table[i].emplace_back(new Node(T{}));
+            table[i].emplace_back(new Node<T>(T{}));
             
         }
+        this->max_depth = max_depth;
     }
+
+    size_t get_max_depth() const {return this->max_depth;}
+    size_t get_count() const {return this->count;}
 
     bool contains(T x) {
         int myBucket = std::hash<T>{}(x) % table.size();
@@ -50,16 +75,22 @@ public:
         return false;
     }
 
-    bool add(T x) {
-        int myBucket = std::hash<T>{}(x) % table.size();
+//OBS BUG, how do we access added elements, location,add function to access?
+    bool add(Node<T> *x) {
+        //int myBucket = std::hash<T>{}(x->value) % table.size(); //hashtable, 
+        int myBucket = x->depth % table.size(); //our hash table will be orgainised by depth. first level forst link.
         std::lock_guard<std::mutex> lock(table[myBucket].front()->mutex);
+        //while (count == max_depth) not_full.wait(lock);// lock when not full anymore
+
+
         for (const auto& node : table[myBucket]) {
-            if (node->value == x) {
+            if (node->value == x->value) {
                 return false; // Element already exists
             }
         }
-        table[myBucket].push_back(std::unique_ptr<Node>(new Node(x)));
-        setSize++;
+        table[myBucket].push_back(std::unique_ptr<Node<T>>(x));
+        //table[myBucket].push_back(*x);
+        //count++; do we want a bounded table?
         return true;
     }
 
@@ -74,7 +105,7 @@ private:
 
 public:
     StripedHashSet(){};
-    StripedHashSet(int capacity) : BaseHashSet<T>(capacity), locks(capacity) {}
+    StripedHashSet(int max_depth) : BaseHashSet<T>(max_depth), locks(max_depth) {}
 
     void acquire(T x) {
         locks[std::hash<T>{}(x) %  locks.size()].lock();

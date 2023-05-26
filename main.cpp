@@ -8,7 +8,8 @@ int main(int argc, const char * argv[]){
 
     //test::test_url_parsing(); 
     //test::test_downloading(); 
-    test::test_extracting();
+    //test::test_extracting();
+    test::test_crawler();
     return 0; 
 
 }

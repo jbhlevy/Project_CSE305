@@ -181,8 +181,9 @@ int download_webpage(char url[], HTTP_reply *reply, bool verbose=false){
         std::cout << "THERE WAS MAJOR PROBLEM SORRY" << std::endl; 
         return 3; 
     }
-    std::cout << "From download function, reply is: " << http_reply << std::endl;
-
+    //if(verbose)
+    //    std::cout << "From download function, reply is: " << http_reply << std::endl;
+    //DO WE NOT WANT TO RETURN http_reply?
     return 0; 
 }
 

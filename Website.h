@@ -12,6 +12,10 @@ class Website{
             this->html = html;
         }
         Website(){};
+
+        bool operator==(const Website &a){
+            return ((url == a.url) && (html == a.html));
+	        }
 };
 
 #endif 

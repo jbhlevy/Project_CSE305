@@ -5,6 +5,7 @@
 #include "url_parser.h"
 #include "downloader.h"
 #include "link_extractor.h"
+#include "crawler.h"
 
 #include <fstream>
 #include<sstream>
@@ -92,6 +93,12 @@ namespace test
             std::cout << i << " " << *it << std::endl; 
             i += 1;
         }
+    }
+
+    void test_crawler(){
+        Crawler my_crawler("http://www.google.com/", 10);
+        my_crawler.crawl();
+        //my_crawler.crawl_this_website();
     }
 
 
