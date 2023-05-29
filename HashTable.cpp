@@ -21,7 +21,8 @@ class Node {
         Node(T val, Node<T>* par) : value(val), parent(par) {
             depth = parent->depth +1;
         }
-        
+
+        Node(){};
         
         T value;
         int depth;
@@ -36,11 +37,10 @@ template<typename T>
 class BaseHashSet {
     //std::condition_variable not_full;
 
-    
-    //std::vector<std::unique_ptr<Node>> table;
-
 public:
-    std::vector<std::list<std::unique_ptr<Node<T>>>> table;
+    //std::vector<std::list<std::unique_ptr<Node<T>>>> table;
+    std::vector<std::list<Node<T>*>> table;
+
     int max_depth;
     int count;
 /*
@@ -65,7 +65,7 @@ public:
     size_t get_count() const {return this->count;}
 
     bool contains(T x) {
-        int myBucket = std::hash<T>{}(x) % table.size();
+        int myBucket = x.hash() % table.size(); //hash defined in website class
         std::lock_guard<std::mutex> lock(table[myBucket].front()->mutex);
         for (const auto& node : table[myBucket]) {
             if (node->value == x) {
@@ -77,8 +77,8 @@ public:
 
 //OBS BUG, how do we access added elements, location,add function to access?
     bool add(Node<T> *x) {
-        //int myBucket = std::hash<T>{}(x->value) % table.size(); //hashtable, 
-        int myBucket = x->depth % table.size(); //our hash table will be orgainised by depth. first level forst link.
+        int myBucket = x->value.hash() % table.size(); //hashtable, 
+        //int myBucket = x->depth % table.size(); //our hash table will be orgainised by depth. first level forst link.
         std::lock_guard<std::mutex> lock(table[myBucket].front()->mutex);
         //while (count == max_depth) not_full.wait(lock);// lock when not full anymore
 
@@ -88,11 +88,26 @@ public:
                 return false; // Element already exists
             }
         }
-        table[myBucket].push_back(std::unique_ptr<Node<T>>(x));
+        //table[myBucket].push_back(std::unique_ptr<Node<T>>(x));
+        //Node<T>&n = new Node<T>(x);
+        table[myBucket].emplace_back(x);
+        std::cout << table[myBucket].size() << std::endl;
         //table[myBucket].push_back(*x);
         //count++; do we want a bounded table?
         return true;
     }
+
+    Node<T>* get(T x){ //x is hash 
+        int myBucket = x.hash() % table.size(); //hash defined in website class
+        std::lock_guard<std::mutex> lock(table[myBucket].front()->mutex);
+        for (Node<T>* node : table[myBucket]) {
+            if (node->value == x) {
+                return node;
+            }
+        }
+        return nullptr;
+    }
+
 
     // Other methods...
 

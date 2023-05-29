@@ -11,11 +11,21 @@ class Website{
             this->url = url;
             this->html = html;
         }
+
+        Website(std::string& url){
+            this->url = url;
+            this->html = "";
+        }
+
         Website(){};
 
         bool operator==(const Website &a){
-            return ((url == a.url) && (html == a.html));
+            return ((url == a.url));// && (html == a.html));
 	        }
+
+        int hash(){
+            return std::hash<std::string>{}(url);
+        }
 };
 
 #endif 

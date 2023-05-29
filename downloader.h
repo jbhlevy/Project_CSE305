@@ -52,7 +52,7 @@ int get_reply(URL_info *info, HTTP_reply *reply, bool verbose=false){
     }
 
     addr_list = (struct in_addr **) host->h_addr_list; 
-    std::cout << "Obtained the adresses:" << std::endl; 
+    //std::cout << "Obtained the adresses:" << std::endl; 
     if(verbose){
         for (int i = 0; addr_list[i] != NULL; i++){
             std::cout << inet_ntoa(*addr_list[i]) << std::endl; 

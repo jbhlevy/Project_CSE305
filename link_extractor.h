@@ -6,22 +6,24 @@
 #include <string>
 #include <iostream>
 
-std::string extract_link(std::string html, std::sregex_token_iterator& begin, std::sregex_token_iterator& end){
+std::string extract_link(std::string&  html){ //THIS DOESNT WORK; IT DOESN NOT EXTRACT FIRST LINK in HTML
 	std::regex expression(".*\\..*"); // regex for URL within <a href> tag
-	 std::cout << "Hello from extract_links" << std::endl; 
+
+    std::cout << "Hello from extract_links" << std::endl; 
     const std::regex url_re(R"!!(<\s*A\s+[^>]*href\s*=\s*"([^"]*)")!!", std::regex_constants::icase);
     //Regular expression used to create chunks of the html file
 
-    //auto begin = std::sregex_token_iterator(b, e, url_re, 1); 
-    //auto end = std::sregex_token_iterator{}; 
+    auto begin = std::sregex_token_iterator(html.begin(), html.end(), url_re, 1); 
+    auto end = std::sregex_token_iterator{};
 
 	//if (begin == end) return "";
 	//auto it = begin;
 	//while (begin != nullptr){
+	//std::cout << html.begin() <<std::endl;
 	for (auto it = begin; it !=end; it++){
 		//std::string a = *begin;
 		std::string a = *it;
-		std::cout << a <<std::endl;
+		std::cout << "HELLO from extract link loop" << a <<std::endl;
 
         //Remove unecessary characters that are in links due to JS and HTML syntax        
 
