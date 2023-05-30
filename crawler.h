@@ -11,19 +11,17 @@
 #include "link_extractor.h"
 
 //Note: Problems marked with OBS
+//if html not found dont add to hashtable, or add even though only url found?
 
 class Crawler{
     public:
 
     StripedHashSet<Website> hashtable;
     int count;
-    //std::string first_link;
 
     Crawler(){};
 
     Crawler(std::string& first_link, int max_depth){
-        //this->first_link = first_link;
-        //std::cout << "first link: "<< first_link <<std::endl;
 
         //Initiialise hashtable
         hashtable = StripedHashSet<Website>(max_depth);
@@ -35,6 +33,7 @@ class Crawler{
         char* first_link_char = const_cast<char*>(first_link.c_str());
         return_code = download_webpage(first_link_char, &first_html, true);
         char* actual_html = parse_reply(&first_html);
+
         if(return_code != 0)
             std::cerr << "Could not download: " << first_link << " most likely cause: " << parse_url_errstr[return_code] << std::endl; 
 
@@ -45,14 +44,10 @@ class Crawler{
         //put first object in hashtable 
         hashtable.add(node_first_website); 
 
-
-        //std::cout <<"CHECK THAT WE ADDED WEBSITE:" << hashtable.contains(*first_website)<< std::endl;
-        //std::cout <<"CHECK THAT WE ADDED WEBSITE with new website:"<< hashtable.contains(Website(first_link)) << std::endl;
         if (hashtable.contains(*first_website) &&hashtable.contains(Website(first_link))) {
             std::cout << "Successfull initialisation of crawler, contains node for first link: "<< first_link << std::endl;
 
         }
-
 
         //set counter to 1;
         count++;
@@ -84,19 +79,23 @@ class Crawler{
             //download next link
             downloader::HTTP_reply new_html;
             char* new_link_char = const_cast<char*>(new_link.c_str());  
-            download_webpage(new_link_char, &new_html);  
+            int res = download_webpage(new_link_char, &new_html);  
 
-            //create website object next link    //DO PARENT
-            Website* new_Website = new Website(new_link, new_html.reply_buffer);
+            std::cout << res<< std::endl;
+            
+            //if (res == 0){ //this shoudl be the case, we only want to parse links which return correct thing, implement https allowance
+                //create website object next link    //DO PARENT
+                Website* new_Website = new Website(new_link, new_html.reply_buffer);
 
-            //put in hash table 
-            Node<Website>* website_node = new Node<Website>(*new_Website, &curr); //curr is the parent, new_website is our new website,the depth will be one more
-            hashtable.add(website_node); //is depth a thing
+                //put in hash table 
+                Node<Website>* website_node = new Node<Website>(*new_Website, &curr); //curr is the parent, new_website is our new website,the depth will be one more
+                hashtable.add(website_node); //is depth a thing
+                crawl_this_website(*website_node); //this should spawn new thread
+                //crawl next link
+                std::cout<< "we launch next crawl" <<std::endl;
+            //}
 
-            //crawl next link
-            std::cout<< "we launch next crawl" <<std::endl;
-
-            crawl_this_website(*website_node); //this should spawn new thread
+            
         }
         //std::cout << curr.value.html << std::endl;
         return 0;

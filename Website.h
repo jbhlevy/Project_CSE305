@@ -28,7 +28,7 @@ class Website{
         }
 
         void print(){
-            std::cout << url << std::endl;
+            std::cout << url;// << std::endl;
         }
 };
 

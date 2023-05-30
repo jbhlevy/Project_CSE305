@@ -6,7 +6,7 @@
 
 #include <thread>
 
-//BUGS marked with OBS
+
 
 template<typename T>
 class Node {
@@ -113,8 +113,11 @@ public:
             std::cout << "Bucket " << i << ": ";
             std::lock_guard<std::mutex> lock(table[i].front()->mutex);
             for (const auto& node : table[i]) {
-                node->value.print();
-                std::cout <<" ";// node->value.print() << " ";
+                node->value.print();              
+                if (node->parent != nullptr){
+                    std::cout << ", Parent: ";
+                    node->parent->value.print();}
+                std::cout <<" " <<std::endl;// node->value.print() << " ";
             }
             std::cout << std::endl;
         }

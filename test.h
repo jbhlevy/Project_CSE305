@@ -97,7 +97,8 @@ namespace test
 
     void test_crawler(){
         //std::string first_link = "http://www.google.com/"; //the html here doesnt match 
-        std::string first_link = "http://www.lsv.fr/Publis/axes/secsi.html";
+        //std::string first_link = "http://www.lsv.fr/Publis/axes/secsi.html"; //good to test first step
+        std::string first_link = "http://iamjmm.ovh/NSI/http/site/http.html";
         //Crawler my_crawler(first_link, 10);
         Crawler my_crawler = Crawler(first_link, 10);
 
