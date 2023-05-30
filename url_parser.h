@@ -45,7 +45,7 @@ int parse_url(char url[], URL_info *info){
     }
     info->protocol = protocol; 
 
-    if(strcmp(info->protocol, "http"))
+    if(strcmp(info->protocol, "http") and strcmp(info->protocol, "https"))
         return PARSE_URL_PROTOCOL_UNKNOWN; 
 
     char* slash = strchr(host_name_path, '/'); 
