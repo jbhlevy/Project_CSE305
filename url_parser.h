@@ -64,7 +64,14 @@ int parse_url(char url[], URL_info *info){
 			return PARSE_URL_INVALID_PORT;
 		}
 	} else {
-		info->port = 80;
+        if(strcmp(info->protocol, "https") ==0)
+        {
+            std::cout << "hit" << std::endl; 
+            info->port = 443; 
+        }
+        else{
+		    info->port = 80;
+        }
 	}
 
 	//If everything went well, return 0.

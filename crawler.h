@@ -13,6 +13,8 @@
 //Note: Problems marked with OBS
 //if html not found dont add to hashtable, or add even though only url found?
 
+int MAX = 100; 
+
 class Crawler{
     public:
 
@@ -55,13 +57,17 @@ class Crawler{
 
     
 
-    int crawl_this_website(Node<Website>& curr){
+    int crawl_this_website(Node<Website>& curr, int count=0){
         std::cout<< "hello crawl this website"<<std::endl;
+        if(count > MAX){
+            std::cout << "Reached Max, stopping" << std::endl; 
+            return 0; 
+        }
 
         const std::regex url_re(R"!!(<\s*A\s+[^>]*href\s*=\s*"([^"]*)")!!", std::regex_constants::icase);
         //Regular expression used to create chunks of the html file
         std::string html = curr.value.html; //make sure we dont modify curr.value.html
-        std::cout<< html <<std::endl;
+        //std::cout<< html <<std::endl;
 
         while (html != ""){ 
             //extract next link
@@ -83,17 +89,20 @@ class Crawler{
 
             std::cout << res<< std::endl;
             
-            //if (res == 0){ //this shoudl be the case, we only want to parse links which return correct thing, implement https allowance
+            if (res == 0){ //this shoudl be the case, we only want to parse links which return correct thing, implement https allowance
                 //create website object next link    //DO PARENT
                 Website* new_Website = new Website(new_link, new_html.reply_buffer);
 
                 //put in hash table 
                 Node<Website>* website_node = new Node<Website>(*new_Website, &curr); //curr is the parent, new_website is our new website,the depth will be one more
                 hashtable.add(website_node); //is depth a thing
-                crawl_this_website(*website_node); //this should spawn new thread
+                crawl_this_website(*website_node, count+1); //this should spawn new thread
                 //crawl next link
                 std::cout<< "we launch next crawl" <<std::endl;
-            //}
+            }
+            else{
+                std::cout << "Downloading didnt work" << std::endl; 
+            }
 
             
         }

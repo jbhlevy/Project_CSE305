@@ -5,6 +5,8 @@
 #include <arpa/inet.h>
 #include <sys/socket.h>
 #include <unistd.h>
+#include <openssl/ssl.h>
+
 
 #include "url_parser.h"
 
@@ -37,7 +39,100 @@ char* create_http_request(URL_info *info){
     return request_buffer;  
 }
 
-int get_reply(URL_info *info, HTTP_reply *reply, bool verbose=false){
+int get_reply_http(URL_info *info, HTTP_reply *reply, bool verbose=false){
+    std::cout << "HTTP NOT S" << std::endl; 
+    char *hostname = info->host; 
+    if(verbose)
+        std::cout << "About to send GET request to " << hostname << std::endl; 
+
+    struct hostent *host; 
+    struct in_addr **addr_list; 
+    host = gethostbyname(hostname); 
+
+    if(host == NULL){
+        herror("gethostbyname"); 
+        return 1; 
+    }
+
+    addr_list = (struct in_addr **) host->h_addr_list; 
+    //std::cout << "Obtained the adresses:" << std::endl; 
+    if(verbose){
+        for (int i = 0; addr_list[i] != NULL; i++){
+            std::cout << inet_ntoa(*addr_list[i]) << std::endl; 
+        }
+    }  
+
+    char *request_buffer = create_http_request(info); 
+    if(verbose)
+        std::cout << "Created request buffer: " << request_buffer << "EOF" << std::endl; 
+
+    struct sockaddr_in server_addr; 
+    int socketf = socket(AF_INET, SOCK_STREAM, 0); 
+
+    memset(&server_addr, 0, sizeof(server_addr)); 
+    server_addr.sin_family = AF_INET; 
+    memcpy(&server_addr.sin_addr.s_addr, addr_list[0], host->h_length); 
+    server_addr.sin_port = htons(info->port); 
+
+    if(connect(socketf, (struct sockaddr *) &server_addr, sizeof(server_addr)) < 0){
+        std::cerr << "Could not connect to socker :/" << std::endl; 
+        return 2; 
+    }
+
+    if(verbose)
+        std::cout << "Connected to socket :)" << std::endl; 
+    
+    int total = strlen(request_buffer); 
+    int sent = 0; 
+    int bytes; 
+    if(verbose)
+        std::cout << "Sending request..."; 
+
+    while(sent < total){
+        bytes = write(socketf, request_buffer + sent, total - sent); 
+        if(bytes < 0)
+            std::cerr << "Error writting to socket" << std::endl; 
+        if (bytes == 0)
+            break; 
+        sent += bytes; 
+        if(verbose)
+            std::cout << "..."; 
+    }
+    std::cout << "Sent HTTP GET request to " << inet_ntoa(*addr_list[0]) << std::endl; 
+    //Read response from server 
+    int received = 0;
+    total = 32000; 
+    char* response_buffer = (char *) malloc(total);
+    memset(response_buffer, 0, 32000); 
+    while (received < total){
+        bytes = read(socketf, response_buffer + received, total-received); 
+
+        if(bytes < 0)
+            std::cout << "Error reading from socket" << std::endl; 
+        if(bytes == 0)
+            break;
+        
+        received += bytes; 
+        total -= bytes; //??? Not sure about this 
+
+
+        if(total <= 0){
+            std::cout << "Reached maximum buffer length" << std::endl; 
+            total += 32000; 
+            reply->reply_buffer = (char *) realloc(reply->reply_buffer, received + total); 
+        }
+    }
+    reply->reply_buffer = response_buffer; 
+    reply->length = strlen(response_buffer); 
+
+    shutdown(socketf, SHUT_RDWR); 
+    if(verbose)
+        std::cout << "Shutdown socket" << std::endl; 
+    return 0; 
+}
+
+int get_reply_https(URL_info *info, HTTP_reply *reply, bool verbose=false){
+    std::cout << "HTTPS haha" << std::endl; 
     char *hostname = info->host; 
     if(verbose)
         std::cout << "About to send GET request to " << hostname << std::endl; 
@@ -79,6 +174,20 @@ int get_reply(URL_info *info, HTTP_reply *reply, bool verbose=false){
     if(verbose)
         std::cout << "Connected to socket :)" << std::endl; 
 
+    SSL_load_error_strings();
+	SSL_CTX *ssl_ctx = SSL_CTX_new(SSLv23_client_method());
+	SSL_library_init();
+
+    SSL *conn = SSL_new(ssl_ctx);
+	SSL_set_fd(conn, socketf);
+
+    int err = SSL_connect(conn);
+	if (err != 1)
+	{
+		return 2;
+	}
+
+    
     int total = strlen(request_buffer); 
     int sent = 0; 
     int bytes; 
@@ -86,7 +195,7 @@ int get_reply(URL_info *info, HTTP_reply *reply, bool verbose=false){
         std::cout << "Sending request..."; 
 
     while(sent < total){
-        bytes = write(socketf, request_buffer + sent, total - sent); 
+        bytes = SSL_write(conn, request_buffer + sent, total - sent); 
         if(bytes < 0)
             std::cerr << "Error writting to socket" << std::endl; 
         if (bytes == 0)
@@ -94,16 +203,15 @@ int get_reply(URL_info *info, HTTP_reply *reply, bool verbose=false){
         sent += bytes; 
         if(verbose)
             std::cout << "..."; 
-
-    std::cout << "Sent HTTP GET request to " << inet_ntoa(*addr_list[0]) << std::endl; 
     }
-    //Read response from server 
+    std::cout << "Sent HTTP GET request to " << inet_ntoa(*addr_list[0]) << std::endl; 
+
     int received = 0;
     total = 32000; 
     char* response_buffer = (char *) malloc(total);
     memset(response_buffer, 0, 32000); 
     while (received < total){
-        bytes = read(socketf, response_buffer + received, total-received); 
+        bytes = SSL_read(conn, response_buffer + received, total-received); 
 
         if(bytes < 0)
             std::cout << "Error reading from socket" << std::endl; 
@@ -112,6 +220,7 @@ int get_reply(URL_info *info, HTTP_reply *reply, bool verbose=false){
         
         received += bytes; 
         total -= bytes; //??? Not sure about this 
+
 
         if(total <= 0){
             std::cout << "Reached maximum buffer length" << std::endl; 
@@ -122,11 +231,19 @@ int get_reply(URL_info *info, HTTP_reply *reply, bool verbose=false){
     reply->reply_buffer = response_buffer; 
     reply->length = strlen(response_buffer); 
 
+
+	SSL_shutdown(conn);
+	SSL_free(conn);
     shutdown(socketf, SHUT_RDWR); 
     if(verbose)
         std::cout << "Shutdown socket" << std::endl; 
     return 0; 
+
 }
+
+
+
+
 
 char* parse_reply(HTTP_reply *reply){
     char* status_line = next_line(reply->reply_buffer, reply->length);
@@ -136,6 +253,23 @@ char* parse_reply(HTTP_reply *reply){
     }
     *status_line = '\0'; 
     std::cout << "About to parse the first line: " << reply->reply_buffer << std::endl; 
+
+    //PDF 
+    char* type; 
+    type = strstr(status_line+1, "Content-Type:"); 
+    if(type != NULL){
+        type += 14; 
+    }
+    else{
+        std::cout << "YOU KIDDING" << std::endl; 
+    }
+    if(type != NULL){
+        type = strstr(type, "html"); 
+    }
+    if(type == NULL){
+        return NULL; 
+    }
+
     int status; double http_version;  
     int rv = sscanf(reply->reply_buffer, "HTTP/%lf %d", &http_version, &status); 
     if(rv != 2){
@@ -143,8 +277,40 @@ char* parse_reply(HTTP_reply *reply){
         return NULL; 
     }
     if(status != 200){
-        std::cout << "Server returned status " << status << " should be 200" << std::endl; 
-        return NULL; 
+        std::cout << "Server returned status " << status << " should be 200" << std::endl;
+        if(status == 404){
+            std::cout << "Page doesn't exist" << std::endl; 
+            return NULL; 
+        }
+        if(status == 403){
+            std::cout << "Request forbidden by server :(" << std::endl; 
+            return NULL;
+        }
+        char* new_location; 
+        std::cout << "stat+1 " << status_line + 1 << std::endl; 
+        new_location = strstr(status_line+1, "Location:"); 
+        if(new_location != NULL){
+            new_location += 10; 
+        }
+        else{
+            std::cout << "Location pointer was null" << std::endl; 
+            new_location = strstr(status_line+1, "location:");
+            if(new_location != NULL){
+                new_location += 10; 
+            } 
+            else{
+                std::cout << "THIS IS BULLSHIT" << std::endl; 
+            }
+        }
+        if(new_location != NULL){
+            std::cout << "hi"; 
+            char* end = strstr(new_location, "\r"); 
+            if(end != NULL){
+                *end = '\0'; 
+            }
+        }        
+        std::cout << "FOUND NEW LOCATION: " << new_location << std::endl; 
+        return new_location; 
     }
     char * buff = status_line + 2; 
     char* n_line; 
@@ -169,8 +335,16 @@ int download_webpage(char url[], HTTP_reply *reply, bool verbose=false){
 
     if(verbose)
         print_url_info(&info); 
-    
-    return_code = get_reply(&info, reply, verbose); 
+
+    if(strstr(info.protocol, "https") != 0){
+        //HTTPS
+        return_code = get_reply_https(&info, reply, verbose); 
+
+    }
+    else{
+        //HTTP
+        return_code = get_reply_http(&info, reply, verbose); 
+    }
 
     if(return_code != 0){
         //c la merde
@@ -181,8 +355,15 @@ int download_webpage(char url[], HTTP_reply *reply, bool verbose=false){
         std::cout << "THERE WAS MAJOR PROBLEM SORRY" << std::endl; 
         return 3; 
     }
-    //if(verbose)
-    //    std::cout << "From download function, reply is: " << http_reply << std::endl;
+    if(*strstr(http_reply, "http") == *http_reply){
+        std::cout << "reply was another link..."; 
+        download_webpage(http_reply, reply, verbose); 
+    }
+
+
+    if(verbose)
+       std::cout << "From download function, reply is: " << http_reply << std::endl;
+    std::cout << "Download page exited with return code 0" << std::endl; 
     return 0; 
 }
 

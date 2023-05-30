@@ -23,23 +23,29 @@ namespace test
         return_code = parse_url(url, &info);
         if(return_code != 0)
             std::cerr << "Could not parse URL: " << url << " most likely cause: " << parse_url_errstr[return_code] << std::endl; 
-        print_url_info(&info); 
-        std::cout << "ENDED TEST SUCESSFULLY" << std::endl << "==============================" << std::endl; 
+        else {
+            print_url_info(&info); 
+            std::cout << "ENDED TEST SUCESSFULLY" << std::endl << "==============================" << std::endl;
+        }
 
         char url1[] = "google.com/"; 
         return_code = parse_url(url1, &info);
         if(return_code != 0)
             std::cerr << "Could not parse URL: " << url << " most likely cause: " << parse_url_errstr[return_code] << std::endl; 
-        print_url_info(&info); 
-        std::cout << "ENDED TEST SUCESSFULLY" << std::endl << "==============================" << std::endl; 
+        else {
+            print_url_info(&info); 
+            std::cout << "ENDED TEST SUCESSFULLY" << std::endl << "==============================" << std::endl;
+        }
 
 
         char url2[] = "https://www.polytechnique.edu:80/index.php"; 
         return_code = parse_url(url2, &info);
         if(return_code != 0)
-            std::cerr << "Could not parse URL: " << url << " most likely cause: " << parse_url_errstr[return_code] << std::endl; 
-        print_url_info(&info); 
-        std::cout << "ENDED TEST SUCESSFULLY" << std::endl << "==============================" << std::endl; 
+            std::cerr << "Could not parse URL: " << url << " most likely cause: " << parse_url_errstr[return_code] << std::endl << "TEST FAILLURE" << std::endl; 
+        else{
+            print_url_info(&info); 
+            std::cout << "ENDED TEST SUCESSFULLY" << std::endl << "==============================" << std::endl; 
+        }
     }
 
 
@@ -61,7 +67,7 @@ namespace test
         std::cout << "ENDED TEST SUCESSFULLY" << std::endl << "==============================" << std::endl; 
 
 
-        char url2[] = "https://www.polytechnique.edu:80/index.php"; 
+        char url2[] = "https://fr.wikipedia.org/"; 
         return_code = download_webpage(url2, &reply, true);
         if(return_code != 0)
             std::cerr << "Could not download: " << url << " most likely cause: " << parse_url_errstr[return_code] << std::endl; 
@@ -97,8 +103,8 @@ namespace test
 
     void test_crawler(){
         //std::string first_link = "http://www.google.com/"; //the html here doesnt match 
-        //std::string first_link = "http://www.lsv.fr/Publis/axes/secsi.html"; //good to test first step
-        std::string first_link = "http://iamjmm.ovh/NSI/http/site/http.html";
+        std::string first_link = "http://www.lsv.fr/Publis/axes/secsi.html"; //good to test first step
+        //std::string first_link = "http://iamjmm.ovh/NSI/http/site/http.html";
         //Crawler my_crawler(first_link, 10);
         Crawler my_crawler = Crawler(first_link, 10);
 
