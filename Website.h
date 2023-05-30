@@ -26,6 +26,10 @@ class Website{
         int hash(){
             return std::hash<std::string>{}(url);
         }
+
+        void print(){
+            std::cout << url << std::endl;
+        }
 };
 
 #endif 

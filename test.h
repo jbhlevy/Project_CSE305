@@ -96,17 +96,19 @@ namespace test
     }
 
     void test_crawler(){
-        std::string first_link = "http://www.google.com/";
+        //std::string first_link = "http://www.google.com/"; //the html here doesnt match 
+        std::string first_link = "http://www.lsv.fr/Publis/axes/secsi.html";
         //Crawler my_crawler(first_link, 10);
         Crawler my_crawler = Crawler(first_link, 10);
 
         //std::cout <<"CHECK THAT WE ADDED WEBSITE in test 1:"<< my_crawler.hashtable.table[std::hash<std::string>{}("http://www.google.com/")].front() << std::endl;
-
-        std::cout <<"CHECK THAT WE ADDED WEBSITE in test 2:"<< my_crawler.hashtable.contains(Website(first_link)) << std::endl;
+        //std::cout <<"CHECK THAT WE ADDED WEBSITE in test 2:"<< my_crawler.hashtable.contains(Website(first_link)) << std::endl;
         
 
         my_crawler.crawl(first_link);
         //my_crawler.crawl_this_website();
+
+        my_crawler.hashtable.printHashtable();
     }
 
 

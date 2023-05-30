@@ -108,6 +108,18 @@ public:
         return nullptr;
     }
 
+    void printHashtable(){
+        for (size_t i = 0; i < table.size(); ++i) {
+            std::cout << "Bucket " << i << ": ";
+            std::lock_guard<std::mutex> lock(table[i].front()->mutex);
+            for (const auto& node : table[i]) {
+                node->value.print();
+                std::cout <<" ";// node->value.print() << " ";
+            }
+            std::cout << std::endl;
+        }
+    }
+
 
     // Other methods...
 

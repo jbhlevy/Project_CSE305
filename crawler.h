@@ -65,21 +65,14 @@ class Crawler{
 
         const std::regex url_re(R"!!(<\s*A\s+[^>]*href\s*=\s*"([^"]*)")!!", std::regex_constants::icase);
         //Regular expression used to create chunks of the html file
-        std::string html = curr.value.html;
-        //std::cout<< html <<std::endl;
+        std::string html = curr.value.html; //make sure we dont modify curr.value.html
+        std::cout<< html <<std::endl;
 
-        //std::cout<< &html.begin() << " :SHOULD NOT BE EQUAL: "<< &html.end()<<std::endl;
-
-        //auto begin = std::sregex_token_iterator(html.begin(), html.end(), url_re, 1); 
-        //auto end = std::sregex_token_iterator{};
-
-        while (html != ""){  //OBS!!HTML  EMPTY, hashtable access susupicios
+        while (html != ""){ 
             //extract next link
-            std::cout<< "we extract link" <<std::endl;
+            //std::string new_link = extract_link(html); //extract link
+            std::string new_link = fetchFirstLink(html);
 
-            //std::cout<< html <<std::endl;
-            
-            std::string new_link = extract_link(html); //extract link
 
             std::cout << "NEWLINK: " << new_link << std::endl;
 
@@ -105,6 +98,7 @@ class Crawler{
 
             crawl_this_website(*website_node); //this should spawn new thread
         }
+        //std::cout << curr.value.html << std::endl;
         return 0;
     }
 
@@ -116,20 +110,17 @@ class Crawler{
             crawl_this_website(*current); //will always be first link
         }*/
 
-        //std::unique_ptr<Node<Website>>& current =  hashtable.table[0].front(); //ACCESS PROBLEM
-        
-       // int index = std::hash<std::string>{}(this->first_link) % hashtable.table.size();
         int index = std::hash<std::string>{}(first_link) % hashtable.table.size();
-        //std::cout<< index << std::endl;
-        //std::unique_ptr<Node<Website>>& current = hashtable.table[index].back(); 
+
         Node<Website>* current = hashtable.get(Website(first_link));
 
         Website first = Website(first_link);
         std::cout <<"Check that we have first link added:" << hashtable.contains(first)<< std::endl;
-        //std::cout<<"HTML FIRST LINK:" << current->value.url <<  std::endl; //THIS OUTPUTS NOTHING
 
         std::cout<< "we launch crawl" <<std::endl;
         crawl_this_website(*current); //will always be first link
+
+        //std::cout << current->value.html << std::endl;
 
         return 0;
     }
