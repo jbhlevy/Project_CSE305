@@ -13,10 +13,11 @@
 //Note: Problems marked with OBS
 //if html not found dont add to hashtable, or add even though only url found?
 
-int MAX = 2000; 
+int MAX = 200; 
 
 class Crawler{
     public:
+    std::vector<std::thread> workers;
 
     int count;
     std::string initial_link;
@@ -27,6 +28,7 @@ class Crawler{
     Crawler(){};
 
     Crawler(std::string& first_link, int max_depth){
+        this->count = 0;
         this->starting_link = first_link; 
         this->starting_link.pop_back(); 
 
@@ -60,9 +62,9 @@ class Crawler{
 
     
 
-    int crawl_this_website(Node<Website>* curr, int count=0){
+    int crawl_this_website(Node<Website>* curr) {
         std::cout<< "hello crawl this website " << curr->value->url << std::endl;
-        if(count ==MAX){
+        if(count >=MAX){
             std::cout << "Reached Max, stopping" << std::endl; 
             return 0; 
         }
@@ -73,7 +75,9 @@ class Crawler{
         std::string html = curr->value->get_html(); //make sure we dont modify curr.value.html
         //std::cout<< html <<std::endl;
 
-        while (html != ""){ 
+        while (html != "" && count < MAX ){ 
+            
+
             //extract next link
             std::string new_link = fetchFirstLink(html);
             if (new_link == ""){ //there is no more link in this website
@@ -121,7 +125,19 @@ class Crawler{
                 Node<Website>* website_node = new Node<Website>(new_Website, curr); //curr is the parent, new_website is our new website,the depth will be one more
                 hashtable.add(website_node); //is depth a thing
                 std::cout << "Now about to recurse and crawl the website at node (Pointer) " << website_node <<  std::endl << "=======" << std::endl; 
-                //crawl_this_website(website_node, count+1); //this should spawn new thread
+                std::cout << "COUNTER:"<< count<< std::endl;
+                count ++;
+                std::cout << "COUNTER 2:"<< count<< std::endl;
+
+                //crawl_this_website(website_node, count); //this should spawn new thread
+                //std::thread thread2(this->crawl_this_website, website_node);
+
+                //THREADING 
+                //;
+                workers.emplace_back(std::thread([this, website_node]() {
+                    crawl_this_website(website_node);
+                }));
+                //thread2.join();
                 //crawl next link
             }
             else{
@@ -136,6 +152,8 @@ class Crawler{
     }
 
     int crawl(){
+        
+
         std::cout << "Started main crawling function" << std::endl; 
 
         int index = std::hash<std::string>{}(initial_link) % hashtable.table.size();
@@ -147,7 +165,24 @@ class Crawler{
         std::cout << "Hash of first link in crawl function: " << hash_first_link << std::endl; 
 
         std::cout<< "we launch crawl" <<std::endl;
-        crawl_this_website(current); //will always be first link
+        //int count = 0;
+        //std::thread thread1(crawl_this_website, current);
+
+        //std::thread thread1([this, current]() {
+          //          crawl_this_website(current);
+            //    });
+        workers.emplace_back(std::thread([this, current]() {
+                    crawl_this_website(current);
+                }));
+        //thread1.join();
+        //std::vector<std::thread> workers;empla
+        //create threads
+        //for (int i=1; i<=10; ++i)
+          //  threads.emplace_back(std::thread(increase_global,1000));
+        //wait for them to complete
+        for (auto& th : workers) 
+            th.join();
+        //crawl_this_website(current, 0); //will always be first link
 
         //std::cout << current->value.html << std::endl;
 
