@@ -74,6 +74,7 @@
         "__tree": "cpp",
         "set": "cpp",
         "condition_variable": "cpp",
-        "filesystem": "cpp"
+        "filesystem": "cpp",
+        "functional": "cpp"
     }
 }

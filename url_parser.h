@@ -66,7 +66,6 @@ int parse_url(char url[], URL_info *info){
 	} else {
         if(strcmp(info->protocol, "https") ==0)
         {
-            std::cout << "hit" << std::endl; 
             info->port = 443; 
         }
         else{

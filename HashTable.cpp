@@ -12,25 +12,27 @@ template<typename T>
 class Node {
     public:
         //Node(){};
-        Node(T val){
+        Node(T* val){
             value = val;
             parent = nullptr;
             depth = 0;
+            key = val->hash();
+            std::cout << "hashing when creating node " << key << std::endl; 
         }
 
-        Node(T val, Node<T>* par) : value(val), parent(par) {
+        Node(T* val, Node<T>* par) : value(val), parent(par), key(val->hash()){
             depth = parent->depth +1;
         }
 
         Node(){};
         
-        T value;
+        T* value;
         int depth;
         std::mutex mutex;
-        //int key;
-        Node<T>* parent; //implement similatrily to node in tdgit7
+        int key;
+        Node<T>* parent; //implement similarily to node in tdgit7
         
-};
+};  
 
 
 template<typename T>
@@ -52,32 +54,52 @@ public:
     */
    BaseHashSet(){};
 
+
+    //QUESTION 
+    //Why do we need to initialize one Node in every bucket ?
     BaseHashSet(int max_depth) : count(0), table(max_depth) {
         for (int i = 0; i < max_depth; i++) { 
             //table[i] = std::list<std::unique_ptr<Node>>{std::unique_ptr<Node>(new Node(T{}))};
-            table[i].emplace_back(new Node<T>(T{}));
+            table[i].emplace_back(new Node<T>(new T())); 
             
         }
         this->max_depth = max_depth;
+        std::cout << "Finished initializing table" << std::endl;
     }
 
     size_t get_max_depth() const {return this->max_depth;}
     size_t get_count() const {return this->count;}
 
-    bool contains(T x) {
-        int myBucket = x.hash() % table.size(); //hash defined in website class
+    bool contains(T* x) {
+        int x_key = x->hash(); 
+        std::cout << "Checking containing Website: " << x_key << std::endl; 
+        int myBucket = x_key % table.size(); //hash defined in website class
         std::lock_guard<std::mutex> lock(table[myBucket].front()->mutex);
         for (const auto& node : table[myBucket]) {
-            if (node->value == x) {
+            if (node->key == x_key) {
                 return true;
             }
         }
         return false;
     }
 
+    bool contains(std::string url){
+        int url_key = std::hash<std::string>{}(url); 
+        std::cout << "Checking containing url: " << url_key << std::endl; 
+        int myBucket = url_key % table.size(); //hash defined in website class
+        std::lock_guard<std::mutex> lock(table[myBucket].front()->mutex);
+        for (const auto& node : table[myBucket]) {
+            if (node->key == url_key) {
+                return true;
+            }
+        }
+        return false;
+
+    }
+
 //OBS BUG, how do we access added elements, location,add function to access?
     bool add(Node<T> *x) {
-        int myBucket = x->value.hash() % table.size(); //hashtable, 
+        int myBucket = x->value->hash() % table.size(); //hashtable, 
         //int myBucket = x->depth % table.size(); //our hash table will be orgainised by depth. first level forst link.
         std::lock_guard<std::mutex> lock(table[myBucket].front()->mutex);
         //while (count == max_depth) not_full.wait(lock);// lock when not full anymore
@@ -91,17 +113,32 @@ public:
         //table[myBucket].push_back(std::unique_ptr<Node<T>>(x));
         //Node<T>&n = new Node<T>(x);
         table[myBucket].emplace_back(x);
-        std::cout << table[myBucket].size() << std::endl;
+        std::cout << "Curent size of bucket " << myBucket << ": "<<table[myBucket].size() << std::endl;
         //table[myBucket].push_back(*x);
         //count++; do we want a bounded table?
         return true;
     }
 
-    Node<T>* get(T x){ //x is hash 
-        int myBucket = x.hash() % table.size(); //hash defined in website class
+    Node<T>* get(T* x){ //x is hash 
+        int x_key = x->hash(); 
+        std::cout << "Getting node Website: " << x_key << std::endl; 
+        int myBucket = x_key % table.size(); //hash defined in website class
         std::lock_guard<std::mutex> lock(table[myBucket].front()->mutex);
         for (Node<T>* node : table[myBucket]) {
-            if (node->value == x) {
+            if (node->key == x_key) { 
+                return node;
+            }
+        }
+        return nullptr;
+    }
+
+    Node<T>* get(std::string url){ //x is hash 
+        int url_key = std::hash<std::string>{}(url); 
+        std::cout << "Getting node url: " << url_key << std::endl; 
+        int myBucket = url_key % table.size(); //hash defined in website class
+        std::lock_guard<std::mutex> lock(table[myBucket].front()->mutex);
+        for (Node<T>* node : table[myBucket]) {
+            if (node->key == url_key) { 
                 return node;
             }
         }
@@ -113,10 +150,10 @@ public:
             std::cout << "Bucket " << i << ": ";
             std::lock_guard<std::mutex> lock(table[i].front()->mutex);
             for (const auto& node : table[i]) {
-                node->value.print();              
+                node->value->print();              
                 if (node->parent != nullptr){
                     std::cout << ", Parent: ";
-                    node->parent->value.print();}
+                    node->parent->value->print();}
                 std::cout <<" " <<std::endl;// node->value.print() << " ";
             }
             std::cout << std::endl;

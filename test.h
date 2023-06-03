@@ -53,21 +53,21 @@ namespace test
         int return_code; 
         std::cout << "testing..." << std::endl; 
         downloader::HTTP_reply reply; 
-        char url[] = "http://www.google.com/";
+        std::string url = "https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal";
         return_code = download_webpage(url, &reply, true);
         if(return_code != 0)
             std::cerr << "Could not parse URL: " << url << " most likely cause: " << parse_url_errstr[return_code] << std::endl; 
         
         std::cout << "ENDED TEST SUCESSFULLY" << std::endl << "==============================" << std::endl; 
 
-        char url1[] = "www.google.com/"; 
+        std::string url1 = "www.google.com/"; 
         return_code = download_webpage(url1, &reply, true);
         if(return_code != 0)
             std::cerr << "Could not download: " << url << " most likely cause: " << parse_url_errstr[return_code] << std::endl; 
         std::cout << "ENDED TEST SUCESSFULLY" << std::endl << "==============================" << std::endl; 
 
 
-        char url2[] = "https://fr.wikipedia.org/"; 
+        std::string url2 = "https://fr.wikipedia.org/"; 
         return_code = download_webpage(url2, &reply, true);
         if(return_code != 0)
             std::cerr << "Could not download: " << url << " most likely cause: " << parse_url_errstr[return_code] << std::endl; 
@@ -103,16 +103,19 @@ namespace test
 
     void test_crawler(){
         //std::string first_link = "http://www.google.com/"; //the html here doesnt match 
-        std::string first_link = "http://www.lsv.fr/Publis/axes/secsi.html"; //good to test first step
-        //std::string first_link = "http://iamjmm.ovh/NSI/http/site/http.html";
+        //std::string first_link = "https://fr.wikipedia.org/"; //good to test first step
+        std::string first_link = "http://iamjmm.ovh/NSI/http/site/http.html";
         //Crawler my_crawler(first_link, 10);
         Crawler my_crawler = Crawler(first_link, 10);
+        std::cout << "=======================" << std::endl << "IMPORTANT LOG: Finished Crawler init" << std::endl << "=================" << std::endl; 
+
+        my_crawler.hashtable.printHashtable();
+
 
         //std::cout <<"CHECK THAT WE ADDED WEBSITE in test 1:"<< my_crawler.hashtable.table[std::hash<std::string>{}("http://www.google.com/")].front() << std::endl;
-        //std::cout <<"CHECK THAT WE ADDED WEBSITE in test 2:"<< my_crawler.hashtable.contains(Website(first_link)) << std::endl;
-        
+        //std::cout <<"CHECK THAT WE ADDED WEBSITE in test 2:"<< my_crawler.hashtable.contains(Website(first_link)) << std::endl; 
 
-        my_crawler.crawl(first_link);
+        my_crawler.crawl();
         //my_crawler.crawl_this_website();
 
         my_crawler.hashtable.printHashtable();

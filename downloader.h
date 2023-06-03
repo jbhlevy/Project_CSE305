@@ -10,6 +10,13 @@
 
 #include "url_parser.h"
 
+char* convert_string(std::string& link){
+    char* char_link = new char[link.length() + 1]; 
+    strcpy(char_link, link.c_str()); 
+    return char_link; 
+}
+
+
 namespace downloader
 {
 
@@ -132,14 +139,15 @@ int get_reply_http(URL_info *info, HTTP_reply *reply, bool verbose=false){
 }
 
 int get_reply_https(URL_info *info, HTTP_reply *reply, bool verbose=false){
-    std::cout << "HTTPS haha" << std::endl; 
     char *hostname = info->host; 
     if(verbose)
         std::cout << "About to send GET request to " << hostname << std::endl; 
 
     struct hostent *host; 
     struct in_addr **addr_list; 
-    host = gethostbyname(hostname); 
+    std::cout << hostname << std::endl; 
+    host = gethostbyname(hostname);
+    std::cout <<  "still good" << std::endl;  
 
     if(host == NULL){
         herror("gethostbyname"); 
@@ -184,6 +192,10 @@ int get_reply_https(URL_info *info, HTTP_reply *reply, bool verbose=false){
     int err = SSL_connect(conn);
 	if (err != 1)
 	{
+        SSL_load_error_strings();
+        std::cout << "SSL error" << std::endl; 
+        err = SSL_get_error(conn, err); 
+        std::cout << "Error code: " << err << std::endl; 
 		return 2;
 	}
 
@@ -252,23 +264,23 @@ char* parse_reply(HTTP_reply *reply){
         return NULL; 
     }
     *status_line = '\0'; 
-    std::cout << "About to parse the first line: " << reply->reply_buffer << std::endl; 
+    //std::cout << "About to parse the first line: " << reply->reply_buffer << std::endl; 
 
     //PDF 
-    char* type; 
-    type = strstr(status_line+1, "Content-Type:"); 
-    if(type != NULL){
-        type += 14; 
-    }
-    else{
-        std::cout << "YOU KIDDING" << std::endl; 
-    }
-    if(type != NULL){
-        type = strstr(type, "html"); 
-    }
-    if(type == NULL){
-        return NULL; 
-    }
+    // char* type; 
+    // type = strstr(status_line+1, "Content-Type:"); 
+    // if(type != NULL){
+    //     type += 14; 
+    // }
+    // else{
+    //     std::cout << "YOU KIDDING" << std::endl; 
+    // }
+    // if(type != NULL){
+    //     type = strstr(type, "html"); 
+    // }
+    // if(type == NULL){
+    //     return NULL; 
+    // }
 
     int status; double http_version;  
     int rv = sscanf(reply->reply_buffer, "HTTP/%lf %d", &http_version, &status); 
@@ -276,8 +288,9 @@ char* parse_reply(HTTP_reply *reply){
         std::cerr << "Could not parse first line (rv= " << rv << std::endl; 
         return NULL; 
     }
+    std::cout << "Server returned status " << status << std::endl; 
     if(status != 200){
-        std::cout << "Server returned status " << status << " should be 200" << std::endl;
+        //std::cout << "Server returned status " << status << " should be 200" << std::endl;
         if(status == 404){
             std::cout << "Page doesn't exist" << std::endl; 
             return NULL; 
@@ -287,13 +300,13 @@ char* parse_reply(HTTP_reply *reply){
             return NULL;
         }
         char* new_location; 
-        std::cout << "stat+1 " << status_line + 1 << std::endl; 
+        //std::cout << "stat+1 " << status_line + 1 << std::endl; 
         new_location = strstr(status_line+1, "Location:"); 
         if(new_location != NULL){
             new_location += 10; 
         }
         else{
-            std::cout << "Location pointer was null" << std::endl; 
+            std::cout << "Big L Location pointer was null" << std::endl; 
             new_location = strstr(status_line+1, "location:");
             if(new_location != NULL){
                 new_location += 10; 
@@ -303,7 +316,6 @@ char* parse_reply(HTTP_reply *reply){
             }
         }
         if(new_location != NULL){
-            std::cout << "hi"; 
             char* end = strstr(new_location, "\r"); 
             if(end != NULL){
                 *end = '\0'; 
@@ -324,8 +336,12 @@ char* parse_reply(HTTP_reply *reply){
 }
 
 
-int download_webpage(char url[], HTTP_reply *reply, bool verbose=false){
+int download_webpage(std::string& string_url, HTTP_reply *reply, bool verbose=false){
     //Start by parsing the url 
+    std::cout << "Entered Downloading Function" << std::endl << "====" << std::endl;
+    char* url = convert_string(string_url); 
+
+
     URL_info info; 
     int return_code = parse_url(url, &info); 
     if(return_code != 0){
@@ -356,14 +372,15 @@ int download_webpage(char url[], HTTP_reply *reply, bool verbose=false){
         return 3; 
     }
     if(*strstr(http_reply, "http") == *http_reply){
-        std::cout << "reply was another link..."; 
-        download_webpage(http_reply, reply, verbose); 
+        std::cout << "reply was another link..." << std::endl; 
+        string_url = std::string(http_reply); 
+        download_webpage(string_url, reply, verbose); 
     }
 
 
-    if(verbose)
-       std::cout << "From download function, reply is: " << http_reply << std::endl;
-    std::cout << "Download page exited with return code 0" << std::endl; 
+    // // if(verbose)
+    // std::cout << "From download function, reply is: " << http_reply << std::endl;
+    std::cout << "Download page exited with return code 0." << std::endl << "====" << std::endl; 
     return 0; 
 }
 

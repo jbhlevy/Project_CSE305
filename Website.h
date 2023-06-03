@@ -8,6 +8,7 @@ class Website{
         std::string html; //DOES THIS TAKE SHIT TON OF MEMORY
 
         Website(std::string url, std::string html){
+            std::cout << "CREATING WEBSITE " << url << std::endl; 
             this->url = url;
             this->html = html;
         }
@@ -18,6 +19,14 @@ class Website{
         }
 
         Website(){};
+
+        void set_html(std::string html){
+            this->html = html; 
+        }
+
+        std::string get_html(){
+            return this->html; 
+        }
 
         bool operator==(const Website &a){
             return ((url == a.url));// && (html == a.html));
