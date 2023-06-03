@@ -2,3 +2,5 @@
 This a git repository for the CSE305 Project: Parallel Web Crawler
 
 Hello hello
+
+Report viewing link: https://www.overleaf.com/read/hfggngynjwsn
