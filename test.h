@@ -117,6 +117,8 @@ namespace test
 
         my_crawler.crawl();
         //my_crawler.crawl_this_website();
+        std::cout << "=======================" << std::endl << "IMPORTANT LOG: Finished Crawling" << std::endl << "=================" << std::endl; 
+
 
         my_crawler.hashtable.printHashtable();
     }

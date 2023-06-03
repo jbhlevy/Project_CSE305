@@ -27,6 +27,9 @@ class Website{
         std::string get_html(){
             return this->html; 
         }
+        std::string get_url(){
+            return this->url; 
+        }
 
         bool operator==(const Website &a){
             return ((url == a.url));// && (html == a.html));

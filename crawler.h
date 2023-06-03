@@ -36,13 +36,8 @@ class Crawler{
         //download html for first 
         downloader::HTTP_reply first_html; 
         int return_code;
-
-        std::cout << "Call from crawler init " <<  first_link << std::endl; 
-        return_code = download_webpage(first_link, &first_html, true);
-        std::cout << "First link " << first_link << std::endl; 
-
+        return_code = download_webpage(first_link, &first_html, false);
         char* actual_html = parse_reply(&first_html);
-
 
         if(return_code != 0)
             std::cerr << "Could not download: " << first_link << " most likely cause: " << parse_url_errstr[return_code] << std::endl; 
@@ -66,9 +61,8 @@ class Crawler{
     
 
     int crawl_this_website(Node<Website>* curr, int count=0){
-        std::cout<< "hello crawl this website"<<std::endl;
-        std::cout << "address of current node " << curr << std::endl; 
-        if(count ==2){
+        std::cout<< "hello crawl this website " << curr->value->url << std::endl;
+        if(count ==MAX){
             std::cout << "Reached Max, stopping" << std::endl; 
             return 0; 
         }
@@ -93,10 +87,13 @@ class Crawler{
             std::cout << "==============================" << std::endl << "IMPORTANT LOG: found new link to crawl:  " << new_link  << std::endl << "==============================" << std::endl;
             if(new_link.front() == '/'){
 
-                std::cout << "initial parent link " << this->starting_link << std::endl;
+                URL_info parent_info; 
+                std::string parent_url_string = curr->value->get_url(); 
+                char* parent_url = convert_string(parent_url_string); 
+                parse_url(parent_url, &parent_info); 
 
-                new_link = this->starting_link + new_link; 
-                std::cout << "Changed linked to " << new_link << " length " << new_link.length() << std::endl; 
+                new_link =  std::string(parent_info.protocol) + "://" + std::string(parent_info.host) + new_link; 
+                std::cout << "Changed linked to " << new_link << std::endl; 
             }
 
             //Check that link is not already in the table
@@ -108,9 +105,7 @@ class Crawler{
 
             //download next link
             downloader::HTTP_reply new_html;
-            int res = download_webpage(new_link, &new_html, true);  
-
-            std::cout << "Downloading return code: " << res<< std::endl;
+            int res = download_webpage(new_link, &new_html, false);  
 
             if(hashtable.contains(new_link)){
                 std::cout << "==============================" << std::endl << "IMPORTANT LOG: link " << new_link  << " already in the table, skipping to next link" << std::endl << "==============================" << std::endl;
@@ -125,7 +120,6 @@ class Crawler{
                 //put in hash table 
                 Node<Website>* website_node = new Node<Website>(new_Website, curr); //curr is the parent, new_website is our new website,the depth will be one more
                 hashtable.add(website_node); //is depth a thing
-                std::cout<< "we launch next crawl" <<std::endl;
                 std::cout << "Now about to recurse and crawl the website at node (Pointer) " << website_node <<  std::endl << "=======" << std::endl; 
                 //crawl_this_website(website_node, count+1); //this should spawn new thread
                 //crawl next link
@@ -149,11 +143,8 @@ class Crawler{
         Node<Website>* current = hashtable.get(initial_link);
         std::cout << "current hashtable first (Pointer) " << current << std::endl;
 
-        std::cout << "First link is " << initial_link << std::endl; 
         int hash_first_link = std::hash<std::string>{}(initial_link); 
         std::cout << "Hash of first link in crawl function: " << hash_first_link << std::endl; 
-
-        std::cout <<"Check that we have first link added: " << std::endl << hashtable.contains(initial_link)<< std::endl;
 
         std::cout<< "we launch crawl" <<std::endl;
         crawl_this_website(current); //will always be first link

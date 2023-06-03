@@ -145,9 +145,7 @@ int get_reply_https(URL_info *info, HTTP_reply *reply, bool verbose=false){
 
     struct hostent *host; 
     struct in_addr **addr_list; 
-    std::cout << hostname << std::endl; 
     host = gethostbyname(hostname);
-    std::cout <<  "still good" << std::endl;  
 
     if(host == NULL){
         herror("gethostbyname"); 

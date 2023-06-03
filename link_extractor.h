@@ -17,13 +17,6 @@ std::string fetchFirstLink(std::string& html) //call on copy of string.
     {
         // Extract the first link from the match
         std::string firstLink = match[1].str();
-		//std::cout << "fetchFirstLink function 0 " << firstLink << std::endl; 
-
-
-		//std::cout << "fetchFirstLink function " << firstLink << std::endl; 
-
-
-
 
         // Find the position of the first link within the HTML string
         size_t linkPos = html.find(firstLink);
@@ -58,7 +51,6 @@ std::string fetchFirstLink(std::string& html) //call on copy of string.
 				firstLink != "" && firstLink != ".")
 			{
 				// Return the first link
-				std::cout << "fetchFirstLink function3 " << firstLink << std::endl; 
 				return firstLink;
 			}
 			return "bad"; 
