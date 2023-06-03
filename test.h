@@ -103,8 +103,8 @@ namespace test
 
     void test_crawler(){
         //std::string first_link = "http://www.google.com/"; //the html here doesnt match 
-        //std::string first_link = "https://fr.wikipedia.org/"; //good to test first step
-        std::string first_link = "http://iamjmm.ovh/NSI/http/site/http.html";
+        std::string first_link = "https://fr.wikipedia.org/"; //good to test first step
+        //std::string first_link = "http://iamjmm.ovh/NSI/http/site/http.html";
         //Crawler my_crawler(first_link, 10);
         Crawler my_crawler = Crawler(first_link, 10);
         std::cout << "=======================" << std::endl << "IMPORTANT LOG: Finished Crawler init" << std::endl << "=================" << std::endl; 

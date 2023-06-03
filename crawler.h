@@ -99,13 +99,24 @@ class Crawler{
                 std::cout << "Changed linked to " << new_link << " length " << new_link.length() << std::endl; 
             }
 
+            //Check that link is not already in the table
+            if(hashtable.contains(new_link)){
+                std::cout << "==============================" << std::endl << "IMPORTANT LOG: link " << new_link  << " already in the table, skipping to next link" << std::endl << "==============================" << std::endl;
+
+                continue;
+            }
+
             //download next link
             downloader::HTTP_reply new_html;
-
-
             int res = download_webpage(new_link, &new_html, true);  
 
             std::cout << "Downloading return code: " << res<< std::endl;
+
+            if(hashtable.contains(new_link)){
+                std::cout << "==============================" << std::endl << "IMPORTANT LOG: link " << new_link  << " already in the table, skipping to next link" << std::endl << "==============================" << std::endl;
+
+                continue;
+            }
             
             if (res == 0){ //this shoudl be the case, we only want to parse links which return correct thing, implement https allowance
                 //create website object next link    //DO PARENT
