@@ -108,9 +108,9 @@ int get_reply_http(URL_info *info, HTTP_reply *reply, bool verbose=false){
     std::cout << "Sent HTTP GET request to " << inet_ntoa(*addr_list[0]) << std::endl; 
     //Read response from server 
     int received = 0;
-    total = 32000; 
+    total = 64000; 
     char* response_buffer = (char *) malloc(total);
-    memset(response_buffer, 0, 32000); 
+    memset(response_buffer, 0, 64000); 
     while (received < total){
         bytes = read(socketf, response_buffer + received, total-received); 
 
@@ -214,12 +214,12 @@ int get_reply_https(URL_info *info, HTTP_reply *reply, bool verbose=false){
         if(verbose)
             std::cout << "..."; 
     }
-    std::cout << "Sent HTTP GET request to " << inet_ntoa(*addr_list[0]) << std::endl; 
+    //std::cout << "Sent HTTP GET request to " << inet_ntoa(*addr_list[0]) << std::endl; 
 
     int received = 0;
-    total = 32000; 
+    total = 64000; 
     char* response_buffer = (char *) malloc(total);
-    memset(response_buffer, 0, 32000); 
+    memset(response_buffer, 0, 64000); 
     while (received < total){
         bytes = SSL_read(conn, response_buffer + received, total-received); 
 
@@ -288,7 +288,7 @@ char* parse_reply(HTTP_reply *reply){
     }
     std::cout << "Server returned status " << status << std::endl; 
     if(status != 200){
-        //std::cout << "Server returned status " << status << " should be 200" << std::endl;
+        std::cout << "Taking care of redirection" << std::endl;
         if(status == 404){
             std::cout << "Page doesn't exist" << std::endl; 
             return NULL; 
@@ -304,7 +304,7 @@ char* parse_reply(HTTP_reply *reply){
             new_location += 10; 
         }
         else{
-            std::cout << "Big L Location pointer was null" << std::endl; 
+            //std::cout << "Big L Location pointer was null" << std::endl; 
             new_location = strstr(status_line+1, "location:");
             if(new_location != NULL){
                 new_location += 10; 
