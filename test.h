@@ -164,14 +164,19 @@ namespace test
     }
 
     void test_crawler(){
+        auto start = std::chrono::high_resolution_clock::now();
         //std::string first_link = "http://www.google.com/"; //the html here doesnt match 
         std::string first_link = "https://fr.wikipedia.org/"; //good to test first step
         //std::string first_link = "http://iamjmm.ovh/NSI/http/site/http.html";
         //Crawler my_crawler(first_link, 10);
-        Crawler my_crawler = Crawler(first_link, 10);
+
+        int maxsize = 200;
+        int depth_hashtable = 10;
+        int num_threads = 2;
+        Crawler my_crawler = Crawler(first_link, depth_hashtable, num_threads, maxsize);
         std::cout << "=======================" << std::endl << "IMPORTANT LOG: Finished Crawler init" << std::endl << "=================" << std::endl; 
 
-        my_crawler.hashtable.printHashtable();
+        //my_crawler.hashtable.printHashtable();
 
 
         //std::cout <<"CHECK THAT WE ADDED WEBSITE in test 1:"<< my_crawler.hashtable.table[std::hash<std::string>{}("http://www.google.com/")].front() << std::endl;
@@ -183,16 +188,26 @@ namespace test
 
 
         my_crawler.hashtable.printHashtable();
+
+        auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now() - start);
+        std::cout << "Duration: " << duration.count() / 1000. << "s" << std::endl;
+
     }
 
 
     void test_hashtable(){
+        auto start = std::chrono::high_resolution_clock::now();
         TestHashtable testi(10);
         testi.test_hash(); 
 
         testi.hashtable.printHashtable();
 
+        auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now() - start);
+        std::cout << "Duration: " << duration.count() / 1000. << "s" << std::endl;
+
+
     }
+    //gprof crawler gmon.out > analysis.txt
 
 
     

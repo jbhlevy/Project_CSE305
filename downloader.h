@@ -258,7 +258,7 @@ int get_reply_https(URL_info *info, HTTP_reply *reply, bool verbose=false){
 char* parse_reply(HTTP_reply *reply){
     char* status_line = next_line(reply->reply_buffer, reply->length);
     if(status_line == NULL){
-        std::cerr << "Could not find status in http reply " << std::endl; 
+        //std::cerr << "Could not find status in http reply " << std::endl; 
         return NULL; 
     }
     *status_line = '\0'; 
@@ -283,18 +283,18 @@ char* parse_reply(HTTP_reply *reply){
     int status; double http_version;  
     int rv = sscanf(reply->reply_buffer, "HTTP/%lf %d", &http_version, &status); 
     if(rv != 2){
-        std::cerr << "Could not parse first line (rv= " << rv << std::endl; 
+        //std::cerr << "Could not parse first line (rv= " << rv << std::endl; 
         return NULL; 
     }
-    std::cout << "Server returned status " << status << std::endl; 
+    //std::cout << "Server returned status " << status << std::endl; 
     if(status != 200){
-        std::cout << "Taking care of redirection" << std::endl;
+        //std::cout << "Taking care of redirection" << std::endl;
         if(status == 404){
-            std::cout << "Page doesn't exist" << std::endl; 
+            //std::cout << "Page doesn't exist" << std::endl; 
             return NULL; 
         }
         if(status == 403){
-            std::cout << "Request forbidden by server :(" << std::endl; 
+            //std::cout << "Request forbidden by server :(" << std::endl; 
             return NULL;
         }
         char* new_location; 
@@ -310,7 +310,7 @@ char* parse_reply(HTTP_reply *reply){
                 new_location += 10; 
             } 
             else{
-                std::cout << "THIS IS BULLSHIT" << std::endl; 
+                //std::cout << "THIS IS BULLSHIT" << std::endl; 
                 return NULL; //JOHANNA ADDED THIS CHECK, this should not ahppen
             }
         }
@@ -320,7 +320,7 @@ char* parse_reply(HTTP_reply *reply){
                 *end = '\0'; 
             }
         }        
-        std::cout << "FOUND NEW LOCATION: " << new_location << std::endl; 
+        //std::cout << "FOUND NEW LOCATION: " << new_location << std::endl; 
         return new_location; 
     }
     char * buff = status_line + 2; 
@@ -337,14 +337,14 @@ char* parse_reply(HTTP_reply *reply){
 
 int download_webpage(std::string& string_url, HTTP_reply *reply, bool verbose=false){
     //Start by parsing the url 
-    std::cout << "Entered Downloading Function" << std::endl << "====" << std::endl;
+    //std::cout << "Entered Downloading Function" << std::endl << "====" << std::endl;
     char* url = convert_string(string_url); 
 
 
     URL_info info; 
     int return_code = parse_url(url, &info); 
     if(return_code != 0){
-        std::cerr << "Could not parse URL: " << url << " most likely cause: " << parse_url_errstr[return_code] << std::endl; 
+        //std::cerr << "Could not parse URL: " << url << " most likely cause: " << parse_url_errstr[return_code] << std::endl; 
         return 1; 
     }
 
@@ -367,11 +367,11 @@ int download_webpage(std::string& string_url, HTTP_reply *reply, bool verbose=fa
     }
     char* http_reply = parse_reply(reply); 
     if(http_reply == NULL){
-        std::cout << "THERE WAS MAJOR PROBLEM SORRY" << std::endl; 
+        //std::cout << "THERE WAS MAJOR PROBLEM SORRY" << std::endl; 
         return 3; 
     }
     if(*strstr(http_reply, "http") == *http_reply){
-        std::cout << "reply was another link..." << std::endl; 
+        //std::cout << "reply was another link..." << std::endl; 
         string_url = std::string(http_reply); 
         download_webpage(string_url, reply, verbose); 
     }
@@ -379,7 +379,7 @@ int download_webpage(std::string& string_url, HTTP_reply *reply, bool verbose=fa
 
     // // if(verbose)
     // std::cout << "From download function, reply is: " << http_reply << std::endl;
-    std::cout << "Download page exited with return code 0." << std::endl << "====" << std::endl; 
+    //std::cout << "Download page exited with return code 0." << std::endl << "====" << std::endl; 
     return 0; 
 }
 

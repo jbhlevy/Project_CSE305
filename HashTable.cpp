@@ -16,7 +16,7 @@ class Node {
             parent = nullptr;
             depth = 0;
             key = val->hash();
-            std::cout << "hashing when creating node " << key << std::endl; 
+            //std::cout << "hashing when creating node " << key << std::endl; 
         }
 
         Node(T* val, Node<T>* par) : value(val), parent(par), key(val->hash()){
@@ -53,16 +53,6 @@ public:
     */
    BaseHashSet(){};
 
-    int hash(int i){
-       return i;
-    }
-
-    int print(int i){
-       std::cout << i;
-    }
-    
-
-
     //QUESTION 
     //Why do we need to initialize one Node in every bucket ?
     BaseHashSet(int max_depth) : count(0), table(max_depth) {
@@ -80,7 +70,7 @@ public:
 
     bool contains(T* x) {
         int x_key = x->hash(); 
-        std::cout << "Checking containing Website: " << x_key << std::endl; 
+        //std::cout << "Checking containing Website: " << x_key << std::endl; 
         int myBucket = x_key % table.size(); //hash defined in website class
         std::lock_guard<std::mutex> lock(table[myBucket].front()->mutex);
         for (const auto& node : table[myBucket]) {
@@ -93,7 +83,7 @@ public:
 
     bool contains(std::string url){
         int url_key = std::hash<std::string>{}(url); 
-        std::cout << "Checking containing url: " << url_key << std::endl; 
+        //std::cout << "Checking containing url: " << url_key << std::endl; 
         int myBucket = url_key % table.size(); //hash defined in website class
         std::lock_guard<std::mutex> lock(table[myBucket].front()->mutex);
         for (const auto& node : table[myBucket]) {
@@ -120,7 +110,7 @@ public:
         //table[myBucket].push_back(std::unique_ptr<Node<T>>(x));
         //Node<T>&n = new Node<T>(x);
         table[myBucket].emplace_back(x);
-        std::cout << "Curent size of bucket " << myBucket << ": "<<table[myBucket].size() << std::endl;
+        //std::cout << "Curent size of bucket " << myBucket << ": "<<table[myBucket].size() << std::endl;
         //table[myBucket].push_back(*x);
         //count++; do we want a bounded table?
         return true;
@@ -128,7 +118,7 @@ public:
 
     Node<T>* get(T* x){ //x is hash 
         int x_key = x->hash(); 
-        std::cout << "Getting node Website: " << x_key << std::endl; 
+        //std::cout << "Getting node Website: " << x_key << std::endl; 
         int myBucket = x_key % table.size(); //hash defined in website class
         std::lock_guard<std::mutex> lock(table[myBucket].front()->mutex);
         for (Node<T>* node : table[myBucket]) {
@@ -141,7 +131,7 @@ public:
 
     Node<T>* get(std::string url){ //x is hash 
         int url_key = std::hash<std::string>{}(url); 
-        std::cout << "Getting node url: " << url_key << std::endl; 
+        //std::cout << "Getting node url: " << url_key << std::endl; 
         int myBucket = url_key % table.size(); //hash defined in website class
         std::lock_guard<std::mutex> lock(table[myBucket].front()->mutex);
         for (Node<T>* node : table[myBucket]) {

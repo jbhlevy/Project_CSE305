@@ -8,7 +8,7 @@ class Website{
         std::string html; //DOES THIS TAKE SHIT TON OF MEMORY
 
         Website(std::string url, std::string html){
-            std::cout << "CREATING WEBSITE " << url << std::endl; 
+            //std::cout << "CREATING WEBSITE " << url << std::endl; 
             this->url = url;
             this->html = html;
         }
