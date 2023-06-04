@@ -76,6 +76,8 @@
         "condition_variable": "cpp",
         "filesystem": "cpp",
         "functional": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "future": "cpp",
+        "queue": "cpp"
     }
 }

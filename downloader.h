@@ -311,6 +311,7 @@ char* parse_reply(HTTP_reply *reply){
             } 
             else{
                 std::cout << "THIS IS BULLSHIT" << std::endl; 
+                return NULL; //JOHANNA ADDED THIS CHECK, this should not ahppen
             }
         }
         if(new_location != NULL){

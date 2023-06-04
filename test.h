@@ -7,10 +7,72 @@
 #include "link_extractor.h"
 #include "crawler.h"
 
+#include "thread_pool.h"
+
+#include "integer.h"
+
 #include <fstream>
 #include<sstream>
 
 #include <set>
+
+//#define MAX_THREADS =100
+
+class TestHashtable{
+    public:
+        ThreadPool* threadPool;
+        StripedHashSet<Integer> hashtable;
+        int counter;
+        std::mutex counterMutex;
+
+        TestHashtable(int depth){
+            this-> hashtable = StripedHashSet<Integer>(10);
+            this-> threadPool = new ThreadPool(100);
+            this->counter = 0;
+
+        }
+
+        void hash_this_int(){
+        int c = 0;
+        //i = 1;
+        std::cout << "current counter =" << counter << std::endl;
+        if (counter < 200){ 
+            while (c <= 10){
+                std::cout << "hashing :" << counter << std::endl; 
+                Integer* integer = new Integer(counter);
+                Node<Integer>* node = new Node<Integer>(integer);
+                std::cout << "current1 counter =" << counter << std::endl;
+                hashtable.add(node);
+                std::unique_lock<std::mutex> lock(counterMutex);
+                counter++;
+                lock.unlock();
+                std::cout << "current2 counter =" << counter << std::endl;
+                //hash_this_int();
+
+                threadPool->enqueue([this](){
+                hash_this_int();
+                });
+                
+                c++;
+
+            }
+        }
+        else{
+            std::cout << "WE EXIT: current counter =" << counter << std::endl;
+
+        }
+        }
+
+        void test_hash(){    
+            //hash_this_int();      
+            threadPool->enqueue([this]() {
+                hash_this_int();
+            });
+
+            threadPool->stopAndJoin() ;
+            
+        }
+};
 
 
 namespace test
@@ -121,6 +183,15 @@ namespace test
 
 
         my_crawler.hashtable.printHashtable();
+    }
+
+
+    void test_hashtable(){
+        TestHashtable testi(10);
+        testi.test_hash(); 
+
+        testi.hashtable.printHashtable();
+
     }
 
 

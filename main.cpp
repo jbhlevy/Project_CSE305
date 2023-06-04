@@ -10,6 +10,7 @@ int main(int argc, const char * argv[]){
     //test::test_downloading(); 
     //test::test_extracting();
     test::test_crawler();
+    //test::test_hashtable();
     return 0; 
 
 }

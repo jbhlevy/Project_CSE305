@@ -5,6 +5,7 @@
 #include <string>
 #include "HashTable.cpp"
 #include "Website.h"
+#include "thread_pool.h"
 
 #include "url_parser.h"
 #include "downloader.h"
@@ -17,7 +18,9 @@ int MAX = 200;
 
 class Crawler{
     public:
-    std::vector<std::thread> workers;
+
+    //std::vector<std::thread> workers; //STE TO MAX
+    ThreadPool* threadPool;
 
     int count;
     std::string initial_link;
@@ -28,9 +31,12 @@ class Crawler{
     Crawler(){};
 
     Crawler(std::string& first_link, int max_depth){
+        
         this->count = 0;
         this->starting_link = first_link; 
         this->starting_link.pop_back(); 
+
+        this-> threadPool = new ThreadPool(100); //EDIT 100
 
         //Initiialise hashtable
         hashtable = StripedHashSet<Website>(max_depth);
@@ -63,11 +69,13 @@ class Crawler{
     
 
     int crawl_this_website(Node<Website>* curr) {
+        
         std::cout<< "hello crawl this website " << curr->value->url << std::endl;
+        //DUMMY 
         if(count >=MAX){
             std::cout << "Reached Max, stopping" << std::endl; 
             return 0; 
-        }
+        }   
 
         const std::regex url_re(R"!!(<\s*A\s+[^>]*href\s*=\s*"([^"]*)")!!", std::regex_constants::icase);
         //Regular expression used to create chunks of the html file
@@ -109,7 +117,7 @@ class Crawler{
 
             //download next link
             downloader::HTTP_reply new_html;
-            int res = download_webpage(new_link, &new_html, false);  
+            int res = download_webpage(new_link, &new_html, false);   
 
             if(hashtable.contains(new_link)){
                 std::cout << "==============================" << std::endl << "IMPORTANT LOG: link " << new_link  << " already in the table, skipping to next link" << std::endl << "==============================" << std::endl;
@@ -129,15 +137,24 @@ class Crawler{
                 count ++;
                 std::cout << "COUNTER 2:"<< count<< std::endl;
 
-                //crawl_this_website(website_node, count); //this should spawn new thread
+                //crawl_this_website(website_node); //this should spawn new thread
                 //std::thread thread2(this->crawl_this_website, website_node);
+                
+                threadPool->enqueue(([this, website_node]() {
+                    crawl_this_website(website_node);
+                    }));
 
-                //THREADING 
+/*
+                //THREADING
+                
+
                 //;
                 workers.emplace_back(std::thread([this, website_node]() {
                     crawl_this_website(website_node);
-                }));
-                //thread2.join();
+                    }));
+                }
+                */
+                
                 //crawl next link
             }
             else{
@@ -171,18 +188,26 @@ class Crawler{
         //std::thread thread1([this, current]() {
           //          crawl_this_website(current);
             //    });
-        workers.emplace_back(std::thread([this, current]() {
+       /* workers.emplace_back(std::thread([this, current]() {
                     crawl_this_website(current);
-                }));
+                }));*/
         //thread1.join();
         //std::vector<std::thread> workers;empla
         //create threads
         //for (int i=1; i<=10; ++i)
           //  threads.emplace_back(std::thread(increase_global,1000));
         //wait for them to complete
-        for (auto& th : workers) 
+        /*for (auto& th : workers) 
             th.join();
-        //crawl_this_website(current, 0); //will always be first link
+            */
+        threadPool->enqueue(([this, current]() {
+                    crawl_this_website(current);
+                    }));
+        
+        threadPool->stopAndJoin() ;
+                    
+
+        //crawl_this_website(current); //will always be first link
 
         //std::cout << current->value.html << std::endl;
 

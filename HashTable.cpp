@@ -3,7 +3,6 @@
 #include <list>
 #include <mutex>
 #include <memory>
-
 #include <thread>
 
 
@@ -54,6 +53,15 @@ public:
     */
    BaseHashSet(){};
 
+    int hash(int i){
+       return i;
+    }
+
+    int print(int i){
+       std::cout << i;
+    }
+    
+
 
     //QUESTION 
     //Why do we need to initialize one Node in every bucket ?
@@ -103,7 +111,6 @@ public:
         //int myBucket = x->depth % table.size(); //our hash table will be orgainised by depth. first level forst link.
         std::lock_guard<std::mutex> lock(table[myBucket].front()->mutex);
         //while (count == max_depth) not_full.wait(lock);// lock when not full anymore
-
 
         for (const auto& node : table[myBucket]) {
             if (node->value == x->value) {
