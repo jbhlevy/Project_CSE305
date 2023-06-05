@@ -4,7 +4,7 @@
 #include <mutex>
 #include <memory>
 #include <thread>
-
+#include <fstream>
 
 
 template<typename T>
@@ -156,6 +156,41 @@ public:
             std::cout << std::endl;
         }
     }
+
+    
+
+    void writeHashtableToFile(const std::string& filename) {
+        std::ofstream outputFile(filename);
+        //outputFile.open();
+        if (!outputFile.is_open()) {
+            std::cerr << "Failed to open file: " << filename << std::endl;
+            return;
+        }
+
+        for (size_t i = 0; i < table.size(); ++i) {
+            outputFile << "Bucket " << i << ": ";
+            std::lock_guard<std::mutex> lock(table[i].front()->mutex);
+            for (const auto& node : table[i]) {
+                outputFile << node->value->toString();
+                if (node->parent != nullptr) {
+                    outputFile << ", Parent: " << node->parent->value->toString();
+                }
+            outputFile << std::endl;
+            }
+            outputFile << std::endl;
+                }
+
+       outputFile.close();
+    }
+
+
+
+
+
+
+
+
+    
 
 
     // Other methods...

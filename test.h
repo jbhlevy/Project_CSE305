@@ -27,7 +27,7 @@ class TestHashtable{
 
         TestHashtable(int depth){
             this-> hashtable = StripedHashSet<Integer>(10);
-            this-> threadPool = new ThreadPool(100);
+            this-> threadPool = new ThreadPool(100, 200);
             this->counter = 0;
 
         }
@@ -168,11 +168,13 @@ namespace test
         //std::string first_link = "http://www.google.com/"; //the html here doesnt match 
         std::string first_link = "https://fr.wikipedia.org/"; //good to test first step
         //std::string first_link = "http://iamjmm.ovh/NSI/http/site/http.html";
+        //std::string first_link = "https://hackingcpp.com/"; //gives invalid port
+        //std::string first_link = "https://github.com/gperftools/gperftools/wiki";
         //Crawler my_crawler(first_link, 10);
 
-        int maxsize = 200;
-        int depth_hashtable = 10;
-        int num_threads = 2;
+        int maxsize = 2000;
+        int depth_hashtable = 40;
+        int num_threads = 8;
         Crawler my_crawler = Crawler(first_link, depth_hashtable, num_threads, maxsize);
         std::cout << "=======================" << std::endl << "IMPORTANT LOG: Finished Crawler init" << std::endl << "=================" << std::endl; 
 
@@ -188,6 +190,7 @@ namespace test
 
 
         my_crawler.hashtable.printHashtable();
+        //my_crawler.hashtable.writeHashtableToFile("output.txt");
 
         auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now() - start);
         std::cout << "Duration: " << duration.count() / 1000. << "s" << std::endl;

@@ -42,6 +42,10 @@ class Website{
         void print(){
             std::cout << url;// << std::endl;
         }
+
+        std::string toString(){
+            return url;// << std::endl;
+        }
 };
 
 #endif 

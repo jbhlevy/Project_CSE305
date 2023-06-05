@@ -1,16 +1,16 @@
 #ifndef THREAD_POOL_H
 #define THREAD_POOL_H
 
-#include <vector>
-#include <queue>
-#include <functional>
 #include <thread>
 #include <mutex>
 #include <condition_variable>
+#include <queue>
+#include <functional>
+#include <iostream>
 
 class ThreadPool {
 public:
-    ThreadPool(int numThreads);
+    ThreadPool(int numThreads, int maxQueueSize);
     ~ThreadPool();
 
     template <class F, class... Args>
@@ -23,9 +23,10 @@ private:
     std::mutex queueMutex;
     std::condition_variable condition;
     bool stop;
+    int maxQueueSize;
 };
 
-inline ThreadPool::ThreadPool(int numThreads) : stop(false) {
+inline ThreadPool::ThreadPool(int numThreads, int maxQueueSize) : stop(false), maxQueueSize(maxQueueSize) {
     for (int i = 0; i < numThreads; ++i) {
         threads.emplace_back(
             [this]() {
@@ -38,6 +39,7 @@ inline ThreadPool::ThreadPool(int numThreads) : stop(false) {
                             return;
                         task = std::move(tasks.front());
                         tasks.pop();
+                        //condition.notify_all();
                     }
                     task();
                 }
@@ -60,9 +62,11 @@ template <class F, class... Args>
 void ThreadPool::enqueue(F&& f, Args&&... args) {
     {
         std::unique_lock<std::mutex> lock(queueMutex);
+        //condition.wait(lock, [this]() { return tasks.size() < maxQueueSize; });
         tasks.emplace([f, args...]() { f(args...); });
     }
     condition.notify_one();
+    std::cout << tasks.size() << std::endl;
 }
 
 inline ThreadPool::~ThreadPool() {
@@ -75,28 +79,25 @@ inline ThreadPool::~ThreadPool() {
         thread.join();
 }
 
-#endif  // THREAD_POOL_H
-
-// Example usage
 /*
-// A function to be executed by the thread pool
+// Example usage
 void processData(int data) {
     std::cout << "Processing data: " << data << std::endl;
     // Perform some data processing
 }
 
 int main() {
-    ThreadPool threadPool(4); // Create a thread pool with 4 threads
+    ThreadPool threadPool(4, 10); // Create a thread pool with 4 threads and maximum queue size of 10
 
     // Enqueue tasks to be executed by the thread pool
-    for (int i = 0; i < 10; ++i) {
+    for (int i = 0; i < 20; ++i) {
         threadPool.enqueue(processData, i);
     }
 
     // Wait for all tasks to complete
-    // (Note: This is optional and depends on your specific use case)
-    // ...
+    threadPool.stopAndJoin();
 
     return 0;
 }
 */
+#endif

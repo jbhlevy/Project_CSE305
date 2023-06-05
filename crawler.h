@@ -37,8 +37,9 @@ class Crawler{
         this->starting_link = first_link; 
         this->starting_link.pop_back(); 
         this->MAX = maxsize;
+        int maxqueue = 200;
 
-        this-> threadPool = new ThreadPool(numthreads); //EDIT 100
+        this-> threadPool = new ThreadPool(numthreads, maxqueue); //EDIT 100
 
         //Initiialise hashtable
         hashtable = StripedHashSet<Website>(max_depth);
@@ -133,6 +134,7 @@ class Crawler{
                 //put in hash table 
                 Node<Website>* website_node = new Node<Website>(new_Website, curr); //curr is the parent, new_website is our new website,the depth will be one more
                 hashtable.add(website_node); //is depth a thing
+                std::cout << "successfully downloaded and added: "<< new_link << std::endl;
                 //std::cout << "Now about to recurse and crawl the website at node (Pointer) " << website_node <<  std::endl << "=======" << std::endl; 
                 //std::cout << "COUNTER:"<< count<< std::endl;
                 count ++;
@@ -147,12 +149,10 @@ class Crawler{
                     crawl_this_website(website_node);
                     }));
                     
-
-                
                 //crawl next link
             }
             else{
-                std::cout << "Downloading didnt work" << std::endl; 
+                std::cout << "Downloading didnt work:" << new_link << std::endl; 
             }
 
             
@@ -180,18 +180,22 @@ class Crawler{
 
         //parallel
         crawl_this_website(current);
-        /*
-        threadPool->enqueue(([this, current]() {
+        
+        /*threadPool->enqueue(([this, current]() {
                     crawl_this_website(current);
                     }));*/
         
-        //threadPool->stopAndJoin() ;
+        threadPool->stopAndJoin() ;
+
+        //threadPool.stopAndJoin();
                     
         
         //test sequential
         //crawl_this_website(current); //will always be first link
 
         //std::cout << current->value.html << std::endl;
+
+        std::cout << "count: " << count << std::endl;
 
         return 0;
     }
