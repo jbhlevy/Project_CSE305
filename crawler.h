@@ -32,12 +32,11 @@ class Crawler{
     StripedHashSet<Website> hashtable;
 
     Crawler(){
-        this->count; 
+        this->count = 0; 
     };
 
     void init(std::string& first_link, int max_depth, int numthreads, int maxsize){
-        
-        this->count = 0;
+
         this->starting_link = first_link; 
         this->starting_link.pop_back(); 
         this->MAX = maxsize;
@@ -76,12 +75,14 @@ class Crawler{
 
     
 
-    int crawl_this_website(Node<Website>* curr) {
+    void crawl_this_website(Node<Website>* curr) {
+        std::cout << "Working task on node " << curr << std::endl; 
+        std::cout << "Count: " << count << std::endl; 
         
         //std::cout<< "hello crawl this website " << curr->value->url << std::endl; 
         if(count >=MAX){
             //std::cout << "Reached Max, stopping" << std::endl; 
-            return 0; 
+            return ; 
         }   
 
         const std::regex url_re(R"!!(<\s*A\s+[^>]*href\s*=\s*"([^"]*)")!!", std::regex_constants::icase);
@@ -91,7 +92,9 @@ class Crawler{
         //std::cout<< html <<std::endl;
 
         while (html != "" && count < MAX ){ 
-            
+        //int depth = 0;     
+        //while (depth < 4 && count < MAX ){
+
 
             //extract next link
             std::string new_link = fetchFirstLink(html);
@@ -154,7 +157,7 @@ class Crawler{
                 std::cout << "successfully downloaded and added: "<< new_link << std::endl;
                 //std::cout << "Now about to recurse and crawl the website at node (Pointer) " << website_node <<  std::endl << "=======" << std::endl; 
                 //std::cout << "COUNTER:"<< count<< std::endl;
-                count ++;
+                count.fetch_add(1); ;
                 //std::cout << "COUNTER 2:"<< count<< std::endl;
 
                 //sequential
@@ -165,18 +168,20 @@ class Crawler{
                 threadPool->enqueue(([this, website_node]() {
                     crawl_this_website(website_node);
                     }));
+                std::cout << "We have enqueued " << website_node << "\n"<<std::endl; 
                     
                 //crawl next link
             }
             else{
-                std::cout << "Downloading didnt work:" << new_link << std::endl; 
+                std::cout << "Downloading didnt work:"   << std::endl; 
             }
+            //depth++; 
 
             
         }
         std::cout << "Exited extraction loop for website at node (Pointer) " << curr << std::endl; 
 
-        return 0;
+        return ;
     }
 
     int crawl(){
@@ -198,9 +203,9 @@ class Crawler{
         //parallel
         crawl_this_website(current);
         
-        /*threadPool->enqueue(([this, current]() {
-                    crawl_this_website(current);
-                    }));*/
+        // threadPool->enqueue(([this, current]() {
+        //             crawl_this_website(current);
+        //             }));
         
         threadPool->stopAndJoin() ;
 

@@ -166,11 +166,11 @@ namespace test
     void test_crawler(){
         auto start = std::chrono::high_resolution_clock::now();
         //std::string first_link = "http://www.google.com/"; //the html here doesnt match 
-        //std::string first_link = "https://fr.wikipedia.org/"; //good to test first step
+        std::string first_link = "https://fr.wikipedia.org/"; //good to test first step
         //std::string first_link = "http://iamjmm.ovh/NSI/http/site/http.html";
         //std::string first_link = "https://hackingcpp.com/"; //gives invalid port
         //std::string first_link = "https://github.com/gperftools/gperftools/wiki";
-        std::string first_link = "https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents"; 
+        //std::string first_link = "https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents"; 
         //Crawler my_crawler(first_link, 10);
 
         int maxsize = 2000;

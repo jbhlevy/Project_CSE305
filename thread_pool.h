@@ -7,6 +7,9 @@
 #include <queue>
 #include <functional>
 #include <iostream>
+#include <future>
+
+int MAX_TASKS = 2; 
 
 class ThreadPool {
 public:
@@ -27,7 +30,9 @@ private:
 };
 
 inline ThreadPool::ThreadPool(int numThreads, int maxQueueSize) : stop(false), maxQueueSize(maxQueueSize) {
+    std::cout << numThreads << std::endl; 
     for (int i = 0; i < numThreads; ++i) {
+        std::cout << "Hello from thread " << i << std::endl; 
         threads.emplace_back(
             [this, i]() {
                 while (true) {
@@ -41,9 +46,10 @@ inline ThreadPool::ThreadPool(int numThreads, int maxQueueSize) : stop(false), m
                         tasks.pop();
                         //condition.notify_all();
                     }
-                    std::cout << "Hello from thread " << i << std::endl; 
+                    std::cout << "Hello from thread " << i <<  " was assigned task at " << &task << std::endl; 
+                    //std::cout << "Before tasking " << tasks.size() << std::endl; 
                     task();
-                    std::cout << "Task finished" << std::endl; 
+                    std::cout << "Thread " << i << " Task "<< &task << " finished" << std::endl; 
                 }
             }
         );
@@ -62,13 +68,14 @@ inline void ThreadPool::stopAndJoin() {
 
 template <class F, class... Args>
 void ThreadPool::enqueue(F&& f, Args&&... args) {
-    {
+    { 
+        //std::cout << "t_before size " << tasks.size() << std::endl;
         std::unique_lock<std::mutex> lock(queueMutex);
         //condition.wait(lock, [this]() { return tasks.size() < maxQueueSize; });
         tasks.emplace([f, args...]() { f(args...); });
     }
-    condition.notify_one();
-    std::cout << "t size " << tasks.size() << std::endl;
+    condition.notify_all();
+    //std::cout << "t size " << tasks.size() << std::endl;
 }
 
 inline ThreadPool::~ThreadPool() {
