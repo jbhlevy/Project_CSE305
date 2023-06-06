@@ -1,488 +1,1692 @@
-Bucket 0: 
-https://eo.wikipedia.org/wiki/Valeriano_(romia_imperiestro), Parent: https://fr.wikipedia.org/wiki/Val%C3%A9rien
-https://ja.wikipedia.org/wiki/Portal:%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84/%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-
-Bucket 1: 
-https://id.wikipedia.org/wiki/Wikipedia:Selamat_datang, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-
-Bucket 2: 
-https://ast.wikipedia.org/wiki/Wikipedia:Afay%C3%A1ivos, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://cy.wikipedia.org/wiki/Valerian_I, Parent: https://fr.wikipedia.org/wiki/Val%C3%A9rien
-https://frp.wikipedia.org/wiki/Vouiquip%C3%A8dia:Port%C3%A2l:Re%C3%A7ua, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-
-Bucket 3: 
-https://ady.wikipedia.org/wiki/%D0%9D%D1%8D%D0%BA%D3%80%D1%83%D0%B1%D0%B3%D1%8A%D0%BE_%D1%88%D1%8A%D1%85%D1%8C%D0%B0%D3%80, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://bjn.wikipedia.org/wiki/Wikipidia:Hubungi_kami, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://cho.wikipedia.org/wiki/Wikipedia:Community_Portal, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-
-Bucket 4: 
-https://fr.wikipedia.org/wiki/Ozzmosis, Parent: https://fr.wikipedia.org/wiki/Minist%C3%A8re_de_l%27Agriculture_(Burkina_Faso)
-
-Bucket 5: 
-https://azb.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7:%D8%A8%DB%8C%D8%B2%DB%8C%D9%85%E2%80%8C%D9%84%D9%87_%D8%A7%DB%8C%D8%B1%D8%AA%DB%8C%D8%A8%D8%A7%D8%B7, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://bn.wikipedia.org/wiki/%E0%A6%B8%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%AF%E0%A7%8D%E0%A6%AF:%E0%A6%B8%E0%A7%82%E0%A6%9A%E0%A7%80, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-
-Bucket 6: 
-https://de.wikipedia.org/wiki/Ilmatsalu, Parent: https://fr.wikipedia.org/wiki/Ilmatsalu
-https://bh.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%B8%E0%A4%82%E0%A4%AA%E0%A4%B0%E0%A5%8D%E0%A4%95, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://uz.wikipedia.org/wiki/Ilmatsalu, Parent: https://fr.wikipedia.org/wiki/Ilmatsalu
-https://bs.wikipedia.org/wiki/Pomo%C4%87:Sadr%C5%BEaj, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-
-Bucket 7: 
-https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Recherche, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://fr.wikipedia.org/wiki/Saison_2019-2020_du_Red_Star_Football_Club, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://af.wikipedia.org/wiki/Wikipedia:Gebruikersportaal, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://ary.wikipedia.org/wiki/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%A9:%D8%B5%D9%81%D8%AD%D8%A9_%D9%84%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%A9, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://arc.wikipedia.org/wiki/%DC%A6%DC%90%DC%AC%DC%90_%DC%AA%DC%9D%DC%AB%DC%9D%DC%AC%DC%90, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://ce.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8:%D0%99%D1%83%D0%BA%D1%8A%D0%B0%D1%80%D0%B0%D0%BB%D0%BB%D0%B8%D0%BD_%D0%BA%D0%BE%D0%B2, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-
-Bucket 8: 
-https://av.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%9B%D1%8A%D0%B8%D0%BA%D0%86_%D1%89%D0%B2%D0%B0%D1%80%D0%B0%D0%BB_%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F%D0%BB%D0%B4%D0%B5, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://ast.wikipedia.org/wiki/Ayuda:Conten%C3%ADos, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://es.wikipedia.org/wiki/Portal:Portada, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-
-Bucket 9: 
-https://af.wikipedia.org/wiki/Valerianus, Parent: https://fr.wikipedia.org/wiki/Val%C3%A9rien
-
-Bucket 10: 
-https://aa.wikipedia.org/wiki/Main_Page, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://azb.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7:%D8%AE%D9%88%D8%B4_%DA%AF%D9%84%D8%AF%DB%8C%D9%86%DB%8C%D8%B2, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://bar.wikipedia.org/wiki/Wikipedia:Themenportal, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://crh.wikipedia.org/wiki/Yard%C4%B1m:M%C3%BCnderice, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-
-Bucket 11: 
-https://ar.wikipedia.org/wiki/%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A9:%D9%85%D8%AD%D8%AA%D9%88%D9%8A%D8%A7%D8%AA, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://be.wikipedia.org/wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%8B%D1%8F:%D0%9F%D0%B0%D1%80%D1%82%D0%B0%D0%BB%D1%8B, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://ay.wikipedia.org/wiki/Ayuda:Contents, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-
-Bucket 12: 
-https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Mes_contributions, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://bar.wikipedia.org/wiki/Wikipedia:AutornPortal, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://da.wikipedia.org/wiki/Valerian, Parent: https://fr.wikipedia.org/wiki/Val%C3%A9rien
-
-Bucket 13: 
-https://as.wikipedia.org/wiki/%E0%A7%B1%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE:%E0%A6%B8%E0%A6%A6%E0%A6%A8, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://be.wikipedia.org/wiki/%D0%93%D0%B0%D0%BB%D0%BE%D1%9E%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D0%B0%D1%80%D0%BE%D0%BD%D0%BA%D0%B0, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-
-Bucket 14: 
-https://ady.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D0%B5:%D0%9B%D1%8A%D1%8D%D0%BF%D0%BA%D1%8A%D1%8D%D0%B3%D1%8A%D1%83_%D3%80%D1%83%D1%85%D1%8C%D0%B0%D0%BF%D3%80, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://az.wikipedia.org/wiki/I_Valerian, Parent: https://fr.wikipedia.org/wiki/Val%C3%A9rien
-https://arc.wikipedia.org/wiki/%DC%A5%DC%98%DC%95%DC%AA%DC%A2%DC%90:%DC%9A%DC%92%DC%9D%DC%AB%DC%AC%CC%88%DC%90, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://anp.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A5%81%E0%A4%A6%E0%A4%BE%E0%A4%AF%E0%A4%BF%E0%A4%95_%E0%A4%AA%E0%A5%8B%E0%A4%B0%E0%A5%8D%E0%A4%9F%E0%A4%B2, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://bh.wikipedia.org/wiki/%E0%A4%AE%E0%A4%A6%E0%A4%A6:%E0%A4%AC%E0%A4%BF%E0%A4%B8%E0%A4%AF%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A5%80, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-
-Bucket 15: 
-https://atj.wikipedia.org/wiki/Otitikowin, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://hi.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%97%E0%A4%A4, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-
-Bucket 16: 
-https://ace.wikipedia.org/wiki/%C3%94n_Keu%C3%AB, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://as.wikipedia.org/wiki/%E0%A6%AC%E0%A7%87%E0%A6%9F%E0%A7%81%E0%A6%AA%E0%A6%BE%E0%A6%A4, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://jv.wikipedia.org/wiki/Wikip%C3%A9dia:Sesambungan, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://hr.wikipedia.org/wiki/Wikipedija:Popis_portala, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://mr.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%9A%E0%A4%AF, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-
-Bucket 17: 
-
-Bucket 18: 
-https://ceb.wikipedia.org/wiki/Ilmatsalu_(lungsod_sa_Estoniya), Parent: https://fr.wikipedia.org/wiki/Ilmatsalu
-https://an.wikipedia.org/wiki/Portalada, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://bat-smg.wikipedia.org/wiki/P%C4%97rms_poslapis, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-
-Bucket 19: 
-https://ba.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%91%D0%B5%D0%BB%D0%B5%D1%88%D0%BC%D3%99, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://ga.wikipedia.org/wiki/Vicip%C3%A9id:F%C3%A1ilte,_a_n%C3%BA%C3%ADosaigh, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://ba.wikipedia.org/wiki/%D0%91%D0%B0%D1%88_%D0%B1%D0%B8%D1%82, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-
-Bucket 20: 
-https://aa.wikipedia.org/wiki/Wikipedia:Community_Portal, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-
-Bucket 21: 
-https://as.wikipedia.org/wiki/%E0%A7%B1%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A6%9A%27%E0%A7%B0%E0%A6%BE:%E0%A6%AA%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A7%80/%E0%A7%B1%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A6%9A%27%E0%A7%B0%E0%A6%BE%E0%A6%B8%E0%A6%AE%E0%A7%82%E0%A6%B9, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Contacte, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://bat-smg.wikipedia.org/wiki/Pagelba:Tor%C4%97n%C4%ABs, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://fy.wikipedia.org/wiki/Tema:Haadtema, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EC%97%B0%EB%9D%BD%EC%B2%98, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://bjn.wikipedia.org/wiki/Laman_Tatambaian, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://inh.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B2:%D0%91%D3%80%D0%B0%D1%80%D0%B3%D0%B0%D0%B7%D0%B5%D0%BC, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://bo.wikipedia.org/wiki/%E0%BD%82%E0%BD%99%E0%BD%BC%E0%BC%8B%E0%BD%84%E0%BD%BC%E0%BD%A6%E0%BC%8D, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-
-Bucket 22: 
-https://bjn.wikipedia.org/wiki/Patulung:Isi, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://awa.wikipedia.org/wiki/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A7%E0%A4%BE%E0%A4%A8_%E0%A4%AA%E0%A4%A8%E0%A5%8D%E0%A4%A8%E0%A4%BE, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://zh.wikipedia.org/wiki/%E4%BC%8A%E7%88%BE%E9%A6%AC%E5%AF%9F%E7%9B%A7, Parent: https://fr.wikipedia.org/wiki/Ilmatsalu
-
-Bucket 23: 
-https://de.wikipedia.org/wiki/Portal:Wikipedia_nach_Themen, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://hsb.wikipedia.org/wiki/Wikipedija:Zawod, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://www.wikidata.org/wiki/Q1658975, Parent: https://fr.wikipedia.org/wiki/Ilmatsalu
-
-Bucket 24: 
-https://fr.wikipedia.org/wiki/Aide:Accueil, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://ang.wikipedia.org/wiki/Help:Inno%C3%BE, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://kk.wikipedia.org/wiki/%D0%A3%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A3%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F%D2%93%D0%B0_%D2%9B%D0%BE%D1%88_%D0%BA%D0%B5%D0%BB%D0%B4%D1%96%D2%A3%D1%96%D0%B7!, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-
-Bucket 25: 
-https://bjn.wikipedia.org/wiki/Wikipidia:Salamat_datang, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://sv.wikipedia.org/wiki/Ilmatsalu, Parent: https://fr.wikipedia.org/wiki/Ilmatsalu
-https://he.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94:%D7%99%D7%A6%D7%99%D7%A8%D7%AA_%D7%A7%D7%A9%D7%A8, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-
-Bucket 26: 
-https://fr.wikipedia.org/wiki/39e_l%C3%A9gislature_de_la_Colombie-Britannique, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://ar.wikipedia.org/wiki/%D9%88%D9%8A%D9%83%D9%8A%D8%A8%D9%8A%D8%AF%D9%8A%D8%A7:%D8%AA%D8%B1%D8%AD%D9%8A%D8%A8_%D8%A8%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D9%85%D9%8A%D9%86_%D8%A7%D9%84%D8%AC%D8%AF%D8%AF, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://ary.wikipedia.org/wiki/%D9%88%D9%8A%D9%83%D9%8A%D9%BE%D9%8A%D8%AF%D9%8A%D8%A7:%D8%AA%D8%A7%D8%B5%D9%84_%D8%A8%D9%8A%D9%86%D8%A7, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-
-Bucket 27: 
-https://fr.wikipedia.org/wiki/Ilmatsalu, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://als.wikipedia.org/wiki/Wikipedia:Houptsyte, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://be-tarask.wikipedia.org/wiki/%D0%94%D0%B0%D0%BF%D0%B0%D0%BC%D0%BE%D0%B3%D0%B0:%D0%97%D1%8C%D0%BC%D0%B5%D1%81%D1%82, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-
-Bucket 28: 
-https://bn.wikipedia.org/wiki/%E0%A6%89%E0%A6%87%E0%A6%95%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE:%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%97%E0%A6%A4%E0%A6%AE,_%E0%A6%A8%E0%A6%AC%E0%A6%BE%E0%A6%97%E0%A6%A4, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://da.wikipedia.org/wiki/Hj%C3%A6lp:Kontakt_Wikipedia, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://ca.wikipedia.org/wiki/Valeri%C3%A0, Parent: https://fr.wikipedia.org/wiki/Val%C3%A9rien
-https://cdo.wikipedia.org/wiki/%E5%B9%AB%E5%8A%A9:M%C5%ADk-li%C5%8Fh, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-
-Bucket 29: 
-https://ckb.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C%D9%BE%DB%8C%D8%AF%DB%8C%D8%A7:%D9%BE%DB%95%DB%8C%D9%88%DB%95%D9%86%D8%AF%DB%8C, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://ba.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%91%D0%B5%D1%80%D0%BB%D3%99%D1%88%D0%BC%D3%99, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://ay.wikipedia.org/wiki/Nayriri_u%C3%B1stawi, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://map-bms.wikipedia.org/wiki/Wikipedia:Hubungi_kami, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://ms.wikipedia.org/wiki/Wikipedia:Selamat_datang, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-
-Bucket 30: 
-https://az.wikipedia.org/wiki/Vikipediya:Biziml%C9%99_%C9%99laq%C9%99, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-
-Bucket 31: 
-https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Modifications_r%C3%A9centes, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://cs.wikipedia.org/wiki/N%C3%A1pov%C4%9Bda:%C3%9Avod, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-
-Bucket 32: 
-https://gl.wikipedia.org/wiki/Wikipedia:Benvidos, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://bcl.wikipedia.org/wiki/Panginot_na_Pahina, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-
-Bucket 33: 
-https://an.wikipedia.org/wiki/Wikipedia:Comunidat, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://cs.wikipedia.org/wiki/Valerianus, Parent: https://fr.wikipedia.org/wiki/Val%C3%A9rien
-https://avk.wikipedia.org/wiki/Xadola, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://bs.wikipedia.org/wiki/Wikipedia:Vrata_zajednice, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://fr.wikipedia.org/wiki/Brigid_Kosgei, Parent: https://fr.wikipedia.org/wiki/Alex_Gough
-
-Bucket 34: 
-https://ami.wikipedia.org/wiki/Sa%E2%80%99ayayaw_pising_no_tyin-naw, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://bg.wikipedia.org/wiki/%D0%9D%D0%B0%D1%87%D0%B0%D0%BB%D0%BD%D0%B0_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-
-Bucket 35: 
-https://am.wikipedia.org/wiki/%E1%8A%A5%E1%88%AD%E1%8B%B3%E1%89%B3:%E1%8B%AD%E1%8B%9E%E1%89%B3, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://gn.wikipedia.org/wiki/Ok%E1%BA%BDndusu:Ape, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://ceb.wikipedia.org/wiki/Tabang:Mga_sulod, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-
-Bucket 36: 
-https://av.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%91%D0%B0%D1%8F%D0%BD, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://hi.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%B9%E0%A4%AE%E0%A5%87%E0%A4%82_%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AA%E0%A4%B0%E0%A5%8D%E0%A4%95_%E0%A4%95%E0%A4%B0%E0%A5%87%E0%A4%82, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://ban.wikipedia.org/wiki/Kaca_Utama, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://ka.wikipedia.org/wiki/%E1%83%95%E1%83%98%E1%83%99%E1%83%98%E1%83%9E%E1%83%94%E1%83%93%E1%83%98%E1%83%90:%E1%83%90%E1%83%A0%E1%83%A5%E1%83%98%E1%83%95%E1%83%98/%E1%83%A8%E1%83%94%E1%83%A1%E1%83%90%E1%83%95%E1%83%90%E1%83%9A%E1%83%98, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-
-Bucket 37: 
-https://lad.wikipedia.org/wiki/Vikipedya:Venidos_buenos, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-
-Bucket 38: 
-https://et.wikipedia.org/wiki/Vikipeedia:Kontakteeru_meiega, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-
-Bucket 39: 
-https://ast.wikipedia.org/wiki/Portada, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-
-Bucket 40: 
-
-Bucket 41: 
-https://az.wikipedia.org/wiki/Ana_s%C9%99hif%C9%99, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://hy.wikipedia.org/wiki/%D5%8E%D5%AB%D6%84%D5%AB%D5%BA%D5%A5%D5%A4%D5%AB%D5%A1:%D5%86%D5%A1%D5%AD%D5%A1%D5%A3%D5%AB%D5%AE:%D5%88%D6%82%D5%B2%D5%A5%D5%A3%D5%AB%D5%AE, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://hu.wikipedia.org/wiki/Port%C3%A1l:Port%C3%A1lok, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://my.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%80%80%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8:%E1%80%86%E1%80%80%E1%80%BA%E1%80%9E%E1%80%BD%E1%80%9A%E1%80%BA%E1%80%9B%E1%80%94%E1%80%BA, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-
-Bucket 42: 
-https://fr.wikipedia.org/wiki/Alex_Gough, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://fr.wikipedia.org/wiki/Zoroaster_(%C3%A9toile_de_mer), Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://als.wikipedia.org/wiki/Wikipedia:Gemeinschafts-Portal, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://ami.wikipedia.org/wiki/Wikipedia:O_%E2%80%99adawang_no_niyaro%E2%80%99, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://cs.wikipedia.org/wiki/Port%C3%A1l:Obsah, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-
-Bucket 43: 
-
-Bucket 44: 
-https://ckb.wikipedia.org/wiki/%DB%8C%D8%A7%D8%B1%D9%85%DB%95%D8%AA%DB%8C:%D9%86%D8%A7%D9%88%DB%95%D8%B1%DB%86%DA%A9, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-
-Bucket 45: 
-https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Pages_sp%C3%A9ciales, Parent: https://fr.wikipedia.org/wiki/Le_Petit_Nice
-
-Bucket 46: 
-https://br.wikipedia.org/wiki/Wikipedia:Skoazell, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-
-Bucket 47: 
-
-Bucket 48: 
-https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://hy.wikipedia.org/wiki/%D4%BB%D5%AC%D5%B4%D5%A1%D6%81%D5%A1%D5%AC%D5%B8%D6%82_(%D5%A3%D5%B5%D5%B8%D6%82%D5%B2%D5%A1%D5%AF%D5%A1%D5%B6_%D5%A1%D5%BE%D5%A1%D5%B6,_%D5%8F%D5%A5%D5%B0%D5%BF%D5%BE%D5%A5%D5%BC%D5%A5_%D5%B7%D6%80%D5%BB%D5%A1%D5%B6), Parent: https://fr.wikipedia.org/wiki/Ilmatsalu
-https://ka.wikipedia.org/wiki/%E1%83%97%E1%83%90%E1%83%A0%E1%83%92%E1%83%98:%E1%83%9B%E1%83%9D%E1%83%92%E1%83%95%E1%83%AC%E1%83%94%E1%83%A0%E1%83%94%E1%83%97, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://lb.wikipedia.org/wiki/Wikipedia:Kontakt, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://cs.wikipedia.org/wiki/N%C3%A1pov%C4%9Bda:Obsah, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-
-Bucket 49: 
-https://fi.wikipedia.org/wiki/Teemasivu:Etusivu, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-
-Bucket 50: 
-https://bg.wikipedia.org/wiki/%D0%A3%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB%D0%B8, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://blk.wikipedia.org/wiki/%E1%80%85%E1%80%BD%E1%80%B2%E1%80%B8%E1%80%80%E1%80%99%E1%80%BA%E1%80%B8%E1%80%80%E1%80%AD%E1%80%AF:Contents, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-
-Bucket 51: 
-https://azb.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7:%D8%A7%DB%8C%D8%AC%D9%85%D8%A7%D8%B9_%D9%BE%D9%88%D9%92%D8%B1%D8%AA%D8%A7%D9%84%DB%8C, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://el.wikipedia.org/wiki/%CE%A0%CF%8D%CE%BB%CE%B7:%CE%98%CE%AD%CE%BC%CE%B1%CF%84%CE%B1, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://bn.wikipedia.org/wiki/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-
-Bucket 52: 
-https://atj.wikipedia.org/wiki/Wikipetcia:Kaskina_mamo_awik, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://az.wikipedia.org/wiki/Vikipediya:%C4%B0cma_portal%C4%B1, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-
-Bucket 53: 
-https://an.wikipedia.org/wiki/Wikipedia:Aduya, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://uk.wikipedia.org/wiki/%D0%86%D0%BB%D0%BC%D0%B0%D1%82%D1%81%D0%B0%D0%BB%D1%83, Parent: https://fr.wikipedia.org/wiki/Ilmatsalu
-https://bm.wikipedia.org/wiki/Ny%C9%9B_f%C9%94l%C9%94, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-
-Bucket 54: 
-https://fr.wikipedia.org/wiki/Aide:Introduction, Parent: https://fr.wikipedia.org/wiki/Ilmatsalu
-https://ab.wikipedia.org/wiki/%D0%98%D1%85%D0%B0%D0%B4%D0%BE%D1%83_%D0%B0%D0%B4%D0%B0%D2%9F%D1%8C%D0%B0, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-
-Bucket 55: 
-https://br.wikipedia.org/wiki/Valerianus_(impalaer), Parent: https://fr.wikipedia.org/wiki/Val%C3%A9rien
-
-Bucket 56: 
-https://an.wikipedia.org/wiki/Portal:Portalada, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://eo.wikipedia.org/wiki/Vikipedio:Kontaktoj, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://en.wikipedia.org/wiki/Valerian_(emperor), Parent: https://fr.wikipedia.org/wiki/Val%C3%A9rien
-
-Bucket 57: 
-https://de.wikipedia.org/wiki/Wikipedia:Kontakt, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://fr.wikipedia.org/wiki/Algu%C3%A9rois, Parent: https://fr.wikipedia.org/wiki/39e_l%C3%A9gislature_de_la_Colombie-Britannique
-
-Bucket 58: 
-https://af.wikipedia.org/wiki/Portaal:Inhoud/Portale, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://ar.wikipedia.org/wiki/%D8%A8%D9%88%D8%A7%D8%A8%D8%A9:%D8%AA%D8%B5%D9%81%D8%AD, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://arz.wikipedia.org/wiki/%D8%A8%D9%88%D8%A7%D8%A8%D8%A9:%D8%AA%D8%B5%D9%81%D8%AD, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://ary.wikipedia.org/wiki/%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9_%D8%A7%D9%84%D9%84%D9%88%D9%84%D8%A7, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://fa.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7:%D8%AE%D9%88%D8%B4_%D8%A2%D9%85%D8%AF%DB%8C%D8%AF, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-
-Bucket 59: 
-https://br.wikipedia.org/wiki/Wikipedia:Porched_ar_porchedo%C3%B9, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://cu.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D1%8C:%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3%D1%8A, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-
-Bucket 60: 
-https://fr.wikipedia.org/wiki/Portail:Accueil, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://ar.wikipedia.org/wiki/%D9%88%D9%8A%D9%83%D9%8A%D8%A8%D9%8A%D8%AF%D9%8A%D8%A7:%D8%A7%D8%AA%D8%B5%D9%84_%D8%A8%D9%86%D8%A7, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://be-tarask.wikipedia.org/wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D1%8D%D0%B4%D1%8B%D1%8F:%D0%A1%D1%83%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-
-Bucket 61: 
-https://nl.wikipedia.org/wiki/Ilmatsalu_(vlek), Parent: https://fr.wikipedia.org/wiki/Ilmatsalu
-https://bg.wikipedia.org/wiki/%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D0%B8%D0%B0%D0%BD_I, Parent: https://fr.wikipedia.org/wiki/Val%C3%A9rien
-https://gu.wikipedia.org/wiki/%E0%AA%B5%E0%AA%BF%E0%AA%95%E0%AA%BF%E0%AA%AA%E0%AB%80%E0%AA%A1%E0%AA%BF%E0%AA%AF%E0%AA%BE:%E0%AA%B8%E0%AB%8D%E0%AA%B5%E0%AA%BE%E0%AA%97%E0%AA%A4, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-
-Bucket 62: 
-https://anp.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%B8%E0%A4%82%E0%A4%AA%E0%A4%B0%E0%A5%8D%E0%A4%95_%E0%A4%95%E0%A4%B0%E0%A5%8C, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://be.wikipedia.org/wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%8B%D1%8F:%D0%94%D0%B0%D0%B2%D0%B5%D0%B4%D0%BA%D0%B0, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:%C3%9Cdv%C3%B6zl%C3%BCnk,_l%C3%A1togat%C3%B3!, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://be-tarask.wikipedia.org/wiki/%D0%93%D0%B0%D0%BB%D0%BE%D1%9E%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D0%B0%D1%80%D0%BE%D0%BD%D0%BA%D0%B0, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-
-Bucket 63: 
-https://bh.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%B8%E0%A4%AE%E0%A4%BE%E0%A4%9C_%E0%A4%AA%E0%A4%A8%E0%A5%8D%E0%A4%A8%E0%A4%BE, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://bn.wikipedia.org/wiki/%E0%A6%89%E0%A6%87%E0%A6%95%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE:%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B0, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://blk.wikipedia.org/wiki/%E1%80%A1%E1%80%93%E1%80%AD%E1%80%80%E1%80%9C%E1%80%AD%E1%80%90%E1%80%BA%E1%80%99%E1%80%B2%E1%80%B7%E1%80%84%E1%80%AB, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-
-Bucket 64: 
-https://eo.wikipedia.org/wiki/Portalo:Portalejo, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://it.wikipedia.org/wiki/Wikipedia:Contatti, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-
-Bucket 65: 
-https://br.wikipedia.org/wiki/Wikipedia:Degemer_mat, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://en.wikipedia.org/wiki/Help:Getting_started, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Le_Petit_Nice, Parent: https://fr.wikipedia.org/wiki/Le_Petit_Nice
-https://he.wikipedia.org/wiki/%D7%A4%D7%95%D7%A8%D7%98%D7%9C:%D7%A4%D7%95%D7%A8%D7%98%D7%9C%D7%99%D7%9D, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-
-Bucket 66: 
-https://af.wikipedia.org/wiki/Tuisblad, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://id.wikipedia.org/wiki/Wikipedia:Isi/Portal, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://nds-nl.wikipedia.org/wiki/Hulpe:Informasie_veur_anwas, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-
-Bucket 67: 
-https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://arz.wikipedia.org/wiki/%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A9:%D9%85%D8%AD%D8%AA%D9%88%D9%8A%D8%A7%D8%AA, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://bn.wikipedia.org/wiki/%E0%A6%89%E0%A6%87%E0%A6%95%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE:%E0%A6%B8%E0%A7%82%E0%A6%9A%E0%A6%BF%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%B0/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B0, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://bar.wikipedia.org/wiki/Wikipedia:Hoamseitn, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Portal, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-
-Bucket 68: 
-https://ang.wikipedia.org/wiki/Wikip%C7%A3dia:Gem%C7%A3nscipes_Ingang, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://es.wikipedia.org/wiki/Wikipedia:Contacto, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://inh.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8:%D0%9C%D0%B0%D1%80%D1%88%D0%B0_%D0%B4%D0%BEa%D0%B3%D3%80%D0%B0%D0%BB%D0%B4%D0%B0_%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B5, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-
-Bucket 69: 
-https://ar.wikipedia.org/wiki/%D9%88%D9%8A%D9%83%D9%8A%D8%A8%D9%8A%D8%AF%D9%8A%D8%A7:%D8%A8%D9%88%D8%A7%D8%A8%D8%A9_%D8%A7%D9%84%D9%85%D8%AC%D8%AA%D9%85%D8%B9, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-
-Bucket 70: 
-https://fr.wikipedia.org/wiki/Pacific_Storm, Parent: https://fr.wikipedia.org/wiki/Ilmatsalu
-https://am.wikipedia.org/wiki/%E1%8B%8B%E1%8A%93%E1%8B%8D_%E1%8C%88%E1%8C%BD, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Suivi_des_liens/Le_Petit_Nice, Parent: https://fr.wikipedia.org/wiki/Le_Petit_Nice
-https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Ajuda, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-
-Bucket 71: 
-
-Bucket 72: 
-https://as.wikipedia.org/wiki/%E0%A7%B1%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE:%E0%A6%86%E0%A6%A6%E0%A7%B0%E0%A6%A3%E0%A6%BF, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://anp.wikipedia.org/wiki/%E0%A4%AE%E0%A5%81%E0%A4%96%E0%A5%8D%E0%A4%AF_%E0%A4%AA%E0%A5%83%E0%A4%B7%E0%A5%8D%E0%A4%A0, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://cbk-zam.wikipedia.org/wiki/Wikipedia:Portal_del_Comunidad, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-
-Bucket 73: 
-https://av.wikipedia.org/wiki/%D0%91%D0%B5%D1%82%D3%80%D0%B5%D1%80%D0%B0%D0%B1_%D0%B3%D1%8C%D1%83%D0%BC%D0%B5%D1%80, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://mt.wikipedia.org/wiki/Wikipedija:Kuntatt, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-
-Bucket 74: 
-
-Bucket 75: 
-https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Benvinguda, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-
-Bucket 76: 
-https://ast.wikipedia.org/wiki/Wikipedia:Portal_de_la_comunid%C3%A1, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://arz.wikipedia.org/wiki/%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D9%87_%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D9%87, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-
-Bucket 77: 
-https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://az.wikipedia.org/wiki/K%C3%B6m%C9%99k:M%C3%BCnd%C9%99ricat, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-
-Bucket 78: 
-https://ban.wikipedia.org/wiki/Wikip%C3%A9dia:Kori_Sekaa, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://fa.wikipedia.org/wiki/%D8%AF%D8%B1%DA%AF%D8%A7%D9%87:%D8%AF%D8%B1%D9%88%D9%86%D9%85%D8%A7%DB%8C%D9%87/%D8%AF%D8%B1%DA%AF%D8%A7%D9%87%E2%80%8C%D9%87%D8%A7, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-
-Bucket 79: 
-https://ce.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8:%D0%93%D3%80%D0%BE, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://hi.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A5%80/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A5%87%E0%A4%B6%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-
-Bucket 80: 
-https://fr.wikipedia.org/wiki/Val%C3%A9rien, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Mes_discussions, Parent: https://fr.wikipedia.org/wiki/Ilmatsalu
-https://en.wikipedia.org/wiki/Ilmatsalu, Parent: https://fr.wikipedia.org/wiki/Ilmatsalu
-https://ja.wikipedia.org/wiki/Wikipedia:%E9%80%A3%E7%B5%A1%E5%85%88, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://cv.wikipedia.org/wiki/%D0%9F%D1%83%D0%BB%C4%83%D1%88%D1%83:%D0%A2%D1%83%D0%BF%D0%BC%D0%B0%D0%BB%D0%BB%D0%B8, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-
-Bucket 81: 
-https://fr.wikipedia.org/wiki/Discussion:Le_Petit_Nice, Parent: https://fr.wikipedia.org/wiki/Le_Petit_Nice
-https://et.wikipedia.org/wiki/Vikipeedia:Uuele_kaast%C3%B6%C3%B6lisele, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://id.wikipedia.org/wiki/Wikipedia:Hubungi_kami, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://bug.wikipedia.org/wiki/Bantuan:Contents, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://ik.wikipedia.org/wiki/Wikipedia:Welcome,_newcomers, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://el.wikipedia.org/wiki/%CE%92%CE%B1%CE%BB%CE%B5%CF%81%CE%B9%CE%B1%CE%BD%CF%8C%CF%82, Parent: https://fr.wikipedia.org/wiki/Val%C3%A9rien
-
-Bucket 82: 
-https://ba.wikipedia.org/wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%91%D0%B0%D0%B9%D2%A1%D0%B0%D1%83, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://cs.wikipedia.org/wiki/Wikipedie:Kontakt, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-
-Bucket 83: 
-https://arz.wikipedia.org/wiki/%D9%81%D8%A7%D9%84%D9%8A%D8%B1%D9%8A%D8%A7%D9%86, Parent: https://fr.wikipedia.org/wiki/Val%C3%A9rien
-
-Bucket 84: 
-https://ext.wikipedia.org/wiki/G%C3%BCiquipeya:Bienven%C3%ADu, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://de.wikipedia.org/wiki/Valerian, Parent: https://fr.wikipedia.org/wiki/Val%C3%A9rien
-
-Bucket 85: 
-https://fr.wikipedia.org/wiki/Minist%C3%A8re_de_l%27Agriculture_(Burkina_Faso), Parent: https://fr.wikipedia.org/wiki/Le_Petit_Nice
-https://be.wikipedia.org/wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%8B%D1%8F:%D0%A1%D1%83%D0%BF%D0%BE%D0%BB%D1%8C%D0%BD%D0%B0%D1%81%D1%86%D1%8C, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://hr.wikipedia.org/wiki/Wikipedija:Kontaktirajte_nas, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://chy.wikipedia.org/wiki/Help:Contents, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-
-Bucket 86: 
-https://bn.wikipedia.org/wiki/%E0%A6%89%E0%A6%87%E0%A6%95%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE:%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0_%E0%A6%B8%E0%A6%BE%E0%A6%A5%E0%A7%87_%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%AF%E0%A7%8B%E0%A6%97, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://de.wikipedia.org/wiki/Wikipedia:Willkommen, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://azb.wikipedia.org/wiki/%D8%A2%D9%86%D8%A7_%D8%B5%D9%81%D8%AD%D9%87, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://fr.wikipedia.org/wiki/Discussion:Ilmatsalu, Parent: https://fr.wikipedia.org/wiki/Ilmatsalu
-https://bh.wikipedia.org/wiki/%E0%A4%AE%E0%A5%81%E0%A4%96%E0%A5%8D%E0%A4%AF_%E0%A4%AA%E0%A4%A8%E0%A5%8D%E0%A4%A8%E0%A4%BE, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-
-Bucket 87: 
-https://bo.wikipedia.org/wiki/Help:%E0%BD%A2%E0%BE%92%E0%BE%B1%E0%BD%93%E0%BC%8B%E0%BD%A3%E0%BE%A1%E0%BD%93%E0%BC%8B%E0%BD%91%E0%BE%AD%E0%BD%BC%E0%BD%82%E0%BD%A6%E0%BC%8B%E0%BD%A0%E0%BD%91%E0%BE%B2%E0%BD%B2%E0%BC%8D, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-
-Bucket 88: 
-https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://als.wikipedia.org/wiki/Portal:Themeportal, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://ca.wikipedia.org/wiki/Portal:Portada, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://fa.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7:%D8%AA%D9%85%D8%A7%D8%B3_%D8%A8%D8%A7_%D9%85%D8%A7, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-
-Bucket 89: 
-https://ar.wikipedia.org/wiki/%D9%81%D8%A7%D9%84%D9%8A%D8%B1%D9%8A%D8%A7%D9%86, Parent: https://fr.wikipedia.org/wiki/Val%C3%A9rien
-https://eu.wikipedia.org/wiki/Atari:Azala, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-
-Bucket 90: 
-https://ace.wikipedia.org/wiki/Beunantu:Aso%C3%AB, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://als.wikipedia.org/wiki/Wikipedia:Hilfe, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://www.wikidata.org/wiki/Q3225491, Parent: https://fr.wikipedia.org/wiki/Le_Petit_Nice
-https://av.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%96%D0%B0%D0%BC%D0%B3%D3%80%D0%B8%D1%8F%D0%B1_%D0%BF%D0%BE%D1%80%D1%82%D0%B0%D0%BB, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://bi.wikipedia.org/wiki/Nambawan_Pej, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-
-Bucket 91: 
-https://als.wikipedia.org/wiki/Wikipedia:Kontakt, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://et.wikipedia.org/wiki/Ilmatsalu, Parent: https://fr.wikipedia.org/wiki/Ilmatsalu
-https://bi.wikipedia.org/wiki/Help:Contents, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://ch.wikipedia.org/wiki/Wikipedia:Fanhaluman_komunida, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://hy.wikipedia.org/wiki/%D5%8A%D5%B8%D6%80%D5%BF%D5%A1%D5%AC:%D4%B1%D5%B4%D6%83%D5%B8%D6%83%D5%B8%D6%82%D5%B4, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-
-Bucket 92: 
-https://bh.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%97%E0%A4%A4, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://el.wikipedia.org/wiki/%CE%92%CE%B9%CE%BA%CE%B9%CF%80%CE%B1%CE%AF%CE%B4%CE%B5%CE%B9%CE%B1:%CE%95%CF%80%CE%B9%CE%BA%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%AF%CE%B1, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://es.wikipedia.org/wiki/Wikipedia:Bienvenidos, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://br.wikipedia.org/wiki/Wikipedia:Porched_ar_gumuniezh, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://lv.wikipedia.org/wiki/Vikip%C4%93dija:Kontakti, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-
-Bucket 93: 
-https://ary.wikipedia.org/wiki/%D9%88%D9%8A%D9%83%D9%8A%D9%BE%D9%8A%D8%AF%D9%8A%D8%A7:%D8%B3%D8%A7%D8%AD%D8%A9_%D8%AF_%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B9%D8%A9, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://diq.wikipedia.org/wiki/Portali, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-
-Bucket 94: 
-https://azb.wikipedia.org/wiki/%DA%A9%D8%A4%D9%85%DA%A9:%D8%A7%DB%8C%DA%86%DB%8C%D9%86%D8%AF%D9%87%E2%80%8C%DA%A9%DB%8C%D9%84%D8%B1, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://fi.wikipedia.org/wiki/Wikipedia:Yhteystiedot, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://is.wikipedia.org/wiki/Wikipedia:Velkomnir_n%C3%BDherjar, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-
-Bucket 95: 
-https://af.wikipedia.org/wiki/Wikipedia:Hulp, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://anp.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%AE%E0%A4%A6%E0%A4%A6, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://ru.wikipedia.org/wiki/%D0%98%D0%BB%D0%BC%D0%B0%D1%82%D1%81%D0%B0%D0%BB%D1%83, Parent: https://fr.wikipedia.org/wiki/Ilmatsalu
-https://bat-smg.wikipedia.org/wiki/Vikiped%C4%97j%C4%97:Kuolekt%C4%ABvs, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://ka.wikipedia.org/wiki/%E1%83%9E%E1%83%9D%E1%83%A0%E1%83%A2%E1%83%90%E1%83%9A%E1%83%98:%E1%83%9B%E1%83%97%E1%83%90%E1%83%95%E1%83%90%E1%83%A0%E1%83%98, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-
-Bucket 96: 
-https://bg.wikipedia.org/wiki/%D0%A3%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%97%D0%B0_%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B8, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://alt.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D3%A6%D0%BC%D3%A7%D0%BB%D0%B8%D0%BA%D1%82%D0%B8%D2%A5_%D0%BF%D0%BE%D1%80%D1%82%D0%B0%D0%BB%D1%8B, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://azb.wikipedia.org/wiki/%D9%88%D8%A7%D9%84%D8%B1%DB%8C%D9%86, Parent: https://fr.wikipedia.org/wiki/Val%C3%A9rien
-https://be-tarask.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D1%82%D0%B0%D0%BB:%D0%90%D0%B3%D0%BB%D1%8F%D0%B4, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://ang.wikipedia.org/wiki/Heafodtramet, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9_%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://be.wikipedia.org/wiki/%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%8B%D1%8F%D0%BD_I, Parent: https://fr.wikipedia.org/wiki/Val%C3%A9rien
-https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:Kapcsolatfelv%C3%A9tel, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-
-Bucket 97: 
-https://cy.wikipedia.org/wiki/Wicipedia:Cysylltwch_%C3%A2_ni, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://bar.wikipedia.org/wiki/Huif:Hilfe, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-https://cbk-zam.wikipedia.org/wiki/Ayuda:Ayuda, Parent: https://fr.wikipedia.org/wiki/Aide:Accueil
-
-Bucket 98: 
-https://fr.wikipedia.org/wiki/Le_Petit_Nice, Parent: https://fr.wikipedia.org/wiki/Val%C3%A9rien
-https://av.wikipedia.org/wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%A5%D0%B0%D0%BB-%D1%88%D0%B0%D0%BB, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://et.wikipedia.org/wiki/Vikipeedia:Portaalid, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://fr.wikipedia.org/wiki/Aide:Importer_un_fichier, Parent: https://fr.wikipedia.org/wiki/Le_Petit_Nice
-https://bg.wikipedia.org/wiki/%D0%A3%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB_%D0%BD%D0%B0_%D0%BE%D0%B1%D1%89%D0%BD%D0%BE%D1%81%D1%82%D1%82%D0%B0, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://bug.wikipedia.org/wiki/Wikipedia:Portal_komunitas, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-https://ms.wikipedia.org/wiki/Wikipedia:Hubungi_kami, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-
-Bucket 99: 
-https://alt.wikipedia.org/wiki/%D0%A2%D3%A7%D1%81_%D0%B1%D3%B1%D0%BA, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-https://cbk-zam.wikipedia.org/wiki/Wikipedia:Bienvenidos, Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-https://en.wikipedia.org/wiki/Wikipedia:Contact_us, Parent: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-https://da.wikipedia.org/wiki/Portal:Portaler, Parent: https://fr.wikipedia.org/wiki/Portail:Accueil
-https://diq.wikipedia.org/wiki/Valerianus, Parent: https://fr.wikipedia.org/wiki/Val%C3%A9rien
-https://ml.wikipedia.org/wiki/%E0%B4%B5%E0%B4%BF%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B4%BF%E0%B4%AA%E0%B5%80%E0%B4%A1%E0%B4%BF%E0%B4%AF:%E0%B4%B8%E0%B5%8D%E0%B4%B5%E0%B4%BE%E0%B4%97%E0%B4%A4%E0%B4%82_(Welcome), Parent: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
+Hello World !
+8
+Finished initializing table
+=======================
+IMPORTANT LOG: Finished Crawler init
+=================
+Started main crawling function
+current hashtable first (Pointer) 0x600002321020
+Hash of first link in crawl function: 781979288
+we launch crawl
+Working task on node 0x600002321020
+Count: 1
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Portail:Accueil
+We have enqueued 0x60000232c180
+
+Hello from thread 0 was assigned task at 0x70000db6def0
+Working task on node 0x60000232c180
+Count: 2
+successfully downloaded and added: https://fr.wikipedia.org/wiki/R%C3%A9gis_Sonnes
+We have enqueued 0x600002324000
+
+Hello from thread 2 was assigned task at 0x70000dc73ef0
+Working task on node 0x600002324000
+Count: 3
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Canton_de_Pr%C3%A9mery
+We have enqueued 0x600002328000
+
+Hello from thread 6 was assigned task at 0x70000de7fef0
+Working task on node 0x600002328000
+Count: 4
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
+We have enqueued 0x600002324120
+
+Hello from thread 1 was assigned task at 0x70000dbf0ef0
+Working task on node 0x600002324120
+Count: 5
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
+We have enqueued 0x600002321140
+
+Hello from thread 3 was assigned task at 0x70000dcf6ef0
+Working task on node 0x600002321140
+Count: 6
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Aide:Accueil
+We have enqueued 0x600002321200
+
+Hello from thread 7 was assigned task at 0x70000df02ef0
+Working task on node 0x600002321200
+Count: 7
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
+We have enqueued 0x6000023000c0
+
+Hello from thread 5 was assigned task at 0x70000ddfcef0
+Working task on node 0x6000023000c0
+Count: 8
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Modifications_r%C3%A9centes
+We have enqueued 0x600002324300
+
+Hello from thread 4 was assigned task at 0x70000dd79ef0
+Working task on node 0x600002324300
+Count: 9
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Bourbon_(Kansas)
+We have enqueued 0x60000232c300
+
+Thread 4 Task 0x70000dd79ef0 finished
+Hello from thread 4 was assigned task at 0x70000dd79ef0
+Working task on node 0x60000232c300
+Count: 10
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Peltophorum_dasyrachis
+We have enqueued 0x600002300000
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Beer_Money,_Inc.
+We have enqueued 0x6000023242a0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Nakanoj%C5%8D
+We have enqueued 0x6000023283c0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Gollum_(genre)
+We have enqueued 0x600002300120
+
+successfully downloaded and added: https://donate.wikimedia.org/w/index.php?title=Special:LandingPage&country=XX&utm_medium=spontaneous&utm_source=fr-redir&utm_campaign=spontaneous
+We have enqueued 0x6000023002a0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Marthe_de_Noaillat
+We have enqueued 0x6000023211a0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Edward_M._Hopson
+We have enqueued 0x600002338000
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Recherche
+We have enqueued 0x6000023285a0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Aide:Introduction
+We have enqueued 0x600002330180
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Mes_contributions
+We have enqueued 0x600002330000
+
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Themenportal
+We have enqueued 0x600002338060
+
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Benvinguda
+We have enqueued 0x6000023240c0
+
+successfully downloaded and added: https://ast.wikipedia.org/wiki/Ayuda:Conten%C3%ADos
+We have enqueued 0x60000232c480
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Wikipedia:Contact_us
+We have enqueued 0x600002328540
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Wikipedia_nach_Themen
+We have enqueued 0x600002330240
+
+Thread 1 Task 0x70000dbf0ef0 finished
+Hello from thread 1 was assigned task at 0x70000dbf0ef0
+Working task on node 0x600002300000
+Count: 25
+successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Wikipedia:Bienvenidos
+We have enqueued 0x60000233c1e0
+
+successfully downloaded and added: https://ay.wikipedia.org/wiki/Ayuda:Contents
+We have enqueued 0x600002300240
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals
+We have enqueued 0x600002330120
+
+Thread 5 Task 0x70000ddfcef0 finished
+Hello from thread 5 was assigned task at 0x70000ddfcef0
+Working task on node 0x6000023242a0
+Count: 28
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Willkommen
+We have enqueued 0x600002304000
+
+successfully downloaded and added: https://bi.wikipedia.org/wiki/Help:Contents
+We have enqueued 0x60000232c540
+
+successfully downloaded and added: https://frp.wikipedia.org/wiki/Vouiquip%C3%A8dia:Port%C3%A2l:Re%C3%A7ua
+We have enqueued 0x600002304060
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Help:Getting_started
+We have enqueued 0x600002304180
+
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%85%E1%80%BD%E1%80%B2%E1%80%B8%E1%80%80%E1%80%99%E1%80%BA%E1%80%B8%E1%80%80%E1%80%AD%E1%80%AF:Contents
+We have enqueued 0x60000233c0c0
+
+successfully downloaded and added: https://km.wikipedia.org/wiki/Portal:Contents/Portals
+We have enqueued 0x6000023306c0
+
+Thread 0 Task 0x70000db6def0 finished
+Hello from thread 0 was assigned task at 0x70000db6def0
+Working task on node 0x6000023283c0
+Count: 34
+successfully downloaded and added: https://es.wikipedia.org/wiki/Wikipedia:Bienvenidos
+We have enqueued 0x600002338180
+
+successfully downloaded and added: https://bug.wikipedia.org/wiki/Bantuan:Contents
+We have enqueued 0x600002300060
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Bourbon_County,_Kansas
+We have enqueued 0x600002300180
+
+Thread 4 Task 0x70000dd79ef0 finished
+Hello from thread 4 was assigned task at 0x70000dd79ef0
+Working task on node 0x600002300120
+Count: 37
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Experimental_Aircraft_Association
+We have enqueued 0x600002330360
+
+successfully downloaded and added: https://ext.wikipedia.org/wiki/G%C3%BCiquipeya:Bienven%C3%ADu
+We have enqueued 0x60000233c360
+
+successfully downloaded and added: https://chy.wikipedia.org/wiki/Help:Contents
+We have enqueued 0x600002338120
+
+Thread 7 Task 0x70000df02ef0 finished
+Hello from thread 7 was assigned task at 0x70000df02ef0
+Working task on node 0x6000023002a0
+Count: 40
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Ko%C5%A1_(Istok)
+We have enqueued 0x60000232c360
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q1516244
+We have enqueued 0x600002334060
+
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Wikipedia:Benvidos
+We have enqueued 0x60000232c1e0
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Vikipedya:Venidos_buenos
+We have enqueued 0x60000232c5a0
+
+Thread 3 Task 0x70000dcf6ef0 finished
+Hello from thread 3 was assigned task at 0x70000dcf6ef0
+Working task on node 0x6000023211a0
+Count: 44
+successfully downloaded and added: https://foundation.wikimedia.org/wiki/Home
+We have enqueued 0x60000232c120
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q3455795
+We have enqueued 0x6000023302a0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/L%C3%A9o_contre_tous
+We have enqueued 0x6000023216e0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Henry_Montgomery_Lawrence
+We have enqueued 0x6000023340c0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:Canton_de_Pr%C3%A9mery
+We have enqueued 0x600002321080
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Liste_des_%C3%A9pisodes_de_Beyblade:_Metal_Fury
+We have enqueued 0x60000232c0c0
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Special:MyLanguage/Ways_to_Give
+We have enqueued 0x6000023006c0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:R%C3%A9gis_Sonnes
+We have enqueued 0x60000232c780
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Special:LandingPage
+We have enqueued 0x6000023214a0
+
+Thread 6 Task 0x70000de7fef0 finished
+Hello from thread 6 was assigned task at 0x70000de7fef0
+Working task on node 0x600002338000
+Count: 53
+Thread 7 Task 0x70000df02ef0 finished
+Hello from thread 7 was assigned task at 0x70000df02ef0
+Working task on node 0x6000023285a0
+Count: 53
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Old%C5%99ich_Nov%C3%BD
+We have enqueued 0x600002300c00
+
+Thread 2 Task 0x70000dc73ef0 finished
+Hello from thread 2 was assigned task at 0x70000dc73ef0
+Working task on node 0x600002330180
+Count: 54
+successfully downloaded and added: https://en.wikipedia.org/wiki/Beer_Money,_Inc.
+We have enqueued 0x600002300ea0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Morchella_dunensis
+We have enqueued 0x6000023286c0
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Gollum_(genus)
+We have enqueued successfully downloaded and added: https://en.wikipedia.org/wiki/Nakanoj%C5%8D,_Gunma
+We have enqueued 0x6000023381e0
+
+0x6000023241e0
+
+Thread 0 Task 0x70000db6def0 finished
+Hello from thread 0 was assigned task at 0x70000db6def0
+Working task on node 0x600002330000
+Count: 58
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Alconbury
+We have enqueued 0x6000023019e0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q30748669
+We have enqueued 0x600002301980
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q474932
+We have enqueued 0x60000232c8a0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q5580853
+We have enqueued 0x60000233c540
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q63155059
+We have enqueued 0x60000233c720
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:Peltophorum_dasyrachis
+We have enqueued 0x60000233c660
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/1923_en_football
+We have enqueued 0x60000232c900
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:Beer_Money,_Inc.
+We have enqueued 0x6000023213e0
+
+Thread 5 Task 0x70000ddfcef0 finished
+Hello from thread 5 was assigned task at 0x70000ddfcef0
+Working task on node 0x600002338060
+Count: 66
+Thread 7 Task 0x70000df02ef0 finished
+Hello from thread 7 was assigned task at 0x70000df02ef0
+Working task on node 0x6000023240c0
+Count: 66
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Hoamseitn
+We have enqueued 0x600002300a20
+
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Portada
+We have enqueued 0x60000232c600
+
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Artiklgruppn
+We have enqueued 0x600002321440
+
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Spezial:Letzte_%C3%84nderungen
+We have enqueued 0x60000232c960
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Special:NewItem
+We have enqueued 0x60000232c840
+
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Spezial:Neue_Seiten
+We have enqueued 0x60000232c660
+
+successfully downloaded and added: https://als.wikipedia.org/wiki/Wikipedia:Willkommen
+We have enqueued 0x600002301b60
+
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Autornkaffee
+We have enqueued 0x60000233c5a0
+
+successfully downloaded and added: https://ban.wikipedia.org/wiki/Wikip%C3%A9dia:Pengantar
+We have enqueued 0x600002301bc0
+
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Stammdisch
+We have enqueued 0x60000232c6c0
+
+successfully downloaded and added: https://da.wikipedia.org/wiki/Hj%C3%A6lp:Velkommen_til_Wikipedia
+We have enqueued 0x600002338240
+
+Thread 2 Task 0x70000dc73ef0 finished
+Hello from thread 2 was assigned task at 0x70000dc73ef0
+Working task on node 0x60000232c480
+Count: 77
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Mia_fejd_a_Woat
+We have enqueued 0x600002334120
+
+successfully downloaded and added: https://ast.wikipedia.org/wiki/Portada
+We have enqueued 0x600002301c20
+
+Thread 4 Task 0x70000dd79ef0 finished
+Hello from thread 4 was assigned task at 0x70000dd79ef0
+Working task on node 0x600002328540
+Count: 79
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:AutornPortal
+We have enqueued 0x60000232c7e0
+
+successfully downloaded and added: https://ast.wikipedia.org/wiki/Wikipedia:Portal_de_la_comunid%C3%A1
+We have enqueued 0x6000023380c0
+
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Muntanyes_Rakaposhi-Haramosh
+We have enqueued 0x6000023008a0
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Main_Page
+We have enqueued 0x60000232cae0
+
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Qualitetssicharung
+We have enqueued 0x6000023382a0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Peltophorum_dasyrachis
+We have enqueued 0x600002300780
+
+successfully downloaded and added: https://ast.wikipedia.org/wiki/Especial:CambeosRecientes
+We have enqueued 0x600002321320
+
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Articles_de_qualitat
+We have enqueued 0x60000232cba0
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Wikipedia:Contents
+We have enqueued 0x60000232ca80
+
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Portal
+We have enqueued 0x600002321380
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Portal:Current_events
+We have enqueued 0x600002321560
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Aide:Contributions
+We have enqueued 0x600002321620
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Marthe_de_Noaillat
+We have enqueued 0x60000232cc60
+
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Trobades
+We have enqueued 0x600002300300
+
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Especial:Canvis_recents
+We have enqueued 0x600002331920
+
+successfully downloaded and added: https://ast.wikipedia.org/wiki/Estudios_de_Cultura_N%C3%A1huatl
+We have enqueued 0x600002300480
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/WPMX
+We have enqueued 0x6000023018c0
+
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:La_taverna
+We have enqueued 0x600002331800
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Suivi_des_liens/Peltophorum_dasyrachis
+We have enqueued 0x600002331b00
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Wikipedia:About
+We have enqueued 0x600002331b60
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Suivi_des_liens/Marthe_de_Noaillat
+We have enqueued 0x60000232cb40
+
+successfully downloaded and added: https://fr.wikipedia.org/w/api.php
+We have enqueued 0x600002330300
+
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Contacte
+We have enqueued 0x60000232cc00
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Aide:Importer_un_fichier
+We have enqueued 0x60000233c960
+
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Spezial:Suche
+We have enqueued 0x60000233c2a0
+
+successfully downloaded and added: https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents
+We have enqueued 0x60000233c780
+
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Canals_IRC
+We have enqueued 0x6000023017a0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Edward_M._Hopson
+We have enqueued 0x60000233c7e0
+
+successfully downloaded and added: https://ast.wikipedia.org/wiki/Especial:Gueta
+We have enqueued 0x6000023016e0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Pages_sp%C3%A9ciales
+We have enqueued 0x60000232cea0
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Help:Contents
+We have enqueued 0x600002300660
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Help:Introduction
+We have enqueued 0x60000232cf60
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Wikipedia:Community_portal
+We have enqueued 0x600002300420
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Suivi_des_liens/Edward_M._Hopson
+We have enqueued 0x600002324360
+
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Ajuda
+We have enqueued 0x600002334240
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Special:RecentChanges
+We have enqueued 0x600002321860
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Wikipedia:File_upload_wizard
+We have enqueued 0x600002301440
+
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Especial:Cerca
+We have enqueued 0x60000232cd80
+
+Thread 0 Task 0x70000db6def0 finished
+Hello from thread 0 was assigned task at 0x70000db6def0
+Working task on node 0x600002330240
+Count: 117
+successfully downloaded and added: https://en.wikipedia.org/wiki/Special:Search
+We have enqueued 0x600002331980
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Hilfe:Nachschlagen
+We have enqueued 0x600002300ae0
+
+Thread 6 Task 0x70000de7fef0 finished
+Hello from thread 6 was assigned task at 0x70000de7fef0
+Working task on node 0x60000233c1e0
+Count: 119
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Spezial:Meine_Beitr%C3%A4ge
+We have enqueued 0x600002338600
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Shortcuts
+We have enqueued 0x600002301800
+
+successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/El_primero_pagina
+We have enqueued 0x60000232cde0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Portale
+We have enqueued 0x600002300900
+
+successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Wikipedia:Portal_del_Comunidad
+We have enqueued 0x60000233c840
+
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Spezial:Meine_Diskussionsseite
+We have enqueued 0x60000232ccc0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia
+We have enqueued 0x600002321740
+
+Thread 5 Task 0x70000ddfcef0 finished
+Hello from thread 5 was assigned task at 0x70000ddfcef0
+Working task on node 0x600002300240
+Count: 126
+successfully downloaded and added: https://ast.wikipedia.org/wiki/Especial:MisContribuciones
+We have enqueued 0x60000232cd20
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Neue_Artikel
+We have enqueued 0x6000023080c0
+
+Thread 1 Task 0x70000dbf0ef0 finished
+Hello from thread 1 was assigned task at 0x70000dbf0ef0
+Working task on node 0x600002330120
+Count: 128
+successfully downloaded and added: https://ay.wikipedia.org/wiki/Nayriri_u%C3%B1stawi
+We have enqueued 0x600002308060
+
+successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Especial:CambiosRecientes
+We have enqueued 0x60000232d0e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Tour_f%C3%BCr_Leser
+We have enqueued 0x600002301920
+
+successfully downloaded and added: https://ay.wikipedia.org/wiki/Wikipidiya:Jayma_punku
+We have enqueued 0x60000233ca80
+
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Ajuda:Introducci%C3%B3
+We have enqueued 0x6000023081e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Redaktionen
+We have enqueued 0x60000232d140
+
+successfully downloaded and added: https://ay.wikipedia.org/wiki/Especial:CambiosRecientes
+We have enqueued 0x600002301200
+
+successfully downloaded and added: https://ast.wikipedia.org/wiki/Especial:MiDiscusi%C3%B3n
+We have enqueued 0x600002308120
+
+Thread 2 Task 0x70000dc73ef0 finished
+Hello from thread 2 was assigned task at 0x70000dc73ef0
+Working task on node 0x600002304000
+Count: 136
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:WikiProjekte
+We have enqueued 0x60000232cf00
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Starthilfe
+We have enqueued 0x600002300f00
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Beteiligen
+We have enqueued 0x60000233c8a0
+
+successfully downloaded and added: https://ay.wikipedia.org/wiki/1949
+We have enqueued 0x60000232cfc0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Fragen_von_Neulingen
+We have enqueued 0x600002334000
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Autorenportal
+We have enqueued 0x6000023010e0
+
+successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Dalai_Lama
+We have enqueued 0x600002301320
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Hilfe:Neuen_Artikel_anlegen
+We have enqueued 0x600002300f60
+
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Especial:Contribucions_pr%C3%B2pies
+We have enqueued 0x6000023015c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Hilfe:Cache
+We have enqueued 0x60000232d080
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Beta_decay_transition
+We have enqueued 0x600002334360
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Fichier:IHS-monogram-Jesus-medievalesque.svg
+We have enqueued 0x6000023343c0
+
+successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Ayuda:Ayuda
+We have enqueued 0x60000233c420
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Mentorenprogramm
+We have enqueued 0x60000233c060
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Portalw%C3%BCnsche
+We have enqueued 0x6000023342a0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Aide:%C3%89bauche
+We have enqueued 0x60000232d260
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Datei:P_countries.png
+We have enqueued 0x60000232d3e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Tutorial
+We have enqueued 0x60000232d2c0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Catholicisme
+We have enqueued 0x60000233c3c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Geographie
+We have enqueued 0x60000232d320
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Hilfe:Bildertutorial
+We have enqueued 0x600002334540
+
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Especial:Discussi%C3%B3_personal
+We have enqueued 0x600002334420
+
+Thread 7 Task 0x70000df02ef0 finished
+Hello from thread 7 was assigned task at 0x70000df02ef0
+Working task on node 0x60000232c540
+Count: 158
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Aide:Comment_modifier_une_page
+We have enqueued 0x6000023219e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Handbuch
+We have enqueued 0x60000233c6c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Berge_und_Gebirge
+We have enqueued 0x600002321260
+
+successfully downloaded and added: https://bi.wikipedia.org/wiki/Nambawan_Pej
+We have enqueued 0x60000232d020
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Special:MyContributions
+We have enqueued 0x60000233ca20
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Projet:Accueil
+We have enqueued 0x60000232d1a0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Gew%C3%A4sser
+We have enqueued 0x6000023282a0
+
+successfully downloaded and added: https://de.wikibooks.org/wiki/Wikipedia-Lehrbuch
+We have enqueued 0x60000233cae0
+
+successfully downloaded and added: https://bi.wikipedia.org/wiki/Wikipedia:Haus_blong_toktok
+We have enqueued 0x600002300c60
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Inseln
+We have enqueued 0x600002304300
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:%C3%9Cber_Wikipedia
+We have enqueued 0x6000023218c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Vereinigtes_K%C3%B6nigreich
+We have enqueued 0x600002300d20
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Vulkane
+We have enqueued 0x600002321500
+
+successfully downloaded and added: https://bi.wikipedia.org/wiki/Special:RecentChanges
+We have enqueued 0x60000232d440
+
+successfully downloaded and added: https://ay.wikipedia.org/wiki/Especial:Buscar
+We have enqueued 0x600002301260
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/1865_dans_le_catholicisme
+We have enqueued 0x60000233c000
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Special:MyTalk
+We have enqueued 0x600002304240
+
+Thread 4 Task 0x70000dd79ef0 finished
+Hello from thread 4 was assigned task at 0x70000dd79ef0
+Working task on node 0x600002304060
+Count: 175
+successfully downloaded and added: https://de.wikipedia.org/wiki/Hilfe:English
+We have enqueued 0x60000232d200
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Wetter_und_Klima
+We have enqueued 0x600002304360
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Le_Crotoy
+We have enqueued 0x600002304420
+
+successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Especial:Buscar
+We have enqueued 0x60000232d6e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Afrika
+We have enqueued 0x6000023012c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Botschaft
+We have enqueued 0x6000023341e0
+
+successfully downloaded and added: https://frp.wikipedia.org/wiki/Vouiquip%C3%A8dia:Re%C3%A7ua_princip%C3%A2la
+We have enqueued 0x6000023043c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Algerien
+We have enqueued 0x6000023045a0
+
+successfully downloaded and added: https://frp.wikipedia.org/wiki/Vouiquip%C3%A8dia:Lo_C%C3%A2f%C3%A8_du_Vel%C3%A2jo
+We have enqueued 0x600002321800
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Kategorien
+We have enqueued 0x600002334600
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Burkina_Faso
+We have enqueued 0x600002301080
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Kategorie:Wikipedia:Neu_bei_Wikipedia
+We have enqueued 0x600002304660
+
+Thread 1 Task 0x70000dbf0ef0 finished
+Hello from thread 1 was assigned task at 0x70000dbf0ef0
+Working task on node 0x600002304180
+Count: 187
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Demokratische_Republik_Kongo
+We have enqueued 0x60000232d500
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Elfenbeink%C3%BCste
+We have enqueued 0x600002300d80
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/1926_dans_le_catholicisme
+We have enqueued 0x600002301020
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Gambia
+We have enqueued 0x60000232d4a0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Paray-le-Monial
+We have enqueued 0x600002321b00
+
+successfully downloaded and added: https://bi.wikipedia.org/wiki/Swiselan
+We have enqueued 0x600002300fc0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Ghana
+We have enqueued 0x600002301b00
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Pie_XI
+We have enqueued 0x600002301380
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Spezial:Meine_Diskussionsseite
+We have enqueued 0x600002321980
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kamerun
+We have enqueued 0x60000232d380
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kenia
+We have enqueued 0x60000233c480
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/F%C3%AAte_du_Christ-Roi
+We have enqueued 0x600002334480
+
+successfully downloaded and added: https://frp.wikipedia.org/wiki/ISO_4217
+We have enqueued 0x6000023348a0
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/1996_NCAA_Division_III_men%27s_basketball_tournament
+We have enqueued 0x60000233ccc0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Komoren
+We have enqueued 0x600002301680
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Namibia
+We have enqueued 0x60000233cb40
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Jean-Baptiste_Pompallier
+We have enqueued 0x600002321b60
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Spezial:Meine_Beitr%C3%A4ge
+We have enqueued 0x60000233cde0
+
+successfully downloaded and added: https://ay.wikipedia.org/wiki/Especial:MisContribuciones
+We have enqueued 0x600002321bc0
+
+successfully downloaded and added: https://frp.wikipedia.org/wiki/Sp%C3%A8ci%C3%A2l:D%C3%A8rri%C3%A9rs_changements
+We have enqueued 0x60000233cc00
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Nigeria
+We have enqueued 0x600002334660
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Auckland
+We have enqueued 0x600002301500
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Hauptseite
+We have enqueued 0x60000232d5c0
+
+successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Especial:MisContribuciones
+We have enqueued 0x600002301560
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Ruanda
+We have enqueued 0x60000232d800
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Sambia
+We have enqueued 0x60000232d920
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Villiers-sur-Yonne
+We have enqueued 0x6000023347e0
+
+successfully downloaded and added: https://bi.wikipedia.org/wiki/Special:Search
+We have enqueued 0x60000232daa0
+
+successfully downloaded and added: https://ay.wikipedia.org/wiki/Especial:MiDiscusi%C3%B3n
+We have enqueued 0x600002324480
+
+Thread 5 Task 0x70000ddfcef0 finished
+Hello from thread 5 was assigned task at 0x70000ddfcef0
+Working task on node 0x60000233c0c0
+Count: 216
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Senegal
+We have enqueued 0x60000232d8c0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Assomptionnistes
+We have enqueued 0x60000233c240
+
+Thread 3 Task 0x70000dcf6ef0 finished
+Hello from thread 3 was assigned task at 0x70000dcf6ef0
+Working task on node 0x6000023306c0
+Count: 218
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia_Diskussion:Willkommen
+We have enqueued 0x6000023217a0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Sierra_Leone
+We have enqueued 0x6000023349c0
+
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%85%E1%80%BD%E1%80%B2%E1%80%B8%E1%80%80%E1%80%99%E1%80%BA%E1%80%B8%E1%80%80%E1%80%AD%E1%80%AF:Help
+We have enqueued 0x600002300b40
+
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%91%E1%9F%86%E1%9E%96%E1%9F%90%E1%9E%9A%E1%9E%8A%E1%9E%BE%E1%9E%98
+We have enqueued 0x6000023044e0
+
+successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Especial:MiDiscusi%C3%B3n
+We have enqueued 0x6000023346c0
+
+successfully downloaded and added: https://frp.wikipedia.org/wiki/Vouiquip%C3%A8dia:Contacte
+We have enqueued 0x60000232d860
+
+Thread 6 Task 0x70000de7fef0 finished
+Hello from thread 6 was assigned task at 0x70000de7fef0
+Working task on node 0x600002338180
+Count: 224
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Simbabwe
+We have enqueued 0x6000023344e0
+
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%96%E1%9E%B7%E1%9E%9F%E1%9F%81%E1%9E%9F:%E1%9E%94%E1%9F%86%E1%9E%9B%E1%9E%B6%E1%9E%9F%E1%9F%8B%E1%9E%94%E1%9F%92%E1%9E%8A%E1%9E%BC%E1%9E%9A%E1%9E%90%E1%9F%92%E1%9E%98%E1%9E%B8%E1%9F%97
+We have enqueued 0x600002334780
+
+successfully downloaded and added: https://es.wikipedia.org/wiki/Wikipedia:Portada
+We have enqueued 0x600002300840
+
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%A1%E1%80%93%E1%80%AD%E1%80%80%E1%80%9C%E1%80%AD%E1%80%90%E1%80%BA%E1%80%99%E1%80%B2%E1%80%B7%E1%80%84%E1%80%AB
+We have enqueued 0x600002321920
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Somalia
+We have enqueued 0x6000023009c0
+
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%87%E1%9F%86%E1%9E%93%E1%9E%BD%E1%9E%99:%E1%9E%98%E1%9E%B6%E1%9E%8F%E1%9E%B7%E1%9E%80%E1%9E%B6
+We have enqueued 0x60000233cd80
+
+successfully downloaded and added: https://es.wikipedia.org/wiki/Portal:Comunidad
+We have enqueued 0x600002334840
+
+successfully downloaded and added: https://frp.wikipedia.org/wiki/Sp%C3%A8ci%C3%A2l:Rech%C3%A8rchi%C3%A9r
+We have enqueued 0x60000233cea0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:S%C3%BCdafrika
+We have enqueued 0x600002331bc0
+
+successfully downloaded and added: https://es.wikipedia.org/wiki/Portal:Actualidad
+We have enqueued 0x600002334180
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Sudan
+We have enqueued 0x600002321a40
+
+successfully downloaded and added: https://es.wikipedia.org/wiki/Especial:CambiosRecientes
+We have enqueued 0x60000233cf60
+
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%80%81%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8:Five_pillars
+We have enqueued 0x60000233cf00
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Tansania
+We have enqueued 0x600002301140
+
+Thread 1 Task 0x70000dbf0ef0 finished
+Hello from thread 1 was assigned task at 0x70000dbf0ef0
+Working task on node 0x600002300060
+Count: 238
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Tunesien
+We have enqueued 0x60000232d680
+
+successfully downloaded and added: https://bug.wikipedia.org/wiki/Mappadec%C3%A9%C5%8B
+We have enqueued 0x60000232d9e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Uganda
+successfully downloaded and added: We have enqueued https://de.wikipedia.org/wiki/Siri_Hustvedt
+We have enqueued 0x600002321c80
+
+0x60000232db00
+
+successfully downloaded and added: https://bug.wikipedia.org/wiki/Wikipedia:Portal_komunitas
+We have enqueued 0x600002321d40
+
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%85%E1%80%BD%E1%80%B2%E1%80%B8%E1%80%80%E1%80%99%E1%80%BA%E1%80%B8%E1%80%80%E1%80%AD%E1%80%AF:Formatting
+We have enqueued 0x60000233d020
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Mittelamerika
+We have enqueued 0x60000233d0e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Hilfe:%C3%9Cbersicht
+We have enqueued 0x60000233cfc0
+
+successfully downloaded and added: https://bug.wikipedia.org/wiki/Ancajingeng_kokkoro
+We have enqueued 0x60000233d2c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:S%C3%BCdamerika
+We have enqueued 0x600002321e60
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Spezial:Letzte_%C3%84nderungen
+We have enqueued 0x600002334900
+
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%96%E1%9E%B7%E1%9E%9F%E1%9F%81%E1%9E%9F:%E1%9E%91%E1%9F%86%E1%9E%96%E1%9F%90%E1%9E%9A%E1%9E%90%E1%9F%92%E1%9E%98%E1%9E%B8%E1%9F%97
+We have enqueued 0x60000233d3e0
+
+successfully downloaded and added: https://bug.wikipedia.org/wiki/Istimewa:Perubahan_terbaru
+We have enqueued 0x600002321e00
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Argentinien
+We have enqueued 0x60000232dc20
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Kontakt
+We have enqueued 0x600002300e40
+
+successfully downloaded and added: https://bi.wikipedia.org/wiki/Special:MyContributions
+We have enqueued 0x600002321da0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Brasilien
+We have enqueued 0x60000232d7a0
+
+successfully downloaded and added: https://es.wikipedia.org/wiki/Especial:P%C3%A1ginasNuevas
+We have enqueued 0x600002301740
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Bolivien
+We have enqueued 0x60000232d980
+
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%83%E1%9E%BB%E1%9F%86%E1%9E%8A%E1%9E%84%E1%9E%80%E1%9E%B6%E1%9F%86%E1%9E%94%E1%9E%B7%E1%9E%8F
+We have enqueued 0x60000233d260
+
+successfully downloaded and added: https://bi.wikipedia.org/wiki/Special:MyTalk
+We have enqueued 0x60000232d620
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Chile
+We have enqueued 0x60000233d080
+
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%9C%E1%9E%B7%E1%9E%82%E1%9E%B8%E1%9E%97%E1%9E%B8%E1%9E%8C%E1%9E%B6:%E1%9E%9F%E1%9E%BB%E1%9F%86%E1%9E%92%E1%9F%92%E1%9E%9C%E1%9E%BE%E1%9E%87%E1%9E%B6%E2%80%8B%E1%9E%A2%E1%9F%92%E1%9E%93%E1%9E%80%E2%80%8B%E1%9E%82%E1%9F%92%E1%9E%9A%E1%9E%94%E1%9F%8B%E1%9E%82%E1%9F%92%E1%9E%9A%E1%9E%84
+We have enqueued 0x60000233d140
+
+Thread 7 Task 0x70000df02ef0 finished
+Hello from thread 7 was assigned task at 0x70000df02ef0
+Working task on node 0x600002300180
+Count: 261
+successfully downloaded and added: https://bug.wikipedia.org/wiki/Vernoy
+We have enqueued 0x60000232e700
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Ecuador
+We have enqueued 0x600002304540
+
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%9C%E1%9E%B7%E1%9E%82%E1%9E%B8%E1%9E%97%E1%9E%B8%E1%9E%8C%E1%9E%B6:%E1%9E%9F%E1%9E%BB%E1%9F%86%E1%9E%94%E1%9F%92%E1%9E%8F%E1%9E%BC%E1%9E%9A%E1%9E%A2%E1%9E%8F%E1%9F%92%E1%9E%8F%E1%9E%93%E1%9E%B6%E1%9E%98
+We have enqueued 0x60000232c2a0
+
+successfully downloaded and added: https://es.wikipedia.org/wiki/Conjunto_difuso
+We have enqueued 0x600002301860
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Haiti
+We have enqueued 0x600002334c00
+
+successfully downloaded and added: https://frp.wikipedia.org/wiki/Sp%C3%A8ci%C3%A2l:Mes_contribucions
+We have enqueued 0x600002334ae0
+
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%9C%E1%9E%B7%E1%9E%82%E1%9E%B8%E1%9E%97%E1%9E%B8%E1%9E%8C%E1%9E%B6:%E2%80%8B%E1%9E%95%E1%9E%8F%E1%9E%90%E1%9E%9B%E1%9E%9F%E1%9E%A0%E1%9E%82%E1%9E%98%E1%9E%93%E1%9F%8D
+We have enqueued 0x60000233d380
+
+Thread 4 Task 0x70000dd79ef0 finished
+Hello from thread 4 was assigned task at 0x70000dd79ef0
+Working task on node 0x600002330360
+Count: 268
+successfully downloaded and added: https://es.wikipedia.org/wiki/Ayuda:Contenidos
+We have enqueued 0x600002321aa0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kanada
+We have enqueued 0x60000232dd40
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Nicaragua
+We have enqueued 0x6000023047e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Peru
+We have enqueued 0x6000023001e0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Viktoriya_Rybalko
+We have enqueued 0x6000023004e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Spezial:Linkliste/Wikipedia:Willkommen
+We have enqueued 0x600002334ba0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Trinidad_und_Tobago
+We have enqueued 0x60000232e580
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Has,_Novi_Travnik
+We have enqueued 0x60000233d500
+
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%96%E1%9E%B7%E1%9E%9F%E1%9F%81%E1%9E%9F:%E1%9E%9F%E1%9F%92%E1%9E%9C%E1%9F%82%E1%9E%84%E1%9E%9A%E1%9E%80
+We have enqueued 0x6000023007e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Spezial:%C3%84nderungen_an_verlinkten_Seiten/Wikipedia:Willkommen
+We have enqueued 0x600002300de0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Uruguay
+We have enqueued 0x600002300ba0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Venezuela
+We have enqueued 0x600002321ce0
+
+successfully downloaded and added: https://es.wikipedia.org/wiki/Wikipedia:Informes_de_error
+We have enqueued 0x60000232e820
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Vereinigte_Staaten
+We have enqueued 0x600002300720
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Antarktis
+We have enqueued 0x60000232e6a0
+
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%85%E1%80%BD%E1%80%B2%E1%80%B8%E1%80%80%E1%80%99%E1%80%BA%E1%80%B8%E1%80%80%E1%80%AD%E1%80%AF:Cheatsheet
+We have enqueued 0x60000232dbc0
+
+successfully downloaded and added: https://bug.wikipedia.org/wiki/Istimewa:Pencarian
+We have enqueued 0x600002334a80
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Spezial:Spezialseiten
+We have enqueued 0x60000232e4c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Arktis
+We have enqueued 0x60000233d5c0
+
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%96%E1%80%AF%E1%80%B2%E1%80%84%E1%80%BA:Nuvola_apps_package_wordprocessing.png
+We have enqueued 0x6000023220a0
+
+successfully downloaded and added: https://es.wikipedia.org/wiki/Especial:Buscar
+We have enqueued 0x60000233d200
+
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%80%81%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8:Cheatsheet
+We have enqueued 0x600002334960
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Asien
+We have enqueued 0x600002301aa0
+
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%96%E1%80%AF%E1%80%B2%E1%80%84%E1%80%BA:Nuvola_apps_ksig.png
+We have enqueued 0x600002334a20
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Afghanistan
+We have enqueued 0x600002322160
+
+Thread 7 Task 0x70000df02ef0 finished
+Hello from thread 7 was assigned task at 0x70000df02ef0
+Working task on node 0x60000233c360
+Count: 293
+successfully downloaded and added: https://www.wikidata.org/wiki/Q8990577
+We have enqueued 0x600002304780
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Armenien
+We have enqueued 0x600002334d80
+
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%96%E1%9E%B7%E1%9E%9F%E1%9F%81%E1%9E%9F:%E1%9E%80%E1%9E%B6%E1%9E%9A%E1%9E%9A%E1%9E%BD%E1%9E%98%E1%9E%85%E1%9F%86%E1%9E%8E%E1%9F%82%E1%9E%80%E1%9E%9A%E1%9E%94%E1%9E%9F%E1%9F%8B%E1%9E%81%E1%9F%92%E1%9E%89%E1%9E%BB%E1%9F%86
+We have enqueued 0x600002336400
+
+successfully downloaded and added: https://ext.wikipedia.org/wiki/G%C3%BCiquipeya:Port%C3%A1
+We have enqueued 0x6000023083c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Aserbaidschan
+We have enqueued 0x600002304840
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Experimental_Aircraft_Association
+We have enqueued 0x60000233d320
+
+successfully downloaded and added: https://ext.wikipedia.org/wiki/G%C3%BCiquipeya:Portal_dela_comunid%C3%A1
+We have enqueued 0x600002308300
+
+successfully downloaded and added: https://es.wikipedia.org/wiki/Ayuda:Introducci%C3%B3n
+We have enqueued 0x600002304a20
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Bangladesch
+We have enqueued 0x6000023049c0
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Experimental_Aircraft_Association
+We have enqueued 0x600002308180
+
+successfully downloaded and added: https://ext.wikipedia.org/wiki/Proyeutu:La_troji_las_not%C3%ADcias
+We have enqueued 0x6000023046c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Bhutan
+We have enqueued 0x6000023041e0
+
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%96%E1%9E%B7%E1%9E%9F%E1%9F%81%E1%9E%9F:%E1%9E%80%E1%9E%B6%E1%9E%9A%E1%9E%96%E1%9E%B7%E1%9E%97%E1%9E%B6%E1%9E%80%E1%9F%92%E1%9E%9F%E1%9E%B6%E1%9E%9A%E1%9E%94%E1%9E%9F%E1%9F%8B%E1%9E%81%E1%9F%92%E1%9E%89%E1%9E%BB%E1%9F%86
+We have enqueued 0x60000232df20
+
+successfully downloaded and added: https://ext.wikipedia.org/wiki/Especial:CambiosRecientes
+We have enqueued 0x6000023040c0
+
+Thread 3 Task 0x70000dcf6ef0 finished
+Hello from thread 3 was assigned task at 0x70000dcf6ef0
+Working task on node 0x600002338120
+Count: 307
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:China
+We have enqueued 0x600002304b40
+
+successfully downloaded and added: https://chy.wikipedia.org/wiki/Va%27ohtama
+We have enqueued 0x600002308000
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Georgien
+We have enqueued 0x600002304ba0
+
+successfully downloaded and added: https://bug.wikipedia.org/wiki/Istimewa:Kontribusi_saya
+We have enqueued 0x600002334d20
+
+successfully downloaded and added: https://de.wikibooks.org/wiki/Hilfe:Willkommen
+We have enqueued 0x60000232e160
+
+successfully downloaded and added: https://chy.wikipedia.org/wiki/Wikipedia:Community_Portal
+We have enqueued 0x600002334c60
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Indien
+We have enqueued 0x600002308480
+
+successfully downloaded and added: https://fi.wikipedia.org/wiki/Experimental_Aircraft_Association
+We have enqueued 0x600002304ae0
+
+successfully downloaded and added: https://es.wikipedia.org/wiki/Especial:MisContribuciones
+We have enqueued 0x600002300540
+
+successfully downloaded and added: https://de.wikinews.org/wiki/Wikinews:Willkommen
+We have enqueued 0x60000233d7a0
+
+successfully downloaded and added: https://no.wikipedia.org/wiki/Experimental_Aircraft_Association
+We have enqueued 0x600002334f00
+
+successfully downloaded and added: https://de.wikiquote.org/wiki/Wikiquote:Willkommen
+We have enqueued 0x60000233cc60
+
+successfully downloaded and added: https://chy.wikipedia.org/wiki/Special:RecentChanges
+We have enqueued 0x600002334f60
+
+successfully downloaded and added: https://bug.wikipedia.org/wiki/Istimewa:Pembicaraan_saya
+We have enqueued 0x600002308420
+
+successfully downloaded and added: https://de.wikiversity.org/wiki/Wikiversity:Willkommen
+We have enqueued 0x600002322040
+
+Thread 1 Task 0x70000dbf0ef0 finished
+Hello from thread 1 was assigned task at 0x70000dbf0ef0
+Working task on node 0x60000232c360
+Count: 322
+successfully downloaded and added: https://ext.wikipedia.org/wiki/Mar%C3%ADa_Jes%C3%BAs_Almeida
+We have enqueued 0x600002334de0
+
+successfully downloaded and added: https://de.wikivoyage.org/wiki/Wikivoyage:Herzlich_willkommen
+We have enqueued 0x60000232e220
+
+successfully downloaded and added: https://es.wikipedia.org/wiki/Especial:MiDiscusi%C3%B3n
+We have enqueued 0x600002334b40
+
+Thread 2 Task 0x70000dc73ef0 finished
+Hello from thread 2 was assigned task at 0x70000dc73ef0
+Working task on node 0x600002334060
+Count: 325
+successfully downloaded and added: https://sv.wikipedia.org/wiki/Experimental_Aircraft_Association
+We have enqueued 0x60000233d1a0
+
+Thread 6 Task 0x70000de7fef0 finished
+Hello from thread 6 was assigned task at 0x70000de7fef0
+Working task on node 0x60000232c1e0
+Count: 326
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%96%E1%80%AF%E1%80%B2%E1%80%84%E1%80%BA:Wikipedia-logo.png
+We have enqueued 0x600002335260
+
+successfully downloaded and added: https://chy.wikipedia.org/wiki/Nanom%C3%B3ne-%C3%A9%C5%A1e%C3%ABva
+We have enqueued 0x60000233ce40
+
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Portada
+We have enqueued 0x600002335200
+
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%80%81%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8:%E1%80%A1%E1%80%80%E1%80%BB%E1%80%B1%E1%80%AC%E1%80%84%E1%80%BA%EA%A9%BB%E1%80%81%E1%80%9B%E1%80%AC%E1%82%8F
+We have enqueued 0x600002301c80
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Indonesien
+We have enqueued 0x600002301e60
+
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Wikipedia:Portal_da_comunidade
+We have enqueued 0x600002301ec0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Iran
+We have enqueued 0x60000233d740
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Special:SetLabelDescriptionAliases/Q1516244/en
+We have enqueued 0x6000023221c0
+
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Wikipedia:A_Taberna
+We have enqueued 0x6000023319e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Israel_und_Pal%C3%A4stina
+We have enqueued 0x600002301d40
+
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Wikipedia:Actualidade
+We have enqueued 0x60000232d740
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P31
+We have enqueued 0x600002335140
+
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%80%81%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8:%E1%80%94%E1%80%AD%E1%80%92%E1%80%AB%E1%80%94%E1%80%BA%E1%80%B8
+We have enqueued 0x600002301a40
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Japan
+We have enqueued 0x600002321ec0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Lysyl-ARNt_synth%C3%A9tase
+We have enqueued 0x60000233d680
+
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Especial:Cambios_recentes
+We have enqueued 0x60000232e880
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q184188
+We have enqueued 0x600002322340
+
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%80%81%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8:%E1%80%9B%E1%80%AF%E1%80%B2%E1%80%84%E1%80%BA%E1%80%B8%E1%80%9F%E1%80%94%E1%80%BA%E1%80%9E%E1%80%BD%E1%80%B1%E1%80%AC%E1%80%B7
+We have enqueued 0x6000023223a0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kasachstan
+We have enqueued 0x60000233d620
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q1384383
+We have enqueued 0x600002301e00
+
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Wikipedia:Artigos_de_calidade
+We have enqueued 0x60000232e9a0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P18
+We have enqueued 0x600002301ce0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Katar
+We have enqueued 0x60000232dc80
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Korea
+We have enqueued 0x60000233d800
+
+successfully downloaded and added: https://ext.wikipedia.org/wiki/Especial:Buscar
+We have enqueued 0x60000232da40
+
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%80%81%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8:Questions
+We have enqueued 0x60000233d8c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kurdistan
+We have enqueued 0x600002304cc0
+
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%80%81%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8:Font
+We have enqueued 0x600002335080
+
+successfully downloaded and added: https://chy.wikipedia.org/wiki/Special:Search
+We have enqueued 0x600002302040
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Nahost
+We have enqueued 0x60000233d980
+
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Santa_Mar%C3%ADa_de_Mones,_Pet%C3%ADn
+We have enqueued 0x60000233da40
+
+successfully downloaded and added: https://commons.wikimedia.org/wiki/File:Map_canton_code_58_19.svg
+We have enqueued 0x60000233d4a0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Oman
+We have enqueued 0x600002304c00
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:Experimental_Aircraft_Association
+We have enqueued 0x600002304600
+
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Wikipedia:Axuda
+We have enqueued 0x600002334ea0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P143
+We have enqueued 0x600002300cc0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Osttimor
+We have enqueued 0x60000232e0a0
+
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%80%81%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8:Why_create_an_account%3F
+We have enqueued 0x600002301fe0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Philippinen
+We have enqueued 0x60000232e760
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q8449
+We have enqueued 0x600002304900
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Russland
+We have enqueued 0x600002322a00
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P17
+We have enqueued 0x60000233d920
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Syrien
+We have enqueued 0x600002304d80
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q142
+We have enqueued 0x60000233dc20
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Taiwan
+We have enqueued 0x60000233db60
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P36
+We have enqueued 0x60000233dce0
+
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%90%E1%80%B2%E1%80%B8%E1%80%9D%E1%80%AB%E1%80%B8:%E1%80%80%E1%80%8F%E1%80%B9%E1%80%8D%E1%80%96%E1%80%AF%E1%80%B6%E1%82%8F
+We have enqueued 0x600002301f80
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Thailand
+We have enqueued 0x600002334cc0
+
+Thread 4 Task 0x70000dd79ef0 finished
+Hello from thread 4 was assigned task at 0x70000dd79ef0
+Working task on node 0x60000232c5a0
+Count: 374
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%80%E1%80%8F%E1%80%B9%E1%80%8D:%E1%80%A1%E1%80%80%E1%80%B0%E1%82%8F%E1%80%8A%E1%80%AE%E1%82%8F
+We have enqueued 0x600002322880
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Tibet
+We have enqueued 0x60000232ca20
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Vikipedya:Venidos_buenos/2
+We have enqueued 0x60000232de60
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:T%C3%BCrkei
+We have enqueued 0x60000233cd20
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Vikipedya:Venidos_buenos/3
+We have enqueued 0x60000232de00
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Vietnam
+We have enqueued 0x6000023226a0
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Vikipedya
+We have enqueued 0x6000023350e0
+
+successfully downloaded and added: https://chy.wikipedia.org/wiki/Special:MyContributions
+We have enqueued 0x600002335020
+
+successfully downloaded and added: https://ext.wikipedia.org/wiki/Especial:MisContribuciones
+We have enqueued 0x600002322280
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Australien
+We have enqueued 0x600002334fc0
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Djudeo-espanyol
+We have enqueued 0x600002301f20
+
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Especial:Procurar
+We have enqueued 0x60000232dec0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kiribati
+We have enqueued 0x600002302220
+
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%90%E1%80%B2%E1%80%B8%E1%80%9D%E1%80%AB%E1%80%B8:%E1%80%81%E1%80%BD%E1%80%B1%E1%80%A1%E1%80%AD%E1%80%AF%E1%80%84%E1%80%BA%E1%80%80%E1%80%AD%E1%80%AF%E1%80%99%E1%80%BA%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA
+We have enqueued 0x600002302340
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q41711
+We have enqueued 0x600002304c60
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Nauru
+We have enqueued 0x60000233de00
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/La_Primera_Hoja
+We have enqueued 0x600002335380
+
+successfully downloaded and added: https://ext.wikipedia.org/wiki/Especial:MiDiscusi%C3%B3n
+We have enqueued 0x60000233db00
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P582
+We have enqueued 0x60000232dda0
+
+Thread 7 Task 0x70000df02ef0 finished
+Hello from thread 7 was assigned task at 0x70000df02ef0
+Working task on node 0x60000232c120
+Count: 393
+successfully downloaded and added: https://chy.wikipedia.org/wiki/Special:MyTalk
+We have enqueued 0x600002322820
+
+Thread 3 Task 0x70000dcf6ef0 finished
+Hello from thread 3 was assigned task at 0x70000dcf6ef0
+Working task on node 0x6000023302a0
+Count: 394
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Neuseeland
+We have enqueued 0x60000232e280
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Especial:TrocamientosFreskos
+We have enqueued 0x600002335320
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q10000
+We have enqueued 0x60000232df80
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Ozeanien
+We have enqueued 0x60000232e100
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P248
+We have enqueued 0x6000023353e0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q12754120
+We have enqueued 0x60000232e400
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Palau
+We have enqueued 0x6000023351a0
+
+successfully downloaded and added: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Home
+We have enqueued 0x600002302160
+
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%90%E1%80%B2%E1%80%B8%E1%80%9D%E1%80%AB%E1%80%B8:%E1%80%81%E1%80%BD%E1%80%B1%E1%80%81%E1%80%BD%E1%80%AF%E1%80%99%E1%80%BA%E1%80%99%E1%80%AC%EA%A9%BB%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%96%E1%80%AF%E1%80%B6%E1%82%8F
+We have enqueued 0x6000023021c0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q2981593
+We have enqueued 0x600002304f00
+
+successfully downloaded and added: https://wikimediafoundation.org/
+We have enqueued 0x6000023354a0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Tonga
+We have enqueued 0x60000230c000
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Ansiklopedia
+We have enqueued 0x600002335440
+
+successfully downloaded and added: https://wikimediafoundation.org/about/contact/
+We have enqueued 0x600002304720
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Special:SetLabelDescriptionAliases/Q3455795/en
+We have enqueued 0x60000230c1e0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P577
+We have enqueued 0x60000230c060
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Europa
+We have enqueued 0x60000233dc80
+
+successfully downloaded and added: https://wikimediafoundation.org/news/
+We have enqueued 0x60000230c180
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q5
+We have enqueued 0x6000023048a0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P854
+We have enqueued 0x6000023318c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Europ%C3%A4ische_Union
+We have enqueued 0x600002322940
+
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Axuda:Introduci%C3%B3n
+We have enqueued 0x600002322760
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q8447
+We have enqueued 0x60000232e040
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:Ko%C5%A1_(Istok)
+We have enqueued 0x600002304e40
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Albanien
+We have enqueued 0x60000232e340
+
+successfully downloaded and added: https://www.insee.fr/fr/information/2560563
+We have enqueued 0x60000232e7c0
+
+Thread 5 Task 0x70000ddfcef0 finished
+Hello from thread 5 was assigned task at 0x70000ddfcef0
+Working task on node 0x6000023216e0
+Count: 420
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P21
+We have enqueued 0x6000023023a0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Andorra
+We have enqueued 0x6000023020a0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P131
+We have enqueued 0x60000230c2a0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q6581097
+We have enqueued 0x60000232e640
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Belarus
+We have enqueued 0x60000230c300
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q11920
+We have enqueued 0x60000230c240
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Belgien
+We have enqueued 0x600002335560
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Liste_des_abb%C3%A9s_de_Saint-Denis
+We have enqueued 0x6000023022e0
+
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Especial:As_mi%C3%B1as_contribuci%C3%B3ns
+We have enqueued 0x60000233de60
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Especial:Kat%C4%93ggor%C3%ADas
+We have enqueued 0x60000232e460
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P27
+We have enqueued 0x60000230c120
+
+successfully downloaded and added: https://diff.wikimedia.org/
+We have enqueued 0x6000023225e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Bosnien_und_Herzegowina
+We have enqueued 0x600002301da0
+
+Thread 1 Task 0x70000dbf0ef0 finished
+Hello from thread 1 was assigned task at 0x70000dbf0ef0
+Working task on node 0x6000023340c0
+Count: 433
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Kateggor%C3%ADa:Vikipedya
+We have enqueued 0x600002302280
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P735
+We have enqueued 0x60000230c4e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Bulgarien
+We have enqueued 0x600002321f80
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:D%C3%A4nemark
+We have enqueued 0x60000230c5a0
+
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Especial:A_mi%C3%B1a_conversa
+We have enqueued 0x6000023356e0
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Especial:MiDiskusy%C3%B3n
+We have enqueued 0x600002322400
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Deutschland
+We have enqueued 0x60000233dd40
+
+successfully downloaded and added: https://meta.wikimedia.org/wiki/Special:MyLanguage/Answers
+We have enqueued 0x600002304a80
+
+Thread 6 Task 0x70000de7fef0 finished
+Hello from thread 6 was assigned task at 0x70000de7fef0
+Working task on node 0x600002321080
+Count: 441
+successfully downloaded and added: https://www.wikidata.org/wiki/Q701061
+We have enqueued 0x600002308360
+
+Thread 2 Task 0x70000dc73ef0 finished
+Hello from thread 2 was assigned task at 0x70000dc73ef0
+Working task on node 0x60000232c0c0
+Count: 442
+successfully downloaded and added: https://www.wikidata.org/wiki/Q18328071
+We have enqueued 0x60000232ea00
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Estland
+We have enqueued 0x60000232dce0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P569
+We have enqueued 0x6000023082a0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:F%C3%A4r%C3%B6er
+We have enqueued 0x60000232f300
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P19
+We have enqueued 0x60000232f2a0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Finnland
+We have enqueued 0x6000023355c0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Hriso%C3%BAla_Anagnostopo%C3%BAlou
+We have enqueued 0x60000233d9e0
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Especial:Mis%C3%80justamientos
+We have enqueued 0x600002335740
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Frankreich
+We have enqueued 0x600002302460
+
+successfully downloaded and added: https://wikimediafoundation.org/participate/
+We have enqueued 0x6000023383c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Griechenland
+We have enqueued 0x60000232ea60
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Kuurne-Bruxelles-Kuurne_1980
+We have enqueued 0x600002335680
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Begonia_schlumbergeriana
+We have enqueued 0x600002335800
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Irland
+We have enqueued 0x60000233df20
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Island
+We have enqueued 0x600002322460
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q181725
+We have enqueued 0x600002334e40
+
+successfully downloaded and added: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Bylaws
+We have enqueued 0x6000023357a0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Italien
+We have enqueued 0x60000232f240
+
+successfully downloaded and added: https://wikimediafoundation.org/about/values/
+We have enqueued 0x600002322520
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P1412
+We have enqueued 0x6000023224c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kosovo
+We have enqueued 0x600002335620
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q150
+We have enqueued 0x600002335980
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kroatien
+We have enqueued 0x600002335860
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P106
+We have enqueued 0x600002302400
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Lettland
+We have enqueued 0x600002322580
+
+successfully downloaded and added: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policies
+We have enqueued 0x6000023025e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Liechtenstein
+We have enqueued 0x600002304ea0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Litauen
+We have enqueued 0x600002335b00
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Vikipedya:Portal_de_la_komunit%C3%A1
+We have enqueued 0x600002302700
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Luxemburg
+We have enqueued 0x600002304de0
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Vikipedya:Novedades
+We have enqueued 0x600002302940
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q3270578
+We have enqueued 0x60000232f3c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Malta
+We have enqueued 0x600002308600
+
+successfully downloaded and added: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Resolutions
+We have enqueued 0x600002322640
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q14089670
+We have enqueued 0x6000023222e0
+
+Thread 3 Task 0x70000dcf6ef0 finished
+Hello from thread 3 was assigned task at 0x70000dcf6ef0
+Working task on node 0x6000023006c0
+Count: 477
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Republik_Moldau
+We have enqueued 0x600002322a60
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/af
+We have enqueued 0x600002308840
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Monaco
+We have enqueued 0x600002308780
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Harghita
+We have enqueued 0x600002308900
+
+successfully downloaded and added: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Meetings
+We have enqueued 0x600002308960
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/ca
+We have enqueued 0x60000233e040
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Montenegro
+We have enqueued 0x6000023085a0
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Ayudo:Cont%C3%A8nidos
+We have enqueued 0x6000023358c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Henry_Montgomery_Lawrence
+We have enqueued 0x60000232e8e0
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/cs
+We have enqueued 0x600002335920
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Niederlande
+We have enqueued 0x6000023229a0
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/da
+We have enqueued 0x60000232f4e0
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Henry_Montgomery_Lawrence
+We have enqueued 0x600002322700
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Nordmazedonien
+We have enqueued 0x600002335500
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/de
+We have enqueued 0x600002304fc0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Norwegen
+We have enqueued 0x600002335a40
+
+successfully downloaded and added: https://it.wikipedia.org/wiki/Henry_Montgomery_Lawrence
+We have enqueued 0x6000023026a0
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/el
+We have enqueued 0x600002305140
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:%C3%96sterreich
+We have enqueued 0x6000023024c0
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/es
+We have enqueued 0x6000023051a0
 

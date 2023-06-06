@@ -132,8 +132,22 @@ class Crawler{
 
 
             //Check that link is not already in the table
+
+            //dummy check
+            if (new_link.find("129.104.65.8")!= std::string::npos){
+                //std::cout <<  new_link  << "personal link, skipping to next link"<< std::endl;
+                continue;
+
+            }
+
+            if (new_link.find("Mes_discussions")!= std::string::npos){
+                //std::cout <<  new_link  << " : mes discussions "<< std::endl;
+                continue;
+
+            }
+
             if(hashtable.contains(new_link)){
-                //std::cout << "==============================" << std::endl << "IMPORTANT LOG: link " << new_link  << " already in the table, skipping to next link" << std::endl << "==============================" << std::endl;
+                //std::cout <<  new_link  << " already in the table, skipping to next link"<< std::endl;
 
                 continue;
             }
@@ -171,15 +185,16 @@ class Crawler{
                 std::cout << "We have enqueued " << website_node << "\n"<<std::endl; 
                     
                 //crawl next link
-            }
+            }/*
             else{
-                std::cout << "Downloading didnt work:"   << std::endl; 
+                //std::cout << "Downloading didnt work:"   << std::endl; 
             }
+            */
             //depth++; 
 
             
         }
-        std::cout << "Exited extraction loop for website at node (Pointer) " << curr << std::endl; 
+        //std::cout << "Exited extraction loop for website at node (Pointer) " << curr << std::endl; 
 
         return ;
     }
@@ -202,12 +217,13 @@ class Crawler{
 
         //parallel
         crawl_this_website(current);
-        
-        // threadPool->enqueue(([this, current]() {
-        //             crawl_this_website(current);
-        //             }));
-        
+        /*
+         threadPool->enqueue(([this, current]() {
+                     crawl_this_website(current);
+                     }));
+        */
         threadPool->stopAndJoin() ;
+        
 
         //threadPool.stopAndJoin();
                     
@@ -217,7 +233,7 @@ class Crawler{
 
         //std::cout << current->value.html << std::endl;
 
-        std::cout << "count: " << count << std::endl;
+        //std::cout << "count: " << count << std::endl;
 
         return 0;
     }

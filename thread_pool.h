@@ -32,7 +32,7 @@ private:
 inline ThreadPool::ThreadPool(int numThreads, int maxQueueSize) : stop(false), maxQueueSize(maxQueueSize) {
     std::cout << numThreads << std::endl; 
     for (int i = 0; i < numThreads; ++i) {
-        std::cout << "Hello from thread " << i << std::endl; 
+        //std::cout << "Hello from thread " << i << std::endl; 
         threads.emplace_back(
             [this, i]() {
                 while (true) {
