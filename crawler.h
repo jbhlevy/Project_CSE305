@@ -24,6 +24,7 @@ class Crawler{
 
     //std::vector<std::thread> workers; //STE TO MAX
     ThreadPool* threadPool;
+    std::mutex mutex;
 
     int MAX;
     std::string initial_link;
@@ -76,11 +77,14 @@ class Crawler{
     
 
     void crawl_this_website(Node<Website>* curr) {
+        mutex.lock();
+
         std::cout << "Working task on node " << curr << std::endl; 
         std::cout << "Count: " << count << std::endl; 
         
         //std::cout<< "hello crawl this website " << curr->value->url << std::endl; 
         if(count >=MAX){
+            mutex.unlock();
             //std::cout << "Reached Max, stopping" << std::endl; 
             return ; 
         }   
@@ -100,14 +104,17 @@ class Crawler{
             std::string new_link = fetchFirstLink(html);
             if (new_link == ""){ //there is no more link in this website
                 //std::cout << "Link is empty meaning, we break" << std::endl;
+                mutex.unlock();
                 break;
             }
             if(new_link == "bad"){
+                //mutex.unlock();
                 continue; 
             }
 
             if (new_link.find("wikipedia") != std::string::npos){
                 if( !(new_link.find("fr") != std::string::npos || new_link.find("en") != std::string::npos)){
+                    //mutex.unlock();
                     continue; 
                 }
             }
@@ -135,18 +142,21 @@ class Crawler{
 
             //dummy check
             if (new_link.find("129.104.65.8")!= std::string::npos){
+                //mutex.unlock();
                 //std::cout <<  new_link  << "personal link, skipping to next link"<< std::endl;
                 continue;
 
             }
 
             if (new_link.find("Mes_discussions")!= std::string::npos){
+                //mutex.unlock();
                 //std::cout <<  new_link  << " : mes discussions "<< std::endl;
                 continue;
 
             }
 
             if(hashtable.contains(new_link)){
+                //mutex.unlock();
                 //std::cout <<  new_link  << " already in the table, skipping to next link"<< std::endl;
 
                 continue;
@@ -157,6 +167,7 @@ class Crawler{
             int res = download_webpage(new_link, &new_html, false);   
 
             if(hashtable.contains(new_link)){
+                //mutex.unlock();
                 //std::cout << "==============================" << std::endl << "IMPORTANT LOG: link " << new_link  << " already in the table, skipping to next link" << std::endl << "==============================" << std::endl;
                 continue;
             }
@@ -178,7 +189,7 @@ class Crawler{
                 //crawl_this_website(website_node); //this should spawn new thread
 
                 //pararell
-                
+                mutex.unlock();
                 threadPool->enqueue(([this, website_node]() {
                     crawl_this_website(website_node);
                     }));
@@ -194,8 +205,9 @@ class Crawler{
 
             
         }
+        std::cout << "Finishing task on node " << curr << std::endl; 
         //std::cout << "Exited extraction loop for website at node (Pointer) " << curr << std::endl; 
-
+        mutex.unlock();
         return ;
     }
 

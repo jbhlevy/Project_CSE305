@@ -5,1688 +5,2211 @@ Finished initializing table
 IMPORTANT LOG: Finished Crawler init
 =================
 Started main crawling function
-current hashtable first (Pointer) 0x600002321020
+current hashtable first (Pointer) 0x6000031b4000
 Hash of first link in crawl function: 781979288
 we launch crawl
-Working task on node 0x600002321020
+Working task on node 0x6000031b4000
 Count: 1
 successfully downloaded and added: https://fr.wikipedia.org/wiki/Portail:Accueil
-We have enqueued 0x60000232c180
+We have enqueued 0x6000031b90e0
 
-Hello from thread 0 was assigned task at 0x70000db6def0
-Working task on node 0x60000232c180
+Hello from thread 0
+Working task on node 0x6000031b90e0
 Count: 2
-successfully downloaded and added: https://fr.wikipedia.org/wiki/R%C3%A9gis_Sonnes
-We have enqueued 0x600002324000
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Mus%C3%A9es_d%C3%A9partementaux_de_la_Haute-Sa%C3%B4ne
+We have enqueued 0x6000031bc2a0
 
-Hello from thread 2 was assigned task at 0x70000dc73ef0
-Working task on node 0x600002324000
+Hello from thread 3
+Working task on node 0x6000031bc2a0
 Count: 3
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Canton_de_Pr%C3%A9mery
-We have enqueued 0x600002328000
-
-Hello from thread 6 was assigned task at 0x70000de7fef0
-Working task on node 0x600002328000
-Count: 4
 successfully downloaded and added: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact
-We have enqueued 0x600002324120
+We have enqueued 0x6000031b91a0
 
-Hello from thread 1 was assigned task at 0x70000dbf0ef0
-Working task on node 0x600002324120
+Hello from thread 4
+Working task on node 0x6000031b91a0
+Count: 4
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Ciprian_Porumbescu
+We have enqueued 0x6000031b9380
+
+Hello from thread 2
+Working task on node 0x6000031b9380
 Count: 5
 successfully downloaded and added: https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter
-We have enqueued 0x600002321140
+We have enqueued 0x6000031bc420
 
-Hello from thread 3 was assigned task at 0x70000dcf6ef0
-Working task on node 0x600002321140
+Hello from thread 1
+Working task on node 0x6000031bc420
 Count: 6
 successfully downloaded and added: https://fr.wikipedia.org/wiki/Aide:Accueil
-We have enqueued 0x600002321200
+We have enqueued 0x6000031b9320
 
-Hello from thread 7 was assigned task at 0x70000df02ef0
-Working task on node 0x600002321200
+Hello from thread 6
+Working task on node 0x6000031b9320
 Count: 7
 successfully downloaded and added: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9
-We have enqueued 0x6000023000c0
+We have enqueued 0x6000031980c0
 
-Hello from thread 5 was assigned task at 0x70000ddfcef0
-Working task on node 0x6000023000c0
+Hello from thread 5
+Working task on node 0x6000031980c0
 Count: 8
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Modifications_r%C3%A9centes
-We have enqueued 0x600002324300
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Jorge_Fern%C3%A1ndez_(athl%C3%A9tisme)
+We have enqueued 0x6000031b4240
 
-Hello from thread 4 was assigned task at 0x70000dd79ef0
-Working task on node 0x600002324300
+Hello from thread 7
+Working task on node 0x6000031b4240
 Count: 9
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Bourbon_(Kansas)
-We have enqueued 0x60000232c300
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Modifications_r%C3%A9centes
+We have enqueued 0x6000031b4300
 
-Thread 4 Task 0x70000dd79ef0 finished
-Hello from thread 4 was assigned task at 0x70000dd79ef0
-Working task on node 0x60000232c300
-Count: 10
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Peltophorum_dasyrachis
-We have enqueued 0x600002300000
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Piazza_al_Serchio
+We have enqueued 0x6000031b43c0
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Beer_Money,_Inc.
-We have enqueued 0x6000023242a0
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Choctawhatchee
+We have enqueued 0x600003198480
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Nakanoj%C5%8D
-We have enqueued 0x6000023283c0
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Maximilien_de_Saxe_(1759-1838)
+We have enqueued 0x6000031bc4e0
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Gollum_(genre)
-We have enqueued 0x600002300120
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Madagascarchaea_rabesahala
+We have enqueued 0x600003198120
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Stanovice_(district_de_Karlovy_Vary)
+We have enqueued 0x600003198360
 
 successfully downloaded and added: https://donate.wikimedia.org/w/index.php?title=Special:LandingPage&country=XX&utm_medium=spontaneous&utm_source=fr-redir&utm_campaign=spontaneous
-We have enqueued 0x6000023002a0
+We have enqueued 0x6000031b9140
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Marthe_de_Noaillat
-We have enqueued 0x6000023211a0
-
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Edward_M._Hopson
-We have enqueued 0x600002338000
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Keith_Douglas
+We have enqueued 0x6000031b93e0
 
 successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Recherche
-We have enqueued 0x6000023285a0
+We have enqueued 0x6000031b0240
 
 successfully downloaded and added: https://fr.wikipedia.org/wiki/Aide:Introduction
-We have enqueued 0x600002330180
+We have enqueued 0x6000031a81e0
 
 successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Mes_contributions
-We have enqueued 0x600002330000
+We have enqueued 0x6000031a0240
 
-successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Themenportal
-We have enqueued 0x600002338060
-
-successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Benvinguda
-We have enqueued 0x6000023240c0
-
-successfully downloaded and added: https://ast.wikipedia.org/wiki/Ayuda:Conten%C3%ADos
-We have enqueued 0x60000232c480
+Finishing task on node 0x6000031b4000
+Finishing task on node 0x6000031980c0
+Thread 5
+Hello from thread 5
+Working task on node 0x6000031b4300
+Count: 20
+successfully downloaded and added: https://en.wikipedia.org/wiki/Ciprian_Porumbescu
+We have enqueued 0x6000031bc720
 
 successfully downloaded and added: https://en.wikipedia.org/wiki/Wikipedia:Contact_us
-We have enqueued 0x600002328540
+We have enqueued 0x60000319c000
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Wikipedia_nach_Themen
-We have enqueued 0x600002330240
+Finishing task on node 0x6000031b91a0
+Thread 4
+Hello from thread 4
+Working task on node 0x6000031b43c0
+Count: 22
+Finishing task on node 0x6000031b4300
+Thread 5
+Hello from thread 5
+Working task on node 0x600003198480
+Count: 22
+successfully downloaded and added: https://ast.wikipedia.org/wiki/Ayuda:Conten%C3%ADos
+We have enqueued 0x600003190120
 
-Thread 1 Task 0x70000dbf0ef0 finished
-Hello from thread 1 was assigned task at 0x70000dbf0ef0
-Working task on node 0x600002300000
-Count: 25
-successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Wikipedia:Bienvenidos
-We have enqueued 0x60000233c1e0
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Themenportal
+We have enqueued 0x6000031a8300
 
 successfully downloaded and added: https://ay.wikipedia.org/wiki/Ayuda:Contents
-We have enqueued 0x600002300240
+We have enqueued 0x6000031babe0
 
-successfully downloaded and added: https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals
-We have enqueued 0x600002330120
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Wikipedia_nach_Themen
+We have enqueued 0x6000031baa00
 
-Thread 5 Task 0x70000ddfcef0 finished
-Hello from thread 5 was assigned task at 0x70000ddfcef0
-Working task on node 0x6000023242a0
-Count: 28
-successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Willkommen
-We have enqueued 0x600002304000
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Benvinguda
+We have enqueued 0x6000031a4660
 
 successfully downloaded and added: https://bi.wikipedia.org/wiki/Help:Contents
-We have enqueued 0x60000232c540
+We have enqueued 0x6000031a8180
 
-successfully downloaded and added: https://frp.wikipedia.org/wiki/Vouiquip%C3%A8dia:Port%C3%A2l:Re%C3%A7ua
-We have enqueued 0x600002304060
+successfully downloaded and added: https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals
+We have enqueued 0x6000031a4a20
 
-successfully downloaded and added: https://en.wikipedia.org/wiki/Help:Getting_started
-We have enqueued 0x600002304180
+successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Wikipedia:Bienvenidos
+We have enqueued 0x6000031ba820
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/De_l%27assassinat_consid%C3%A9r%C3%A9_comme_un_des_beaux-arts
+We have enqueued 0x6000031b0360
 
 successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%85%E1%80%BD%E1%80%B2%E1%80%B8%E1%80%80%E1%80%99%E1%80%BA%E1%80%B8%E1%80%80%E1%80%AD%E1%80%AF:Contents
-We have enqueued 0x60000233c0c0
+We have enqueued 0x6000031a4780
 
-successfully downloaded and added: https://km.wikipedia.org/wiki/Portal:Contents/Portals
-We have enqueued 0x6000023306c0
+successfully downloaded and added: https://frp.wikipedia.org/wiki/Vouiquip%C3%A8dia:Port%C3%A2l:Re%C3%A7ua
+We have enqueued 0x6000031a4840
 
-Thread 0 Task 0x70000db6def0 finished
-Hello from thread 0 was assigned task at 0x70000db6def0
-Working task on node 0x6000023283c0
-Count: 34
-successfully downloaded and added: https://es.wikipedia.org/wiki/Wikipedia:Bienvenidos
-We have enqueued 0x600002338180
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Willkommen
+We have enqueued 0x6000031ba760
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Groupement_romand_d%27%C3%A9tudes_des_addictions
+We have enqueued 0x6000031b02a0
 
 successfully downloaded and added: https://bug.wikipedia.org/wiki/Bantuan:Contents
-We have enqueued 0x600002300060
+We have enqueued 0x60000319c120
 
-successfully downloaded and added: https://en.wikipedia.org/wiki/Bourbon_County,_Kansas
-We have enqueued 0x600002300180
+successfully downloaded and added: https://en.wikipedia.org/wiki/Jorge_Fern%C3%A1ndez_(athlete)
+We have enqueued 0x6000031a4900
 
-Thread 4 Task 0x70000dd79ef0 finished
-Hello from thread 4 was assigned task at 0x70000dd79ef0
-Working task on node 0x600002300120
-Count: 37
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Experimental_Aircraft_Association
-We have enqueued 0x600002330360
+successfully downloaded and added: https://km.wikipedia.org/wiki/Portal:Contents/Portals
+We have enqueued 0x600003198780
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Help:Getting_started
+We have enqueued 0x6000031b03c0
+
+Finishing task on node 0x6000031b90e0
+Thread 0
+Hello from thread 0
+Working task on node 0x6000031bc4e0
+Count: 39
+successfully downloaded and added: https://chy.wikipedia.org/wiki/Help:Contents
+We have enqueued 0x6000031b0180
+
+Finishing task on node 0x6000031b9320
+Thread 6
+Hello from thread 6
+Working task on node 0x600003198120
+Count: 40
+successfully downloaded and added: https://es.wikipedia.org/wiki/Wikipedia:Bienvenidos
+We have enqueued 0x600003198180
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q2386954
+We have enqueued 0x6000031a4ae0
 
 successfully downloaded and added: https://ext.wikipedia.org/wiki/G%C3%BCiquipeya:Bienven%C3%ADu
-We have enqueued 0x60000233c360
-
-successfully downloaded and added: https://chy.wikipedia.org/wiki/Help:Contents
-We have enqueued 0x600002338120
-
-Thread 7 Task 0x70000df02ef0 finished
-Hello from thread 7 was assigned task at 0x70000df02ef0
-Working task on node 0x6000023002a0
-Count: 40
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Ko%C5%A1_(Istok)
-We have enqueued 0x60000232c360
-
-successfully downloaded and added: https://www.wikidata.org/wiki/Q1516244
-We have enqueued 0x600002334060
+We have enqueued 0x600003198240
 
 successfully downloaded and added: https://gl.wikipedia.org/wiki/Wikipedia:Benvidos
-We have enqueued 0x60000232c1e0
+We have enqueued 0x6000031a82a0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Kshatriya
+We have enqueued 0x6000031a83c0
 
 successfully downloaded and added: https://lad.wikipedia.org/wiki/Vikipedya:Venidos_buenos
-We have enqueued 0x60000232c5a0
+We have enqueued 0x6000031a80c0
 
-Thread 3 Task 0x70000dcf6ef0 finished
-Hello from thread 3 was assigned task at 0x70000dcf6ef0
-Working task on node 0x6000023211a0
-Count: 44
+Finishing task on node 0x6000031bc420
+Thread 1
+Hello from thread 1
+Working task on node 0x600003198360
+Count: 46
+successfully downloaded and added: https://www.wikidata.org/wiki/Q389000
+We have enqueued 0x6000031b9fe0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:Mus%C3%A9es_d%C3%A9partementaux_de_la_Haute-Sa%C3%B4ne
+We have enqueued 0x6000031a88a0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q534791
+We have enqueued 0x6000031ba580
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Nkongzok_II
+We have enqueued 0x6000031bc5a0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Jorge_Soc%C3%ADas
+We have enqueued 0x6000031a44e0
+
+Finishing task on node 0x6000031bc2a0
+Thread 3
+Hello from thread 3
+Working task on node 0x6000031b9140
+Count: 51
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:Ciprian_Porumbescu
+We have enqueued 0x6000031a84e0
+
+Finishing task on node 0x6000031b9380
+Thread 2
+Hello from thread 2
+Working task on node 0x6000031b93e0
+Count: 52
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:Jorge_Fern%C3%A1ndez_(athl%C3%A9tisme)
+We have enqueued 0x6000031a45a0
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Piazza_al_Serchio
+We have enqueued 0x6000031ba280
+
+Finishing task on node 0x6000031b43c0
+Thread 4
+Hello from thread 4
+Working task on node 0x6000031b0240
+Count: 54
 successfully downloaded and added: https://foundation.wikimedia.org/wiki/Home
-We have enqueued 0x60000232c120
+We have enqueued 0x6000031b4cc0
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Q3455795
-We have enqueued 0x6000023302a0
+successfully downloaded and added: https://en.wikipedia.org/wiki/Choctawhatchee_River
+We have enqueued 0x6000031b0540
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/L%C3%A9o_contre_tous
-We have enqueued 0x6000023216e0
-
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Henry_Montgomery_Lawrence
-We have enqueued 0x6000023340c0
-
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:Canton_de_Pr%C3%A9mery
-We have enqueued 0x600002321080
-
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Liste_des_%C3%A9pisodes_de_Beyblade:_Metal_Fury
-We have enqueued 0x60000232c0c0
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Mus%C3%A9e_Bed%C5%99ich-Smetana
+We have enqueued 0x60000319c0c0
 
 successfully downloaded and added: https://donate.wikimedia.org/wiki/Special:MyLanguage/Ways_to_Give
-We have enqueued 0x6000023006c0
+We have enqueued 0x6000031a8240
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:R%C3%A9gis_Sonnes
-We have enqueued 0x60000232c780
+successfully downloaded and added: https://fr.wikipedia.org/wiki/The_Madness_(album)
+We have enqueued 0x6000031bad00
 
 successfully downloaded and added: https://donate.wikimedia.org/wiki/Special:LandingPage
-We have enqueued 0x6000023214a0
+We have enqueued 0x6000031a85a0
 
-Thread 6 Task 0x70000de7fef0 finished
-Hello from thread 6 was assigned task at 0x70000de7fef0
-Working task on node 0x600002338000
-Count: 53
-Thread 7 Task 0x70000df02ef0 finished
-Hello from thread 7 was assigned task at 0x70000df02ef0
-Working task on node 0x6000023285a0
-Count: 53
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Old%C5%99ich_Nov%C3%BD
-We have enqueued 0x600002300c00
+Finishing task on node 0x6000031b4240
+Thread 7
+Hello from thread 7
+Working task on node 0x6000031a81e0
+Count: 60
+Finishing task on node 0x6000031b9140
+Thread 3
+Hello from thread 3
+Working task on node 0x6000031a0240
+Count: 60
+successfully downloaded and added: https://www.wikidata.org/wiki/Q4272077
+We have enqueued 0x6000031a0180
 
-Thread 2 Task 0x70000dc73ef0 finished
-Hello from thread 2 was assigned task at 0x70000dc73ef0
-Working task on node 0x600002330180
-Count: 54
-successfully downloaded and added: https://en.wikipedia.org/wiki/Beer_Money,_Inc.
-We have enqueued 0x600002300ea0
+successfully downloaded and added: https://da.wikipedia.org/wiki/Maximilian_af_Sachsen_(1759-1838)
+We have enqueued 0x6000031b9c20
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Morchella_dunensis
-We have enqueued 0x6000023286c0
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Accident_majeur
+We have enqueued 0x6000031b4c00
 
-successfully downloaded and added: https://en.wikipedia.org/wiki/Gollum_(genus)
-We have enqueued successfully downloaded and added: https://en.wikipedia.org/wiki/Nakanoj%C5%8D,_Gunma
-We have enqueued 0x6000023381e0
-
-0x6000023241e0
-
-Thread 0 Task 0x70000db6def0 finished
-Hello from thread 0 was assigned task at 0x70000db6def0
-Working task on node 0x600002330000
-Count: 58
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Alconbury
-We have enqueued 0x6000023019e0
-
-successfully downloaded and added: https://www.wikidata.org/wiki/Q30748669
-We have enqueued 0x600002301980
-
-successfully downloaded and added: https://www.wikidata.org/wiki/Q474932
-We have enqueued 0x60000232c8a0
-
-successfully downloaded and added: https://www.wikidata.org/wiki/Q5580853
-We have enqueued 0x60000233c540
-
-successfully downloaded and added: https://www.wikidata.org/wiki/Q63155059
-We have enqueued 0x60000233c720
-
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:Peltophorum_dasyrachis
-We have enqueued 0x60000233c660
-
-successfully downloaded and added: https://fr.wikipedia.org/wiki/1923_en_football
-We have enqueued 0x60000232c900
-
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:Beer_Money,_Inc.
-We have enqueued 0x6000023213e0
-
-Thread 5 Task 0x70000ddfcef0 finished
-Hello from thread 5 was assigned task at 0x70000ddfcef0
-Working task on node 0x600002338060
-Count: 66
-Thread 7 Task 0x70000df02ef0 finished
-Hello from thread 7 was assigned task at 0x70000df02ef0
-Working task on node 0x6000023240c0
-Count: 66
-successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Hoamseitn
-We have enqueued 0x600002300a20
-
-successfully downloaded and added: https://ca.wikipedia.org/wiki/Portada
-We have enqueued 0x60000232c600
-
-successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Artiklgruppn
-We have enqueued 0x600002321440
-
-successfully downloaded and added: https://bar.wikipedia.org/wiki/Spezial:Letzte_%C3%84nderungen
-We have enqueued 0x60000232c960
-
-successfully downloaded and added: https://www.wikidata.org/wiki/Special:NewItem
-We have enqueued 0x60000232c840
-
-successfully downloaded and added: https://bar.wikipedia.org/wiki/Spezial:Neue_Seiten
-We have enqueued 0x60000232c660
-
-successfully downloaded and added: https://als.wikipedia.org/wiki/Wikipedia:Willkommen
-We have enqueued 0x600002301b60
-
-successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Autornkaffee
-We have enqueued 0x60000233c5a0
-
-successfully downloaded and added: https://ban.wikipedia.org/wiki/Wikip%C3%A9dia:Pengantar
-We have enqueued 0x600002301bc0
-
-successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Stammdisch
-We have enqueued 0x60000232c6c0
-
-successfully downloaded and added: https://da.wikipedia.org/wiki/Hj%C3%A6lp:Velkommen_til_Wikipedia
-We have enqueued 0x600002338240
-
-Thread 2 Task 0x70000dc73ef0 finished
-Hello from thread 2 was assigned task at 0x70000dc73ef0
-Working task on node 0x60000232c480
-Count: 77
-successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Mia_fejd_a_Woat
-We have enqueued 0x600002334120
-
-successfully downloaded and added: https://ast.wikipedia.org/wiki/Portada
-We have enqueued 0x600002301c20
-
-Thread 4 Task 0x70000dd79ef0 finished
-Hello from thread 4 was assigned task at 0x70000dd79ef0
-Working task on node 0x600002328540
-Count: 79
-successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:AutornPortal
-We have enqueued 0x60000232c7e0
-
-successfully downloaded and added: https://ast.wikipedia.org/wiki/Wikipedia:Portal_de_la_comunid%C3%A1
-We have enqueued 0x6000023380c0
-
-successfully downloaded and added: https://ca.wikipedia.org/wiki/Muntanyes_Rakaposhi-Haramosh
-We have enqueued 0x6000023008a0
+Finishing task on node 0x6000031b0240
+Thread 4
+Hello from thread 4
+Working task on node 0x6000031bc720
+Count: 63
+successfully downloaded and added: https://de.wikipedia.org/wiki/Maximilian_von_Sachsen_(1759%E2%80%931838)
+We have enqueued 0x6000031a8660
 
 successfully downloaded and added: https://en.wikipedia.org/wiki/Main_Page
-We have enqueued 0x60000232cae0
+We have enqueued 0x6000031b2820
 
-successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Qualitetssicharung
-We have enqueued 0x6000023382a0
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:Choctawhatchee
+We have enqueued 0x6000031a4000
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Peltophorum_dasyrachis
-We have enqueued 0x600002300780
-
-successfully downloaded and added: https://ast.wikipedia.org/wiki/Especial:CambeosRecientes
-We have enqueued 0x600002321320
-
-successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Articles_de_qualitat
-We have enqueued 0x60000232cba0
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Gare_Centrale_du_Camp_de_Tarragone
+We have enqueued 0x6000031a8480
 
 successfully downloaded and added: https://en.wikipedia.org/wiki/Wikipedia:Contents
-We have enqueued 0x60000232ca80
-
-successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Portal
-We have enqueued 0x600002321380
+We have enqueued 0x6000031a86c0
 
 successfully downloaded and added: https://en.wikipedia.org/wiki/Portal:Current_events
-We have enqueued 0x600002321560
+We have enqueued 0x6000031a8540
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Aide:Contributions
-We have enqueued 0x600002321620
+successfully downloaded and added: https://www.wikidata.org/wiki/Q51843787
+We have enqueued 0x6000031b2400
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Marthe_de_Noaillat
-We have enqueued 0x60000232cc60
+successfully downloaded and added: https://en.wikipedia.org/wiki/Keith_Douglas
+We have enqueued 0x6000031b2700
 
-successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Trobades
-We have enqueued 0x600002300300
+successfully downloaded and added: https://en.wikipedia.org/wiki/Maximilian,_Hereditary_Prince_of_Saxony
+We have enqueued 0x6000031bc600
 
-successfully downloaded and added: https://ca.wikipedia.org/wiki/Especial:Canvis_recents
-We have enqueued 0x600002331920
+successfully downloaded and added: https://en.wikipedia.org/wiki/Stanovice_(Karlovy_Vary_District)
+We have enqueued 0x6000031bc7e0
 
-successfully downloaded and added: https://ast.wikipedia.org/wiki/Estudios_de_Cultura_N%C3%A1huatl
-We have enqueued 0x600002300480
+Finishing task on node 0x600003198480
+Thread 5
+Hello from thread 5
+Working task on node 0x60000319c000
+Count: 73
+successfully downloaded and added: https://en.wikipedia.org/wiki/Berit_Moen_Johansen
+We have enqueued 0x6000031a8840
 
-successfully downloaded and added: https://en.wikipedia.org/wiki/WPMX
-We have enqueued 0x6000023018c0
-
-successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:La_taverna
-We have enqueued 0x600002331800
-
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Suivi_des_liens/Peltophorum_dasyrachis
-We have enqueued 0x600002331b00
+successfully downloaded and added: https://id.wikipedia.org/wiki/Maximilian_dari_Sachsen_(1759%E2%80%931838)
+We have enqueued 0x6000031a40c0
 
 successfully downloaded and added: https://en.wikipedia.org/wiki/Wikipedia:About
-We have enqueued 0x600002331b60
+We have enqueued 0x6000031a89c0
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Suivi_des_liens/Marthe_de_Noaillat
-We have enqueued 0x60000232cb40
+successfully downloaded and added: https://www.wikidata.org/wiki/Q1576373
+We have enqueued 0x6000031b24c0
 
-successfully downloaded and added: https://fr.wikipedia.org/w/api.php
-We have enqueued 0x600002330300
+Finishing task on node 0x600003198360
+Thread 1
+Hello from thread 1
+Working task on node 0x600003190120
+Count: 77
+successfully downloaded and added: https://www.wikidata.org/wiki/Q6384276
+We have enqueued 0x6000031b2640
 
-successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Contacte
-We have enqueued 0x60000232cc00
+successfully downloaded and added: https://ast.wikipedia.org/wiki/Portada
+We have enqueued 0x6000031a41e0
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Aide:Importer_un_fichier
-We have enqueued 0x60000233c960
+successfully downloaded and added: https://nl.wikipedia.org/wiki/Maximiliaan_van_Saksen_(1759-1838)
+We have enqueued 0x6000031a42a0
 
-successfully downloaded and added: https://bar.wikipedia.org/wiki/Spezial:Suche
-We have enqueued 0x60000233c2a0
+Finishing task on node 0x6000031bc4e0
+Thread 0
+Hello from thread 0
+Working task on node 0x6000031a8300
+Count: 80
+successfully downloaded and added: https://als.wikipedia.org/wiki/Wikipedia:Willkommen
+We have enqueued 0x6000031a8960
 
-successfully downloaded and added: https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents
-We have enqueued 0x60000233c780
+successfully downloaded and added: https://ast.wikipedia.org/wiki/Wikipedia:Portal_de_la_comunid%C3%A1
+We have enqueued 0x6000031b4de0
 
-successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Canals_IRC
-We have enqueued 0x6000023017a0
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Hoamseitn
+We have enqueued 0x6000031bc6c0
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Edward_M._Hopson
-We have enqueued 0x60000233c7e0
+successfully downloaded and added: https://ban.wikipedia.org/wiki/Wikip%C3%A9dia:Pengantar
+We have enqueued 0x6000031bc840
 
-successfully downloaded and added: https://ast.wikipedia.org/wiki/Especial:Gueta
-We have enqueued 0x6000023016e0
+successfully downloaded and added: https://en.wikipedia.org/wiki/Taras_Batenko
+We have enqueued 0x6000031b4420
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Pages_sp%C3%A9ciales
-We have enqueued 0x60000232cea0
+successfully downloaded and added: https://ast.wikipedia.org/wiki/Especial:CambeosRecientes
+We have enqueued 0x6000031b4a20
 
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Artiklgruppn
+We have enqueued 0x6000031b4480
+
+successfully downloaded and added: https://da.wikipedia.org/wiki/Hj%C3%A6lp:Velkommen_til_Wikipedia
+We have enqueued 0x6000031b2340
+
+Finishing task on node 0x6000031a81e0
+Thread 7
+Hello from thread 7
+Working task on node 0x6000031babe0
+Count: 88
 successfully downloaded and added: https://en.wikipedia.org/wiki/Help:Contents
-We have enqueued 0x600002300660
+We have enqueued 0x6000031bc000
+
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Spezial:Letzte_%C3%84nderungen
+We have enqueued 0x6000031bc8a0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Aide:Contributions
+We have enqueued 0x6000031b4780
+
+successfully downloaded and added: https://ay.wikipedia.org/wiki/Nayriri_u%C3%B1stawi
+We have enqueued 0x6000031a4c00
 
 successfully downloaded and added: https://en.wikipedia.org/wiki/Help:Introduction
-We have enqueued 0x60000232cf60
-
-successfully downloaded and added: https://en.wikipedia.org/wiki/Wikipedia:Community_portal
-We have enqueued 0x600002300420
-
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Suivi_des_liens/Edward_M._Hopson
-We have enqueued 0x600002324360
-
-successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Ajuda
-We have enqueued 0x600002334240
-
-successfully downloaded and added: https://en.wikipedia.org/wiki/Special:RecentChanges
-We have enqueued 0x600002321860
-
-successfully downloaded and added: https://en.wikipedia.org/wiki/Wikipedia:File_upload_wizard
-We have enqueued 0x600002301440
-
-successfully downloaded and added: https://ca.wikipedia.org/wiki/Especial:Cerca
-We have enqueued 0x60000232cd80
-
-Thread 0 Task 0x70000db6def0 finished
-Hello from thread 0 was assigned task at 0x70000db6def0
-Working task on node 0x600002330240
-Count: 117
-successfully downloaded and added: https://en.wikipedia.org/wiki/Special:Search
-We have enqueued 0x600002331980
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Hilfe:Nachschlagen
-We have enqueued 0x600002300ae0
-
-Thread 6 Task 0x70000de7fef0 finished
-Hello from thread 6 was assigned task at 0x70000de7fef0
-Working task on node 0x60000233c1e0
-Count: 119
-successfully downloaded and added: https://bar.wikipedia.org/wiki/Spezial:Meine_Beitr%C3%A4ge
-We have enqueued 0x600002338600
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Shortcuts
-We have enqueued 0x600002301800
-
-successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/El_primero_pagina
-We have enqueued 0x60000232cde0
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Portale
-We have enqueued 0x600002300900
-
-successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Wikipedia:Portal_del_Comunidad
-We have enqueued 0x60000233c840
-
-successfully downloaded and added: https://bar.wikipedia.org/wiki/Spezial:Meine_Diskussionsseite
-We have enqueued 0x60000232ccc0
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia
-We have enqueued 0x600002321740
-
-Thread 5 Task 0x70000ddfcef0 finished
-Hello from thread 5 was assigned task at 0x70000ddfcef0
-Working task on node 0x600002300240
-Count: 126
-successfully downloaded and added: https://ast.wikipedia.org/wiki/Especial:MisContribuciones
-We have enqueued 0x60000232cd20
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Neue_Artikel
-We have enqueued 0x6000023080c0
-
-Thread 1 Task 0x70000dbf0ef0 finished
-Hello from thread 1 was assigned task at 0x70000dbf0ef0
-Working task on node 0x600002330120
-Count: 128
-successfully downloaded and added: https://ay.wikipedia.org/wiki/Nayriri_u%C3%B1stawi
-We have enqueued 0x600002308060
-
-successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Especial:CambiosRecientes
-We have enqueued 0x60000232d0e0
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Tour_f%C3%BCr_Leser
-We have enqueued 0x600002301920
+We have enqueued 0x6000031b47e0
 
 successfully downloaded and added: https://ay.wikipedia.org/wiki/Wikipidiya:Jayma_punku
-We have enqueued 0x60000233ca80
+We have enqueued 0x6000031b2280
 
-successfully downloaded and added: https://ca.wikipedia.org/wiki/Ajuda:Introducci%C3%B3
-We have enqueued 0x6000023081e0
+successfully downloaded and added: https://en.wikipedia.org/wiki/Wikipedia:Community_portal
+We have enqueued 0x6000031a8900
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Redaktionen
-We have enqueued 0x60000232d140
+successfully downloaded and added: https://ast.wikipedia.org/wiki/Petrochelidon_pyrrhonota
+We have enqueued 0x6000031a8420
 
 successfully downloaded and added: https://ay.wikipedia.org/wiki/Especial:CambiosRecientes
-We have enqueued 0x600002301200
+We have enqueued 0x6000031a8a20
 
-successfully downloaded and added: https://ast.wikipedia.org/wiki/Especial:MiDiscusi%C3%B3n
-We have enqueued 0x600002308120
+successfully downloaded and added: https://en.wikipedia.org/wiki/Special:RecentChanges
+We have enqueued 0x6000031b4960
 
-Thread 2 Task 0x70000dc73ef0 finished
-Hello from thread 2 was assigned task at 0x70000dc73ef0
-Working task on node 0x600002304000
-Count: 136
+Finishing task on node 0x6000031b93e0
+Thread 2
+Hello from thread 2
+Working task on node 0x6000031baa00
+Count: 98
+successfully downloaded and added: https://en.wikipedia.org/wiki/Wikipedia:File_upload_wizard
+We have enqueued 0x6000031b04e0
+
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Spezial:Neue_Seiten
+We have enqueued 0x6000031a4120
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Hilfe:Nachschlagen
+We have enqueued 0x6000031a31e0
+
+successfully downloaded and added: https://ay.wikipedia.org/wiki/Pallqu_jisk%27a_t%27aqa_suyu
+We have enqueued 0x6000031b45a0
+
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Autornkaffee
+We have enqueued 0x6000031a8780
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Madagascarchaea_rabesahala
+We have enqueued 0x6000031b49c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Shortcuts
+We have enqueued 0x6000031a8a80
+
+successfully downloaded and added: https://fr.wikipedia.org/w/api.php
+We have enqueued 0x6000031a4480
+
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Stammdisch
+We have enqueued 0x6000031a43c0
+
+successfully downloaded and added: https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents
+We have enqueued 0x6000031b0660
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Portale
+We have enqueued 0x6000031a48a0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Aide:Importer_un_fichier
+We have enqueued 0x6000031b4660
+
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Mia_fejd_a_Woat
+We have enqueued 0x6000031a8b40
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia
+We have enqueued 0x6000031bc960
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Special:Search
+We have enqueued 0x6000031a4a80
+
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:AutornPortal
+We have enqueued 0x6000031b21c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Neue_Artikel
+We have enqueued 0x6000031b27c0
+
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Wikipedia:Qualitetssicharung
+We have enqueued 0x6000031b2100
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Tour_f%C3%BCr_Leser
+We have enqueued 0x6000031bc780
+
+successfully downloaded and added: https://ast.wikipedia.org/wiki/Especial:Gueta
+We have enqueued 0x6000031a4240
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Redaktionen
+We have enqueued 0x6000031bc9c0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Suivi_des_liens/Madagascarchaea_rabesahala
+We have enqueued 0x6000031b1d40
+
 successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:WikiProjekte
-We have enqueued 0x60000232cf00
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Starthilfe
-We have enqueued 0x600002300f00
+We have enqueued 0x6000031b46c0
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Beteiligen
-We have enqueued 0x60000233c8a0
+We have enqueued 0x6000031b1c80
 
-successfully downloaded and added: https://ay.wikipedia.org/wiki/1949
-We have enqueued 0x60000232cfc0
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Fragen_von_Neulingen
-We have enqueued 0x600002334000
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Pages_sp%C3%A9ciales
+We have enqueued 0x6000031a8c00
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Autorenportal
-We have enqueued 0x6000023010e0
-
-successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Dalai_Lama
-We have enqueued 0x600002301320
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Hilfe:Neuen_Artikel_anlegen
-We have enqueued 0x600002300f60
-
-successfully downloaded and added: https://ca.wikipedia.org/wiki/Especial:Contribucions_pr%C3%B2pies
-We have enqueued 0x6000023015c0
+We have enqueued 0x6000031a8d20
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Hilfe:Cache
-We have enqueued 0x60000232d080
-
-successfully downloaded and added: https://en.wikipedia.org/wiki/Beta_decay_transition
-We have enqueued 0x600002334360
-
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Fichier:IHS-monogram-Jesus-medievalesque.svg
-We have enqueued 0x6000023343c0
-
-successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Ayuda:Ayuda
-We have enqueued 0x60000233c420
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Mentorenprogramm
-We have enqueued 0x60000233c060
+We have enqueued 0x6000031b4d20
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Portalw%C3%BCnsche
-We have enqueued 0x6000023342a0
+We have enqueued 0x6000031a4540
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Aide:%C3%89bauche
-We have enqueued 0x60000232d260
-
+Finishing task on node 0x600003198120
+Thread 6
+Hello from thread 6
+Working task on node 0x6000031a4660
+Count: 126
 successfully downloaded and added: https://de.wikipedia.org/wiki/Datei:P_countries.png
-We have enqueued 0x60000232d3e0
+We have enqueued 0x6000031a4ba0
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Tutorial
-We have enqueued 0x60000232d2c0
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Portada
+We have enqueued 0x6000031bc540
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Catholicisme
-We have enqueued 0x60000233c3c0
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Geographie
-We have enqueued 0x60000232d320
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Hilfe:Bildertutorial
-We have enqueued 0x600002334540
-
-successfully downloaded and added: https://ca.wikipedia.org/wiki/Especial:Discussi%C3%B3_personal
-We have enqueued 0x600002334420
-
-Thread 7 Task 0x70000df02ef0 finished
-Hello from thread 7 was assigned task at 0x70000df02ef0
-Working task on node 0x60000232c540
-Count: 158
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Aide:Comment_modifier_une_page
-We have enqueued 0x6000023219e0
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Handbuch
-We have enqueued 0x60000233c6c0
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Berge_und_Gebirge
-We have enqueued 0x600002321260
-
-successfully downloaded and added: https://bi.wikipedia.org/wiki/Nambawan_Pej
-We have enqueued 0x60000232d020
-
-successfully downloaded and added: https://en.wikipedia.org/wiki/Special:MyContributions
-We have enqueued 0x60000233ca20
-
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Projet:Accueil
-We have enqueued 0x60000232d1a0
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Gew%C3%A4sser
-We have enqueued 0x6000023282a0
-
-successfully downloaded and added: https://de.wikibooks.org/wiki/Wikipedia-Lehrbuch
-We have enqueued 0x60000233cae0
-
-successfully downloaded and added: https://bi.wikipedia.org/wiki/Wikipedia:Haus_blong_toktok
-We have enqueued 0x600002300c60
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Inseln
-We have enqueued 0x600002304300
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:%C3%9Cber_Wikipedia
-We have enqueued 0x6000023218c0
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Vereinigtes_K%C3%B6nigreich
-We have enqueued 0x600002300d20
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Vulkane
-We have enqueued 0x600002321500
-
-successfully downloaded and added: https://bi.wikipedia.org/wiki/Special:RecentChanges
-We have enqueued 0x60000232d440
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Spezial:Suche
+We have enqueued 0x6000031a4300
 
 successfully downloaded and added: https://ay.wikipedia.org/wiki/Especial:Buscar
-We have enqueued 0x600002301260
+We have enqueued 0x6000031a8ae0
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/1865_dans_le_catholicisme
-We have enqueued 0x60000233c000
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Geographie
+We have enqueued 0x6000031bc900
 
-successfully downloaded and added: https://en.wikipedia.org/wiki/Special:MyTalk
-We have enqueued 0x600002304240
+Finishing task on node 0x6000031a0240
+Thread 3
+Hello from thread 3
+Working task on node 0x6000031a8180
+Count: 131
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Berge_und_Gebirge
+We have enqueued 0x6000031b48a0
 
-Thread 4 Task 0x70000dd79ef0 finished
-Hello from thread 4 was assigned task at 0x70000dd79ef0
-Working task on node 0x600002304060
-Count: 175
-successfully downloaded and added: https://de.wikipedia.org/wiki/Hilfe:English
-We have enqueued 0x60000232d200
+successfully downloaded and added: https://bi.wikipedia.org/wiki/Nambawan_Pej
+We have enqueued 0x6000031b4900
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Gew%C3%A4sser
+We have enqueued 0x6000031b4c60
+
+successfully downloaded and added: https://bi.wikipedia.org/wiki/Wikipedia:Haus_blong_toktok
+We have enqueued 0x6000031bca20
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Inseln
+We have enqueued 0x6000031a8ba0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Vulkane
+We have enqueued 0x6000031a4de0
+
+successfully downloaded and added: https://bi.wikipedia.org/wiki/Special:RecentChanges
+We have enqueued 0x6000031b2040
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Wetter_und_Klima
-We have enqueued 0x600002304360
+We have enqueued 0x6000031a8d80
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Le_Crotoy
-We have enqueued 0x600002304420
+successfully downloaded and added: https://ast.wikipedia.org/wiki/Especial:MisContribuciones
+We have enqueued 0x6000031a4b40
 
-successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Especial:Buscar
-We have enqueued 0x60000232d6e0
+successfully downloaded and added: https://en.wikipedia.org/wiki/Special:MyContributions
+We have enqueued 0x6000031b1f80
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Afrika
-We have enqueued 0x6000023012c0
+We have enqueued 0x6000031a8cc0
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Botschaft
-We have enqueued 0x6000023341e0
-
-successfully downloaded and added: https://frp.wikipedia.org/wiki/Vouiquip%C3%A8dia:Re%C3%A7ua_princip%C3%A2la
-We have enqueued 0x6000023043c0
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Perigordi%C3%A0
+We have enqueued 0x6000031ac000
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Algerien
-We have enqueued 0x6000023045a0
+We have enqueued 0x6000031ba100
 
-successfully downloaded and added: https://frp.wikipedia.org/wiki/Vouiquip%C3%A8dia:Lo_C%C3%A2f%C3%A8_du_Vel%C3%A2jo
-We have enqueued 0x600002321800
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Articles_de_qualitat
+We have enqueued 0x6000031a8f00
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Kategorien
-We have enqueued 0x600002334600
+successfully downloaded and added: https://en.wikipedia.org/wiki/Special:MyTalk
+We have enqueued 0x6000031b1bc0
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Burkina_Faso
-We have enqueued 0x600002301080
+We have enqueued 0x6000031b4d80
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Kategorie:Wikipedia:Neu_bei_Wikipedia
-We have enqueued 0x600002304660
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Portal
+We have enqueued 0x6000031b4b40
 
-Thread 1 Task 0x70000dbf0ef0 finished
-Hello from thread 1 was assigned task at 0x70000dbf0ef0
-Working task on node 0x600002304180
-Count: 187
+Finishing task on node 0x6000031bc720
+Thread 4
+Hello from thread 4
+Working task on node 0x6000031a4a20
+Count: 148
+successfully downloaded and added: https://ast.wikipedia.org/wiki/Especial:MiDiscusi%C3%B3n
+We have enqueued 0x60000319c3c0
+
+Finishing task on node 0x600003190120
+Thread 1
+Hello from thread 1
+Working task on node 0x6000031ba820
+Count: 149
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Demokratische_Republik_Kongo
-We have enqueued 0x60000232d500
+We have enqueued 0x6000031a4d20
 
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Trobades
+We have enqueued 0x6000031a4ea0
+
+successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/El_primero_pagina
+We have enqueued 0x60000319c060
+
+Finishing task on node 0x60000319c000
+Thread 5
+Hello from thread 5
+Working task on node 0x6000031b0360
+Count: 152
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Elfenbeink%C3%BCste
-We have enqueued 0x600002300d80
+We have enqueued 0x6000031b1b00
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/1926_dans_le_catholicisme
-We have enqueued 0x600002301020
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Especial:Canvis_recents
+We have enqueued 0x60000319c240
+
+successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Wikipedia:Portal_del_Comunidad
+We have enqueued 0x60000319c540
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Gambia
-We have enqueued 0x60000232d4a0
+We have enqueued 0x6000031a9020
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Paray-le-Monial
-We have enqueued 0x600002321b00
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:La_taverna
+We have enqueued 0x6000031b1ec0
 
-successfully downloaded and added: https://bi.wikipedia.org/wiki/Swiselan
-We have enqueued 0x600002300fc0
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Spezial:Meine_Beitr%C3%A4ge
+We have enqueued 0x60000319c600
+
+successfully downloaded and added: https://bi.wikipedia.org/wiki/Elton_John
+We have enqueued 0x6000031b4fc0
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Ali_Firouzi
+We have enqueued 0x6000031b4e40
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Ghana
-We have enqueued 0x600002301b00
+We have enqueued 0x6000031a8fc0
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Pie_XI
-We have enqueued 0x600002301380
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Contacte
+We have enqueued 0x6000031b4ea0
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Spezial:Meine_Diskussionsseite
-We have enqueued 0x600002321980
+successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Especial:CambiosRecientes
+We have enqueued 0x6000031b1980
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kamerun
-We have enqueued 0x60000232d380
+We have enqueued 0x6000031b1680
+
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Canals_IRC
+We have enqueued 0x6000031a87e0
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kenia
-We have enqueued 0x60000233c480
-
-successfully downloaded and added: https://fr.wikipedia.org/wiki/F%C3%AAte_du_Christ-Roi
-We have enqueued 0x600002334480
-
-successfully downloaded and added: https://frp.wikipedia.org/wiki/ISO_4217
-We have enqueued 0x6000023348a0
-
-successfully downloaded and added: https://en.wikipedia.org/wiki/1996_NCAA_Division_III_men%27s_basketball_tournament
-We have enqueued 0x60000233ccc0
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Komoren
-We have enqueued 0x600002301680
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Namibia
-We have enqueued 0x60000233cb40
-
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Jean-Baptiste_Pompallier
-We have enqueued 0x600002321b60
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Spezial:Meine_Beitr%C3%A4ge
-We have enqueued 0x60000233cde0
+We have enqueued 0x60000319c720
 
 successfully downloaded and added: https://ay.wikipedia.org/wiki/Especial:MisContribuciones
-We have enqueued 0x600002321bc0
+We have enqueued 0x6000031b4ba0
 
-successfully downloaded and added: https://frp.wikipedia.org/wiki/Sp%C3%A8ci%C3%A2l:D%C3%A8rri%C3%A9rs_changements
-We have enqueued 0x60000233cc00
+successfully downloaded and added: https://bar.wikipedia.org/wiki/Spezial:Meine_Diskussionsseite
+We have enqueued 0x60000319c420
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Komoren
+We have enqueued 0x60000319c300
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Soci%C3%A9t%C3%A9_linn%C3%A9enne_de_Bordeaux
+We have enqueued 0x6000031a9200
+
+Finishing task on node 0x6000031a8300
+Thread 0
+Hello from thread 0
+Working task on node 0x6000031a4780
+Count: 170
+successfully downloaded and added: https://ay.wikipedia.org/wiki/Especial:MiDiscusi%C3%B3n
+We have enqueued 0x6000031a9140
+
+Finishing task on node 0x6000031babe0
+Thread 7
+Hello from thread 7
+Working task on node 0x6000031a4840
+Count: 171
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Namibia
+We have enqueued successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%85%E1%80%BD%E1%80%B2%E1%80%B8%E1%80%80%E1%80%99%E1%80%BA%E1%80%B8%E1%80%80%E1%80%AD%E1%80%AF:Help0x600003198420
+
+We have enqueued 0x6000031b99e0
+
+
+successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Talibon
+We have enqueued 0x60000319c2a0
+
+successfully downloaded and added: https://frp.wikipedia.org/wiki/Vouiquip%C3%A8dia:Re%C3%A7ua_princip%C3%A2la
+We have enqueued 0x60000319c4e0
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Nigeria
-We have enqueued 0x600002334660
+We have enqueued 0x6000031bcd80
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Auckland
-We have enqueued 0x600002301500
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Hauptseite
-We have enqueued 0x60000232d5c0
-
-successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Especial:MisContribuciones
-We have enqueued 0x600002301560
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Ruanda
-We have enqueued 0x60000232d800
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Sambia
-We have enqueued 0x60000232d920
-
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Villiers-sur-Yonne
-We have enqueued 0x6000023347e0
-
-successfully downloaded and added: https://bi.wikipedia.org/wiki/Special:Search
-We have enqueued 0x60000232daa0
-
-successfully downloaded and added: https://ay.wikipedia.org/wiki/Especial:MiDiscusi%C3%B3n
-We have enqueued 0x600002324480
-
-Thread 5 Task 0x70000ddfcef0 finished
-Hello from thread 5 was assigned task at 0x70000ddfcef0
-Working task on node 0x60000233c0c0
-Count: 216
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Senegal
-We have enqueued 0x60000232d8c0
-
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Assomptionnistes
-We have enqueued 0x60000233c240
-
-Thread 3 Task 0x70000dcf6ef0 finished
-Hello from thread 3 was assigned task at 0x70000dcf6ef0
-Working task on node 0x6000023306c0
-Count: 218
-successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia_Diskussion:Willkommen
-We have enqueued 0x6000023217a0
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Sierra_Leone
-We have enqueued 0x6000023349c0
-
-successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%85%E1%80%BD%E1%80%B2%E1%80%B8%E1%80%80%E1%80%99%E1%80%BA%E1%80%B8%E1%80%80%E1%80%AD%E1%80%AF:Help
-We have enqueued 0x600002300b40
-
-successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%91%E1%9F%86%E1%9E%96%E1%9F%90%E1%9E%9A%E1%9E%8A%E1%9E%BE%E1%9E%98
-We have enqueued 0x6000023044e0
-
-successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Especial:MiDiscusi%C3%B3n
-We have enqueued 0x6000023346c0
-
-successfully downloaded and added: https://frp.wikipedia.org/wiki/Vouiquip%C3%A8dia:Contacte
-We have enqueued 0x60000232d860
-
-Thread 6 Task 0x70000de7fef0 finished
-Hello from thread 6 was assigned task at 0x70000de7fef0
-Working task on node 0x600002338180
-Count: 224
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Simbabwe
-We have enqueued 0x6000023344e0
-
-successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%96%E1%9E%B7%E1%9E%9F%E1%9F%81%E1%9E%9F:%E1%9E%94%E1%9F%86%E1%9E%9B%E1%9E%B6%E1%9E%9F%E1%9F%8B%E1%9E%94%E1%9F%92%E1%9E%8A%E1%9E%BC%E1%9E%9A%E1%9E%90%E1%9F%92%E1%9E%98%E1%9E%B8%E1%9F%97
-We have enqueued 0x600002334780
-
-successfully downloaded and added: https://es.wikipedia.org/wiki/Wikipedia:Portada
-We have enqueued 0x600002300840
+successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Ayuda:Ayuda
+We have enqueued 0x6000031b1500
 
 successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%A1%E1%80%93%E1%80%AD%E1%80%80%E1%80%9C%E1%80%AD%E1%80%90%E1%80%BA%E1%80%99%E1%80%B2%E1%80%B7%E1%80%84%E1%80%AB
-We have enqueued 0x600002321920
+We have enqueued 0x6000031a90e0
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Somalia
-We have enqueued 0x6000023009c0
+successfully downloaded and added: https://frp.wikipedia.org/wiki/Vouiquip%C3%A8dia:Lo_C%C3%A2f%C3%A8_du_Vel%C3%A2jo
+We have enqueued 0x6000031a9320
 
-successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%87%E1%9F%86%E1%9E%93%E1%9E%BD%E1%9E%99:%E1%9E%98%E1%9E%B6%E1%9E%8F%E1%9E%B7%E1%9E%80%E1%9E%B6
-We have enqueued 0x60000233cd80
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Ruanda
+We have enqueued 0x6000031bcb40
 
-successfully downloaded and added: https://es.wikipedia.org/wiki/Portal:Comunidad
-We have enqueued 0x600002334840
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Ajuda
+We have enqueued 0x60000319c8a0
 
-successfully downloaded and added: https://frp.wikipedia.org/wiki/Sp%C3%A8ci%C3%A2l:Rech%C3%A8rchi%C3%A9r
-We have enqueued 0x60000233cea0
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Sambia
+We have enqueued 0x6000031a93e0
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:S%C3%BCdafrika
-We have enqueued 0x600002331bc0
+successfully downloaded and added: https://bi.wikipedia.org/wiki/Special:Search
+We have enqueued 0x6000031bccc0
 
-successfully downloaded and added: https://es.wikipedia.org/wiki/Portal:Actualidad
-We have enqueued 0x600002334180
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Sudan
-We have enqueued 0x600002321a40
-
-successfully downloaded and added: https://es.wikipedia.org/wiki/Especial:CambiosRecientes
-We have enqueued 0x60000233cf60
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Senegal
+We have enqueued 0x6000031b18c0
 
 successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%80%81%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8:Five_pillars
-We have enqueued 0x60000233cf00
+We have enqueued 0x6000031b4f60
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Tansania
-We have enqueued 0x600002301140
+successfully downloaded and added: https://frp.wikipedia.org/wiki/Champenou%C3%A8s
+We have enqueued 0x6000031bcc60
 
-Thread 1 Task 0x70000dbf0ef0 finished
-Hello from thread 1 was assigned task at 0x70000dbf0ef0
-Working task on node 0x600002300060
-Count: 238
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Tunesien
-We have enqueued 0x60000232d680
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Sierra_Leone
+We have enqueued 0x6000031a47e0
 
-successfully downloaded and added: https://bug.wikipedia.org/wiki/Mappadec%C3%A9%C5%8B
-We have enqueued 0x60000232d9e0
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Simbabwe
+We have enqueued 0x6000031a4960
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Uganda
-successfully downloaded and added: We have enqueued https://de.wikipedia.org/wiki/Siri_Hustvedt
-We have enqueued 0x600002321c80
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Especial:Cerca
+We have enqueued 0x6000031a4f60
 
-0x60000232db00
-
-successfully downloaded and added: https://bug.wikipedia.org/wiki/Wikipedia:Portal_komunitas
-We have enqueued 0x600002321d40
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Somalia
+We have enqueued 0x60000319c960
 
 successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%85%E1%80%BD%E1%80%B2%E1%80%B8%E1%80%80%E1%80%99%E1%80%BA%E1%80%B8%E1%80%80%E1%80%AD%E1%80%AF:Formatting
-We have enqueued 0x60000233d020
+We have enqueued 0x60000319c660
+
+Finishing task on node 0x6000031a4a20
+Thread 4
+Hello from thread 4
+Working task on node 0x6000031ba760
+Count: 191
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:S%C3%BCdafrika
+We have enqueued 0x6000031bcea0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Starthilfe
+We have enqueued 0x6000031b0060
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Sudan
+We have enqueued 0x6000031bcfc0
+
+successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Especial:Buscar
+We have enqueued 0x6000031bcae0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Fragen_von_Neulingen
+We have enqueued 0x6000031a9620
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Tansania
+We have enqueued 0x6000031b5260
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Hilfe:Neuen_Artikel_anlegen
+We have enqueued 0x6000031bc3c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Tunesien
+We have enqueued 0x6000031b52c0
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/On_Murder_Considered_as_one_of_the_Fine_Arts
+We have enqueued 0x6000031a46c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Mentorenprogramm
+We have enqueued 0x6000031ba3a0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Uganda
+We have enqueued 0x6000031b9b00
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Tutorial
+We have enqueued 0x6000031b53e0
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Mittelamerika
-We have enqueued 0x60000233d0e0
+We have enqueued 0x6000031b9680
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Hilfe:%C3%9Cbersicht
-We have enqueued 0x60000233cfc0
-
-successfully downloaded and added: https://bug.wikipedia.org/wiki/Ancajingeng_kokkoro
-We have enqueued 0x60000233d2c0
-
+successfully downloaded and added: https://de.wikipedia.org/wiki/Hilfe:Bildertutorial
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:S%C3%BCdamerika
-We have enqueued 0x600002321e60
+We have enqueued 0x6000031b1a40
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Spezial:Letzte_%C3%84nderungen
-We have enqueued 0x600002334900
+We have enqueued 0x6000031b5380
 
-successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%96%E1%9E%B7%E1%9E%9F%E1%9F%81%E1%9E%9F:%E1%9E%91%E1%9F%86%E1%9E%96%E1%9F%90%E1%9E%9A%E1%9E%90%E1%9F%92%E1%9E%98%E1%9E%B8%E1%9F%97
-We have enqueued 0x60000233d3e0
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Ajuda:Introducci%C3%B3
+We have enqueued 0x60000319c180
 
-successfully downloaded and added: https://bug.wikipedia.org/wiki/Istimewa:Perubahan_terbaru
-We have enqueued 0x600002321e00
+successfully downloaded and added: https://frp.wikipedia.org/wiki/Sp%C3%A8ci%C3%A2l:D%C3%A8rri%C3%A9rs_changements
+We have enqueued 0x60000319c840
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Argentinien
-We have enqueued 0x60000232dc20
+We have enqueued 0x6000031bd140
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Kontakt
-We have enqueued 0x600002300e40
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Handbuch
+We have enqueued 0x6000031a5020
 
-successfully downloaded and added: https://bi.wikipedia.org/wiki/Special:MyContributions
-We have enqueued 0x600002321da0
+successfully downloaded and added: https://de.wikibooks.org/wiki/Wikipedia-Lehrbuchsuccessfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Brasilien
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Brasilien
-We have enqueued 0x60000232d7a0
+We have enqueued 0x6000031b06c0
 
-successfully downloaded and added: https://es.wikipedia.org/wiki/Especial:P%C3%A1ginasNuevas
-We have enqueued 0x600002301740
+We have enqueued 0x6000031b9440
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Bolivien
-We have enqueued 0x60000232d980
+We have enqueued 0x6000031b5200
 
-successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%83%E1%9E%BB%E1%9F%86%E1%9E%8A%E1%9E%84%E1%9E%80%E1%9E%B6%E1%9F%86%E1%9E%94%E1%9E%B7%E1%9E%8F
-We have enqueued 0x60000233d260
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:%C3%9Cber_Wikipedia
+We have enqueued 0x6000031a5140
 
-successfully downloaded and added: https://bi.wikipedia.org/wiki/Special:MyTalk
-We have enqueued 0x60000232d620
+successfully downloaded and added: https://bi.wikipedia.org/wiki/Special:MyContributions
+We have enqueued 0x6000031b0600
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q1792320
+We have enqueued 0x6000031b9620
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Chile
-We have enqueued 0x60000233d080
+We have enqueued 0x6000031bce40
 
-successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%9C%E1%9E%B7%E1%9E%82%E1%9E%B8%E1%9E%97%E1%9E%B8%E1%9E%8C%E1%9E%B6:%E1%9E%9F%E1%9E%BB%E1%9F%86%E1%9E%92%E1%9F%92%E1%9E%9C%E1%9E%BE%E1%9E%87%E1%9E%B6%E2%80%8B%E1%9E%A2%E1%9F%92%E1%9E%93%E1%9E%80%E2%80%8B%E1%9E%82%E1%9F%92%E1%9E%9A%E1%9E%94%E1%9F%8B%E1%9E%82%E1%9F%92%E1%9E%9A%E1%9E%84
-We have enqueued 0x60000233d140
-
-Thread 7 Task 0x70000df02ef0 finished
-Hello from thread 7 was assigned task at 0x70000df02ef0
-Working task on node 0x600002300180
-Count: 261
-successfully downloaded and added: https://bug.wikipedia.org/wiki/Vernoy
-We have enqueued 0x60000232e700
+successfully downloaded and added: https://de.wikipedia.org/wiki/Vereinigtes_K%C3%B6nigreich
+We have enqueued 0x6000031a4f00
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Ecuador
-We have enqueued 0x600002304540
+We have enqueued 0x6000031b1380
 
-successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%9C%E1%9E%B7%E1%9E%82%E1%9E%B8%E1%9E%97%E1%9E%B8%E1%9E%8C%E1%9E%B6:%E1%9E%9F%E1%9E%BB%E1%9F%86%E1%9E%94%E1%9F%92%E1%9E%8F%E1%9E%BC%E1%9E%9A%E1%9E%A2%E1%9E%8F%E1%9F%92%E1%9E%8F%E1%9E%93%E1%9E%B6%E1%9E%98
-We have enqueued 0x60000232c2a0
+successfully downloaded and added: https://de.wikipedia.org/wiki/Hilfe:English
+We have enqueued 0x6000031a4e40
 
-successfully downloaded and added: https://es.wikipedia.org/wiki/Conjunto_difuso
-We have enqueued 0x600002301860
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Especial:Contribucions_pr%C3%B2pies
+We have enqueued 0x6000031a5200
+
+successfully downloaded and added: https://bi.wikipedia.org/wiki/Special:MyTalk
+We have enqueued 0x6000031bcf60
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Haiti
-We have enqueued 0x600002334c00
+We have enqueued 0x60000319c780
 
-successfully downloaded and added: https://frp.wikipedia.org/wiki/Sp%C3%A8ci%C3%A2l:Mes_contribucions
-We have enqueued 0x600002334ae0
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Botschaft
+We have enqueued 0x60000319c9c0
 
-successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%9C%E1%9E%B7%E1%9E%82%E1%9E%B8%E1%9E%97%E1%9E%B8%E1%9E%8C%E1%9E%B6:%E2%80%8B%E1%9E%95%E1%9E%8F%E1%9E%90%E1%9E%9B%E1%9E%9F%E1%9E%A0%E1%9E%82%E1%9E%98%E1%9E%93%E1%9F%8D
-We have enqueued 0x60000233d380
+successfully downloaded and added: https://frp.wikipedia.org/wiki/Vouiquip%C3%A8dia:Contacte
+We have enqueued 0x6000031b9920
 
-Thread 4 Task 0x70000dd79ef0 finished
-Hello from thread 4 was assigned task at 0x70000dd79ef0
-Working task on node 0x600002330360
-Count: 268
-successfully downloaded and added: https://es.wikipedia.org/wiki/Ayuda:Contenidos
-We have enqueued 0x600002321aa0
-
+Finishing task on node 0x6000031a8180
+Thread 3
+Hello from thread 3
+Working task on node 0x6000031b02a0
+Count: 225
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kanada
-We have enqueued 0x60000232dd40
+We have enqueued 0x6000031b0720
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Nicaragua
-We have enqueued 0x6000023047e0
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Kategorien
+We have enqueued 0x6000031bd200
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Peru
-We have enqueued 0x6000023001e0
+successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Especial:MisContribuciones
+We have enqueued 0x6000031ba880
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Viktoriya_Rybalko
-We have enqueued 0x6000023004e0
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:De_l%27assassinat_consid%C3%A9r%C3%A9_comme_un_des_beaux-arts
+We have enqueued 0x6000031bd2c0
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Spezial:Linkliste/Wikipedia:Willkommen
-We have enqueued 0x600002334ba0
+successfully downloaded and added: https://de.wikipedia.org/wiki/Kategorie:Wikipedia:Neu_bei_Wikipedia
+We have enqueued 0x6000031bd0e0
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Trinidad_und_Tobago
-We have enqueued 0x60000232e580
-
-successfully downloaded and added: https://en.wikipedia.org/wiki/Has,_Novi_Travnik
-We have enqueued 0x60000233d500
-
-successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%96%E1%9E%B7%E1%9E%9F%E1%9F%81%E1%9E%9F:%E1%9E%9F%E1%9F%92%E1%9E%9C%E1%9F%82%E1%9E%84%E1%9E%9A%E1%9E%80
-We have enqueued 0x6000023007e0
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Spezial:%C3%84nderungen_an_verlinkten_Seiten/Wikipedia:Willkommen
-We have enqueued 0x600002300de0
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Uruguay
-We have enqueued 0x600002300ba0
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Venezuela
-We have enqueued 0x600002321ce0
-
-successfully downloaded and added: https://es.wikipedia.org/wiki/Wikipedia:Informes_de_error
-We have enqueued 0x60000232e820
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Vereinigte_Staaten
-We have enqueued 0x600002300720
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Antarktis
-We have enqueued 0x60000232e6a0
+successfully downloaded and added: https://ca.wikipedia.org/wiki/Especial:Discussi%C3%B3_personal
+We have enqueued 0x6000031bd1a0
 
 successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%85%E1%80%BD%E1%80%B2%E1%80%B8%E1%80%80%E1%80%99%E1%80%BA%E1%80%B8%E1%80%80%E1%80%AD%E1%80%AF:Cheatsheet
-We have enqueued 0x60000232dbc0
+We have enqueued 0x6000031bab20
 
-successfully downloaded and added: https://bug.wikipedia.org/wiki/Istimewa:Pencarian
-We have enqueued 0x600002334a80
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Spezial:Spezialseiten
-We have enqueued 0x60000232e4c0
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Arktis
-We have enqueued 0x60000233d5c0
+Finishing task on node 0x6000031a4660
+Thread 6
+Hello from thread 6
+Working task on node 0x60000319c120
+Count: 232
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Gameplay_%C3%A9mergent
+We have enqueued 0x6000031a50e0
 
 successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%96%E1%80%AF%E1%80%B2%E1%80%84%E1%80%BA:Nuvola_apps_package_wordprocessing.png
-We have enqueued 0x6000023220a0
+We have enqueued 0x6000031b5020
 
-successfully downloaded and added: https://es.wikipedia.org/wiki/Especial:Buscar
-We have enqueued 0x60000233d200
+successfully downloaded and added: https://bug.wikipedia.org/wiki/Mappadec%C3%A9%C5%8B
+We have enqueued 0x6000031b1440
+
+successfully downloaded and added: https://frp.wikipedia.org/wiki/Sp%C3%A8ci%C3%A2l:Rech%C3%A8rchi%C3%A9r
+We have enqueued 0x6000031a5260
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Spezial:Meine_Diskussionsseite
+We have enqueued 0x6000031bd380
+
+successfully downloaded and added: https://cbk-zam.wikipedia.org/wiki/Especial:MiDiscusi%C3%B3n
+We have enqueued 0x6000031b5440
+
+Finishing task on node 0x6000031ba820
+Thread 1
+Hello from thread 1
+Working task on node 0x6000031a4900
+Count: 238
+successfully downloaded and added: https://bug.wikipedia.org/wiki/Wikipedia:Portal_komunitas
+We have enqueued 0x6000031b50e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Nicaragua
+We have enqueued 0x6000031a4fc0
+
+successfully downloaded and added: https://bug.wikipedia.org/wiki/Ancajingeng_kokkoro
+We have enqueued 0x6000031b07e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Peru
+We have enqueued 0x6000031bd320
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Trinidad_und_Tobago
+We have enqueued 0x6000031a53e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Spezial:Meine_Beitr%C3%A4ge
+We have enqueued 0x6000031b0780
 
 successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%80%81%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8:Cheatsheet
-We have enqueued 0x600002334960
+We have enqueued 0x6000031bd3e0
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Asien
-We have enqueued 0x600002301aa0
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Uruguay
+We have enqueued 0x6000031b5680
 
 successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%96%E1%80%AF%E1%80%B2%E1%80%84%E1%80%BA:Nuvola_apps_ksig.png
-We have enqueued 0x600002334a20
+We have enqueued 0x6000031b5500
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Venezuela
+We have enqueued 0x60000319c7e0
+
+successfully downloaded and added: https://bug.wikipedia.org/wiki/Istimewa:Perubahan_terbaru
+We have enqueued 0x6000031bd260
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Hauptseite
+We have enqueued 0x6000031b1200
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Vereinigte_Staaten
+We have enqueued 0x6000031b51a0
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/UEFA_Euro_1984_qualifying_Group_1
+We have enqueued 0x6000031b1140
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Antarktis
+We have enqueued 0x6000031b1080
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Arktis
+We have enqueued 0x6000031b0fc0
+
+successfully downloaded and added: https://bug.wikipedia.org/wiki/La_Charce
+We have enqueued 0x6000031b57a0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia_Diskussion:Willkommen
+We have enqueued 0x6000031ba1c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Asien
+We have enqueued 0x6000031a5500
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Afghanistan
-We have enqueued 0x600002322160
-
-Thread 7 Task 0x70000df02ef0 finished
-Hello from thread 7 was assigned task at 0x70000df02ef0
-Working task on node 0x60000233c360
-Count: 293
-successfully downloaded and added: https://www.wikidata.org/wiki/Q8990577
-We have enqueued 0x600002304780
+We have enqueued 0x6000031b0f00
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Armenien
-We have enqueued 0x600002334d80
+We have enqueued 0x6000031bd740
 
-successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%96%E1%9E%B7%E1%9E%9F%E1%9F%81%E1%9E%9F:%E1%9E%80%E1%9E%B6%E1%9E%9A%E1%9E%9A%E1%9E%BD%E1%9E%98%E1%9E%85%E1%9F%86%E1%9E%8E%E1%9F%82%E1%9E%80%E1%9E%9A%E1%9E%94%E1%9E%9F%E1%9F%8B%E1%9E%81%E1%9F%92%E1%9E%89%E1%9E%BB%E1%9F%86
-We have enqueued 0x600002336400
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/De_l%27assassinat_consid%C3%A9r%C3%A9_comme_un_des_beaux-arts
+We have enqueued 0x6000031a52c0
 
-successfully downloaded and added: https://ext.wikipedia.org/wiki/G%C3%BCiquipeya:Port%C3%A1
-We have enqueued 0x6000023083c0
-
+Finishing task on node 0x6000031b0360
+Thread 5
+Hello from thread 5
+Working task on node 0x600003198780
+Count: 260
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Aserbaidschan
-We have enqueued 0x600002304840
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Experimental_Aircraft_Association
-We have enqueued 0x60000233d320
-
-successfully downloaded and added: https://ext.wikipedia.org/wiki/G%C3%BCiquipeya:Portal_dela_comunid%C3%A1
-We have enqueued 0x600002308300
-
-successfully downloaded and added: https://es.wikipedia.org/wiki/Ayuda:Introducci%C3%B3n
-We have enqueued 0x600002304a20
+We have enqueued 0x6000031b56e0
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Bangladesch
-We have enqueued 0x6000023049c0
+We have enqueued 0x6000031bd680
 
-successfully downloaded and added: https://en.wikipedia.org/wiki/Experimental_Aircraft_Association
-We have enqueued 0x600002308180
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%91%E1%9F%86%E1%9E%96%E1%9F%90%E1%9E%9A%E1%9E%8A%E1%9E%BE%E1%9E%98
+We have enqueued 0x6000031bd620
 
-successfully downloaded and added: https://ext.wikipedia.org/wiki/Proyeutu:La_troji_las_not%C3%ADcias
-We have enqueued 0x6000023046c0
+successfully downloaded and added: https://www.wikidata.org/wiki/Q113836181
+We have enqueued 0x6000031bd440
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Bhutan
-We have enqueued 0x6000023041e0
+We have enqueued 0x6000031b08a0
 
-successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%96%E1%9E%B7%E1%9E%9F%E1%9F%81%E1%9E%9F:%E1%9E%80%E1%9E%B6%E1%9E%9A%E1%9E%96%E1%9E%B7%E1%9E%97%E1%9E%B6%E1%9E%80%E1%9F%92%E1%9E%9F%E1%9E%B6%E1%9E%9A%E1%9E%94%E1%9E%9F%E1%9F%8B%E1%9E%81%E1%9F%92%E1%9E%89%E1%9E%BB%E1%9F%86
-We have enqueued 0x60000232df20
+successfully downloaded and added: https://bug.wikipedia.org/wiki/Istimewa:Pencarian
+We have enqueued 0x6000031a54a0
 
-successfully downloaded and added: https://ext.wikipedia.org/wiki/Especial:CambiosRecientes
-We have enqueued 0x6000023040c0
+successfully downloaded and added: https://frp.wikipedia.org/wiki/Sp%C3%A8ci%C3%A2l:Mes_contribucions
+We have enqueued 0x6000031b9260
 
-Thread 3 Task 0x70000dcf6ef0 finished
-Hello from thread 3 was assigned task at 0x70000dcf6ef0
-Working task on node 0x600002338120
-Count: 307
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:China
-We have enqueued 0x600002304b40
-
-successfully downloaded and added: https://chy.wikipedia.org/wiki/Va%27ohtama
-We have enqueued 0x600002308000
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Georgien
-We have enqueued 0x600002304ba0
-
-successfully downloaded and added: https://bug.wikipedia.org/wiki/Istimewa:Kontribusi_saya
-We have enqueued 0x600002334d20
-
-successfully downloaded and added: https://de.wikibooks.org/wiki/Hilfe:Willkommen
-We have enqueued 0x60000232e160
-
-successfully downloaded and added: https://chy.wikipedia.org/wiki/Wikipedia:Community_Portal
-We have enqueued 0x600002334c60
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Indien
-We have enqueued 0x600002308480
-
-successfully downloaded and added: https://fi.wikipedia.org/wiki/Experimental_Aircraft_Association
-We have enqueued 0x600002304ae0
-
-successfully downloaded and added: https://es.wikipedia.org/wiki/Especial:MisContribuciones
-We have enqueued 0x600002300540
-
-successfully downloaded and added: https://de.wikinews.org/wiki/Wikinews:Willkommen
-We have enqueued 0x60000233d7a0
-
-successfully downloaded and added: https://no.wikipedia.org/wiki/Experimental_Aircraft_Association
-We have enqueued 0x600002334f00
-
-successfully downloaded and added: https://de.wikiquote.org/wiki/Wikiquote:Willkommen
-We have enqueued 0x60000233cc60
-
-successfully downloaded and added: https://chy.wikipedia.org/wiki/Special:RecentChanges
-We have enqueued 0x600002334f60
-
-successfully downloaded and added: https://bug.wikipedia.org/wiki/Istimewa:Pembicaraan_saya
-We have enqueued 0x600002308420
-
-successfully downloaded and added: https://de.wikiversity.org/wiki/Wikiversity:Willkommen
-We have enqueued 0x600002322040
-
-Thread 1 Task 0x70000dbf0ef0 finished
-Hello from thread 1 was assigned task at 0x70000dbf0ef0
-Working task on node 0x60000232c360
-Count: 322
-successfully downloaded and added: https://ext.wikipedia.org/wiki/Mar%C3%ADa_Jes%C3%BAs_Almeida
-We have enqueued 0x600002334de0
-
-successfully downloaded and added: https://de.wikivoyage.org/wiki/Wikivoyage:Herzlich_willkommen
-We have enqueued 0x60000232e220
-
-successfully downloaded and added: https://es.wikipedia.org/wiki/Especial:MiDiscusi%C3%B3n
-We have enqueued 0x600002334b40
-
-Thread 2 Task 0x70000dc73ef0 finished
-Hello from thread 2 was assigned task at 0x70000dc73ef0
-Working task on node 0x600002334060
-Count: 325
-successfully downloaded and added: https://sv.wikipedia.org/wiki/Experimental_Aircraft_Association
-We have enqueued 0x60000233d1a0
-
-Thread 6 Task 0x70000de7fef0 finished
-Hello from thread 6 was assigned task at 0x70000de7fef0
-Working task on node 0x60000232c1e0
-Count: 326
 successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%96%E1%80%AF%E1%80%B2%E1%80%84%E1%80%BA:Wikipedia-logo.png
-We have enqueued 0x600002335260
+We have enqueued 0x6000031b5860
 
-successfully downloaded and added: https://chy.wikipedia.org/wiki/Nanom%C3%B3ne-%C3%A9%C5%A1e%C3%ABva
-We have enqueued 0x60000233ce40
-
-successfully downloaded and added: https://gl.wikipedia.org/wiki/Portada
-We have enqueued 0x600002335200
+Finishing task on node 0x6000031a4840
+Thread 7
+Hello from thread 7
+Working task on node 0x6000031b03c0
+Count: 268
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:China
+We have enqueued 0x60000319c900
 
 successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%80%81%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8:%E1%80%A1%E1%80%80%E1%80%BB%E1%80%B1%E1%80%AC%E1%80%84%E1%80%BA%EA%A9%BB%E1%80%81%E1%80%9B%E1%80%AC%E1%82%8F
-We have enqueued 0x600002301c80
+We have enqueued 0x6000031ac120
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Indonesien
-We have enqueued 0x600002301e60
+successfully downloaded and added: https://de.wikipedia.org/wiki/Liste_der_Gemeindeverb%C3%A4nde_im_D%C3%A9partement_Hauts-de-Seine
+We have enqueued 0x6000031a5560
 
-successfully downloaded and added: https://gl.wikipedia.org/wiki/Wikipedia:Portal_da_comunidade
-We have enqueued 0x600002301ec0
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Georgien
+We have enqueued 0x6000031a51a0
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Iran
-We have enqueued 0x60000233d740
+successfully downloaded and added: https://de.wikipedia.org/wiki/Hilfe:%C3%9Cbersicht
+We have enqueued 0x6000031b9500
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Special:SetLabelDescriptionAliases/Q1516244/en
-We have enqueued 0x6000023221c0
-
-successfully downloaded and added: https://gl.wikipedia.org/wiki/Wikipedia:A_Taberna
-We have enqueued 0x6000023319e0
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Israel_und_Pal%C3%A4stina
-We have enqueued 0x600002301d40
-
-successfully downloaded and added: https://gl.wikipedia.org/wiki/Wikipedia:Actualidade
-We have enqueued 0x60000232d740
-
-successfully downloaded and added: https://www.wikidata.org/wiki/Property:P31
-We have enqueued 0x600002335140
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Indien
+We have enqueued 0x6000031a5320
 
 successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%80%81%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8:%E1%80%94%E1%80%AD%E1%80%92%E1%80%AB%E1%80%94%E1%80%BA%E1%80%B8
-We have enqueued 0x600002301a40
+We have enqueued 0x6000031b0960
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Japan
-We have enqueued 0x600002321ec0
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Indonesien
+We have enqueued 0x6000031a55c0
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Lysyl-ARNt_synth%C3%A9tase
-We have enqueued 0x60000233d680
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:Groupement_romand_d%27%C3%A9tudes_des_addictions
+We have enqueued 0x6000031bd4a0
 
-successfully downloaded and added: https://gl.wikipedia.org/wiki/Especial:Cambios_recentes
-We have enqueued 0x60000232e880
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%96%E1%9E%B7%E1%9E%9F%E1%9F%81%E1%9E%9F:%E1%9E%94%E1%9F%86%E1%9E%9B%E1%9E%B6%E1%9E%9F%E1%9F%8B%E1%9E%94%E1%9F%92%E1%9E%8A%E1%9E%BC%E1%9E%9A%E1%9E%90%E1%9F%92%E1%9E%98%E1%9E%B8%E1%9F%97
+We have enqueued 0x6000031b0420
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Q184188
-We have enqueued 0x600002322340
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Iran
+We have enqueued 0x6000031b5aa0
 
 successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%80%81%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8:%E1%80%9B%E1%80%AF%E1%80%B2%E1%80%84%E1%80%BA%E1%80%B8%E1%80%9F%E1%80%94%E1%80%BA%E1%80%9E%E1%80%BD%E1%80%B1%E1%80%AC%E1%80%B7
-We have enqueued 0x6000023223a0
+We have enqueued 0x6000031b0d80
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kasachstan
-We have enqueued 0x60000233d620
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%87%E1%9F%86%E1%9E%93%E1%9E%BD%E1%9E%99:%E1%9E%98%E1%9E%B6%E1%9E%8F%E1%9E%B7%E1%9E%80%E1%9E%B6
+We have enqueued 0x6000031b0840
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Q1384383
-We have enqueued 0x600002301e00
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Israel_und_Pal%C3%A4stina
+We have enqueued 0x6000031ba4c0
 
-successfully downloaded and added: https://gl.wikipedia.org/wiki/Wikipedia:Artigos_de_calidade
-We have enqueued 0x60000232e9a0
+successfully downloaded and added: https://en.wikipedia.org/wiki/Heul_doch
+We have enqueued 0x6000031b9740
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Property:P18
-We have enqueued 0x600002301ce0
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Katar
-We have enqueued 0x60000232dc80
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Korea
-We have enqueued 0x60000233d800
-
-successfully downloaded and added: https://ext.wikipedia.org/wiki/Especial:Buscar
-We have enqueued 0x60000232da40
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Japan
+We have enqueued 0x6000031b0c00
 
 successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%80%81%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8:Questions
-We have enqueued 0x60000233d8c0
+We have enqueued 0x6000031bd980
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kurdistan
-We have enqueued 0x600002304cc0
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kasachstan
+We have enqueued 0x60000319cba0
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Talk:Jorge_Fern%C3%A1ndez_(athlete)
+We have enqueued 0x6000031b0a80
 
 successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%80%81%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8:Font
-We have enqueued 0x600002335080
+We have enqueued 0x6000031bd920
 
-successfully downloaded and added: https://chy.wikipedia.org/wiki/Special:Search
-We have enqueued 0x600002302040
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Katar
+We have enqueued 0x6000031ba6a0
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Nahost
-We have enqueued 0x60000233d980
+successfully downloaded and added: https://de.wikipedia.org/wiki/Spezial:Letzte_%C3%84nderungen
+We have enqueued 0x6000031bd860
 
-successfully downloaded and added: https://gl.wikipedia.org/wiki/Santa_Mar%C3%ADa_de_Mones,_Pet%C3%ADn
-We have enqueued 0x60000233da40
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Korea
+We have enqueued 0x6000031a5680
 
-successfully downloaded and added: https://commons.wikimedia.org/wiki/File:Map_canton_code_58_19.svg
-We have enqueued 0x60000233d4a0
+successfully downloaded and added: https://de.wikipedia.org/wiki/Wikipedia:Kontakt
+We have enqueued 0x6000031a56e0
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Oman
-We have enqueued 0x600002304c00
-
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:Experimental_Aircraft_Association
-We have enqueued 0x600002304600
-
-successfully downloaded and added: https://gl.wikipedia.org/wiki/Wikipedia:Axuda
-We have enqueued 0x600002334ea0
-
-successfully downloaded and added: https://www.wikidata.org/wiki/Property:P143
-We have enqueued 0x600002300cc0
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Osttimor
-We have enqueued 0x60000232e0a0
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kurdistan
+We have enqueued 0x6000031b5800
 
 successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%80%81%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8:Why_create_an_account%3F
-We have enqueued 0x600002301fe0
+We have enqueued 0x6000031b95c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Nahost
+We have enqueued 0x6000031a57a0
+
+Finishing task on node 0x6000031a4900
+Thread 1
+Hello from thread 1
+Working task on node 0x6000031b0180
+Count: 295
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%96%E1%9E%B7%E1%9E%9F%E1%9F%81%E1%9E%9F:%E1%9E%91%E1%9F%86%E1%9E%96%E1%9F%90%E1%9E%9A%E1%9E%90%E1%9F%92%E1%9E%98%E1%9E%B8%E1%9F%97
+We have enqueued 0x6000031b9560
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Oman
+We have enqueued 0x6000031b0cc0
+
+successfully downloaded and added: https://chy.wikipedia.org/wiki/Va%27ohtama
+We have enqueued 0x6000031bdaa0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Osttimor
+We have enqueued 0x6000031a5380
+
+successfully downloaded and added: https://chy.wikipedia.org/wiki/Wikipedia:Community_Portal
+We have enqueued 0x6000031b5980
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Philippinen
-We have enqueued 0x60000232e760
-
-successfully downloaded and added: https://www.wikidata.org/wiki/Q8449
-We have enqueued 0x600002304900
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Russland
-We have enqueued 0x600002322a00
-
-successfully downloaded and added: https://www.wikidata.org/wiki/Property:P17
-We have enqueued 0x60000233d920
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Syrien
-We have enqueued 0x600002304d80
-
-successfully downloaded and added: https://www.wikidata.org/wiki/Q142
-We have enqueued 0x60000233dc20
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Taiwan
-We have enqueued 0x60000233db60
-
-successfully downloaded and added: https://www.wikidata.org/wiki/Property:P36
-We have enqueued 0x60000233dce0
+We have enqueued 0x6000031b98c0
 
 successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%90%E1%80%B2%E1%80%B8%E1%80%9D%E1%80%AB%E1%80%B8:%E1%80%80%E1%80%8F%E1%80%B9%E1%80%8D%E1%80%96%E1%80%AF%E1%80%B6%E1%82%8F
-We have enqueued 0x600002301f80
+We have enqueued 0x6000031b5b00
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Russland
+We have enqueued 0x6000031b54a0
+
+successfully downloaded and added: https://bug.wikipedia.org/wiki/Istimewa:Kontribusi_saya
+successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%80%E1%80%8F%E1%80%B9%E1%80%8D:%E1%80%A1%E1%80%80%E1%80%B0%E1%82%8F%E1%80%8A%E1%80%AE%E1%82%8FWe have enqueued 
+We have enqueued 0x6000031bdc20
+
+0x6000031b92c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Syrien
+We have enqueued 0x6000031bdc80
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Taiwan
+We have enqueued 0x6000031a5920
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Spezial:Linkliste/Wikipedia:Willkommen
+We have enqueued 0x6000031b5c80
+
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%A2%E1%9F%8A%E1%9E%BB%E1%9E%99%E1%9E%80%E1%9F%92%E1%9E%9A%E1%9F%82%E1%9E%93
+We have enqueued 0x6000031bdda0
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Thailand
-We have enqueued 0x600002334cc0
-
-Thread 4 Task 0x70000dd79ef0 finished
-Hello from thread 4 was assigned task at 0x70000dd79ef0
-Working task on node 0x60000232c5a0
-Count: 374
-successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%80%E1%80%8F%E1%80%B9%E1%80%8D:%E1%80%A1%E1%80%80%E1%80%B0%E1%82%8F%E1%80%8A%E1%80%AE%E1%82%8F
-We have enqueued 0x600002322880
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Tibet
-We have enqueued 0x60000232ca20
-
-successfully downloaded and added: https://lad.wikipedia.org/wiki/Vikipedya:Venidos_buenos/2
-We have enqueued 0x60000232de60
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:T%C3%BCrkei
-We have enqueued 0x60000233cd20
-
-successfully downloaded and added: https://lad.wikipedia.org/wiki/Vikipedya:Venidos_buenos/3
-We have enqueued 0x60000232de00
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Vietnam
-We have enqueued 0x6000023226a0
-
-successfully downloaded and added: https://lad.wikipedia.org/wiki/Vikipedya
-We have enqueued 0x6000023350e0
-
-successfully downloaded and added: https://chy.wikipedia.org/wiki/Special:MyContributions
-We have enqueued 0x600002335020
-
-successfully downloaded and added: https://ext.wikipedia.org/wiki/Especial:MisContribuciones
-We have enqueued 0x600002322280
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Australien
-We have enqueued 0x600002334fc0
-
-successfully downloaded and added: https://lad.wikipedia.org/wiki/Djudeo-espanyol
-We have enqueued 0x600002301f20
-
-successfully downloaded and added: https://gl.wikipedia.org/wiki/Especial:Procurar
-We have enqueued 0x60000232dec0
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kiribati
-We have enqueued 0x600002302220
+We have enqueued 0x6000031b97a0
 
 successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%90%E1%80%B2%E1%80%B8%E1%80%9D%E1%80%AB%E1%80%B8:%E1%80%81%E1%80%BD%E1%80%B1%E1%80%A1%E1%80%AD%E1%80%AF%E1%80%84%E1%80%BA%E1%80%80%E1%80%AD%E1%80%AF%E1%80%99%E1%80%BA%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA
-We have enqueued 0x600002302340
+We have enqueued 0x6000031bdd40
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Q41711
-We have enqueued 0x600002304c60
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Groupement_romand_d%27%C3%A9tudes_des_addictions
+We have enqueued 0x6000031b59e0
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Nauru
-We have enqueued 0x60000233de00
+Finishing task on node 0x6000031b03c0
+Thread 7
+Hello from thread 7
+Working task on node 0x600003198180
+Count: 312
+successfully downloaded and added: https://bug.wikipedia.org/wiki/Istimewa:Pembicaraan_saya
+We have enqueued 0x6000031a5440
 
-successfully downloaded and added: https://lad.wikipedia.org/wiki/La_Primera_Hoja
-We have enqueued 0x600002335380
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%9C%E1%9E%B7%E1%9E%82%E1%9E%B8%E1%9E%97%E1%9E%B8%E1%9E%8C%E1%9E%B6:%E1%9E%9F%E1%9E%BB%E1%9F%86%E1%9E%92%E1%9F%92%E1%9E%9C%E1%9E%BE%E1%9E%87%E1%9E%B6%E2%80%8B%E1%9E%A2%E1%9F%92%E1%9E%93%E1%9E%80%E2%80%8B%E1%9E%82%E1%9F%92%E1%9E%9A%E1%9E%94%E1%9F%8B%E1%9E%82%E1%9F%92%E1%9E%9A%E1%9E%84
+We have enqueued 0x6000031a5800
 
-successfully downloaded and added: https://ext.wikipedia.org/wiki/Especial:MiDiscusi%C3%B3n
-We have enqueued 0x60000233db00
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Tibet
+We have enqueued 0x6000031b0b40
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Property:P582
-We have enqueued 0x60000232dda0
+Finishing task on node 0x60000319c120
+Thread 6
+Hello from thread 6
+Working task on node 0x6000031a4ae0
+Count: 315
+successfully downloaded and added: https://es.wikipedia.org/wiki/Wikipedia:Portada
+We have enqueued 0x6000031b09c0
 
-Thread 7 Task 0x70000df02ef0 finished
-Hello from thread 7 was assigned task at 0x70000df02ef0
-Working task on node 0x60000232c120
-Count: 393
-successfully downloaded and added: https://chy.wikipedia.org/wiki/Special:MyTalk
-We have enqueued 0x600002322820
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%9C%E1%9E%B7%E1%9E%82%E1%9E%B8%E1%9E%97%E1%9E%B8%E1%9E%8C%E1%9E%B6:%E1%9E%9F%E1%9E%BB%E1%9F%86%E1%9E%94%E1%9F%92%E1%9E%8F%E1%9E%BC%E1%9E%9A%E1%9E%A2%E1%9E%8F%E1%9F%92%E1%9E%8F%E1%9E%93%E1%9E%B6%E1%9E%98
+We have enqueued 0x60000319ca80
 
-Thread 3 Task 0x70000dcf6ef0 finished
-Hello from thread 3 was assigned task at 0x70000dcf6ef0
-Working task on node 0x6000023302a0
-Count: 394
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Neuseeland
-We have enqueued 0x60000232e280
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:T%C3%BCrkei
+We have enqueued 0x6000031a5aa0
 
-successfully downloaded and added: https://lad.wikipedia.org/wiki/Especial:TrocamientosFreskos
-We have enqueued 0x600002335320
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P31
+We have enqueued 0x6000031b5da0
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Q10000
-We have enqueued 0x60000232df80
+successfully downloaded and added: https://es.wikipedia.org/wiki/Portal:Comunidad
+We have enqueued 0x6000031b9a40
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Ozeanien
-We have enqueued 0x60000232e100
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%9C%E1%9E%B7%E1%9E%82%E1%9E%B8%E1%9E%97%E1%9E%B8%E1%9E%8C%E1%9E%B6:%E2%80%8B%E1%9E%95%E1%9E%8F%E1%9E%90%E1%9E%9B%E1%9E%9F%E1%9E%A0%E1%9E%82%E1%9E%98%E1%9E%93%E1%9F%8D
+We have enqueued 0x6000031b5e00
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Property:P248
-We have enqueued 0x6000023353e0
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Vietnam
+We have enqueued 0x6000031a5b60
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Q12754120
-We have enqueued 0x60000232e400
+successfully downloaded and added: https://es.wikipedia.org/wiki/Portal:Actualidad
+We have enqueued 0x60000319cb40
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Palau
-We have enqueued 0x6000023351a0
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Australien
+We have enqueued 0x6000031a5bc0
 
-successfully downloaded and added: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Home
-We have enqueued 0x600002302160
+successfully downloaded and added: https://chy.wikipedia.org/wiki/Special:RecentChanges
+We have enqueued 0x60000319cae0
 
 successfully downloaded and added: https://blk.wikipedia.org/wiki/%E1%80%90%E1%80%B2%E1%80%B8%E1%80%9D%E1%80%AB%E1%80%B8:%E1%80%81%E1%80%BD%E1%80%B1%E1%80%81%E1%80%BD%E1%80%AF%E1%80%99%E1%80%BA%E1%80%99%E1%80%AC%EA%A9%BB%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%96%E1%80%AF%E1%80%B6%E1%82%8F
-We have enqueued 0x6000023021c0
+We have enqueued 0x6000031a5740
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Q2981593
-We have enqueued 0x600002304f00
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kiribati
+We have enqueued 0x6000031b5e60
 
-successfully downloaded and added: https://wikimediafoundation.org/
-We have enqueued 0x6000023354a0
+successfully downloaded and added: https://de.wikipedia.org/wiki/Spezial:%C3%84nderungen_an_verlinkten_Seiten/Wikipedia:Willkommen
+We have enqueued 0x6000031b5ce0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Nauru
+We have enqueued 0x60000319cd80
+
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%96%E1%9E%B7%E1%9E%9F%E1%9F%81%E1%9E%9F:%E1%9E%9F%E1%9F%92%E1%9E%9C%E1%9F%82%E1%9E%84%E1%9E%9A%E1%9E%80
+We have enqueued 0x6000031b9800
+
+successfully downloaded and added: https://chy.wikipedia.org/wiki/Kosa
+We have enqueued 0x6000031b0c60
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Neuseeland
+We have enqueued 0x6000031b5f80
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q33506
+We have enqueued 0x6000031b5f20
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Suivi_des_liens/Groupement_romand_d%27%C3%A9tudes_des_addictions
+We have enqueued 0x6000031b6280
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Ozeanien
+We have enqueued 0x60000319cd20
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P18
+We have enqueued 0x60000319cde0
+
+Finishing task on node 0x6000031a4780
+Thread 0
+Hello from thread 0
+Working task on node 0x600003198240
+Count: 336
+successfully downloaded and added: https://de.wikipedia.org/wiki/Spezial:Spezialseiten
+We have enqueued 0x6000031b0ea0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Palau
+We have enqueued 0x6000031b5fe0
+
+successfully downloaded and added: https://ext.wikipedia.org/wiki/G%C3%BCiquipeya:Port%C3%A1
+We have enqueued 0x60000319cc00
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Tonga
-We have enqueued 0x60000230c000
+We have enqueued 0x6000031b61c0
 
-successfully downloaded and added: https://lad.wikipedia.org/wiki/Ansiklopedia
-We have enqueued 0x600002335440
-
-successfully downloaded and added: https://wikimediafoundation.org/about/contact/
-We have enqueued 0x600002304720
-
-successfully downloaded and added: https://www.wikidata.org/wiki/Special:SetLabelDescriptionAliases/Q3455795/en
-We have enqueued 0x60000230c1e0
-
-successfully downloaded and added: https://www.wikidata.org/wiki/Property:P577
-We have enqueued 0x60000230c060
+successfully downloaded and added: https://ext.wikipedia.org/wiki/G%C3%BCiquipeya:Portal_dela_comunid%C3%A1
+We have enqueued 0x6000031b6340
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Europa
-We have enqueued 0x60000233dc80
+We have enqueued 0x6000031b0de0
 
-successfully downloaded and added: https://wikimediafoundation.org/news/
-We have enqueued 0x60000230c180
+successfully downloaded and added: https://es.wikipedia.org/wiki/Especial:CambiosRecientes
+We have enqueued 0x6000031b9980
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Q5
-We have enqueued 0x6000023048a0
-
-successfully downloaded and added: https://www.wikidata.org/wiki/Property:P854
-We have enqueued 0x6000023318c0
+Finishing task on node 0x6000031b02a0
+Thread 3
+Hello from thread 3
+Working task on node 0x6000031a82a0
+Count: 343
+successfully downloaded and added: https://ext.wikipedia.org/wiki/Proyeutu:La_troji_las_not%C3%ADcias
+We have enqueued 0x6000031bd800
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Europ%C3%A4ische_Union
-We have enqueued 0x600002322940
+We have enqueued 0x6000031a9500
 
-successfully downloaded and added: https://gl.wikipedia.org/wiki/Axuda:Introduci%C3%B3n
-We have enqueued 0x600002322760
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Portada
+We have enqueued 0x6000031b9bc0
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Q8447
-We have enqueued 0x60000232e040
+successfully downloaded and added: https://commons.wikimedia.org/wiki/File:Champlitte_-_Mus%C3%A9e_-1.jpgsuccessfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Albanien
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:Ko%C5%A1_(Istok)
-We have enqueued 0x600002304e40
+We have enqueued 0x6000031a5980
 
-successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Albanien
-We have enqueued 0x60000232e340
+We have enqueued 0x60000319cfc0
 
-successfully downloaded and added: https://www.insee.fr/fr/information/2560563
-We have enqueued 0x60000232e7c0
-
-Thread 5 Task 0x70000ddfcef0 finished
-Hello from thread 5 was assigned task at 0x70000ddfcef0
-Working task on node 0x6000023216e0
-Count: 420
-successfully downloaded and added: https://www.wikidata.org/wiki/Property:P21
-We have enqueued 0x6000023023a0
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Wikipedia:Portal_da_comunidade
+We have enqueued 0x6000031b9c80
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Andorra
-We have enqueued 0x6000023020a0
+We have enqueued 0x6000031b9da0
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Property:P131
-We have enqueued 0x60000230c2a0
+successfully downloaded and added: https://www.wikidata.org/wiki/Q8990577
+We have enqueued 0x6000031bdec0
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Q6581097
-We have enqueued 0x60000232e640
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P585
+We have enqueued 0x60000319cea0
+
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Wikipedia:A_Taberna
+We have enqueued 0x6000031b9ec0
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Belarus
-We have enqueued 0x60000230c300
+We have enqueued 0x6000031b5c20
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Q11920
-We have enqueued 0x60000230c240
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P143
+We have enqueued 0x6000031bdb00
+
+successfully downloaded and added: https://ext.wikipedia.org/wiki/Especial:CambiosRecientes
+We have enqueued 0x6000031bdbc0
+
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Wikipedia:Actualidade
+We have enqueued 0x6000031bdf20
+
+successfully downloaded and added: https://es.wikipedia.org/wiki/Especial:P%C3%A1ginasNuevas
+We have enqueued 0x6000031b5a40
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Belgien
-We have enqueued 0x600002335560
+We have enqueued 0x6000031bde60
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Liste_des_abb%C3%A9s_de_Saint-Denis
-We have enqueued 0x6000023022e0
+successfully downloaded and added: https://www.wikidata.org/wiki/Q8447
+We have enqueued 0x6000031b6100
 
-successfully downloaded and added: https://gl.wikipedia.org/wiki/Especial:As_mi%C3%B1as_contribuci%C3%B3ns
-We have enqueued 0x60000233de60
-
-successfully downloaded and added: https://lad.wikipedia.org/wiki/Especial:Kat%C4%93ggor%C3%ADas
-We have enqueued 0x60000232e460
-
-successfully downloaded and added: https://www.wikidata.org/wiki/Property:P27
-We have enqueued 0x60000230c120
-
-successfully downloaded and added: https://diff.wikimedia.org/
-We have enqueued 0x6000023225e0
+successfully downloaded and added: https://chy.wikipedia.org/wiki/Special:Search
+We have enqueued 0x6000031b96e0
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Bosnien_und_Herzegowina
-We have enqueued 0x600002301da0
+We have enqueued 0x6000031a5620
 
-Thread 1 Task 0x70000dbf0ef0 finished
-Hello from thread 1 was assigned task at 0x70000dbf0ef0
-Working task on node 0x6000023340c0
-Count: 433
-successfully downloaded and added: https://lad.wikipedia.org/wiki/Kateggor%C3%ADa:Vikipedya
-We have enqueued 0x600002302280
-
-successfully downloaded and added: https://www.wikidata.org/wiki/Property:P735
-We have enqueued 0x60000230c4e0
+successfully downloaded and added: https://ext.wikipedia.org/wiki/Coreca
+We have enqueued 0x6000031a59e0
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Bulgarien
-We have enqueued 0x600002321f80
+We have enqueued 0x6000031b5d40
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:D%C3%A4nemark
-We have enqueued 0x60000230c5a0
+We have enqueued 0x60000319d080
 
-successfully downloaded and added: https://gl.wikipedia.org/wiki/Especial:A_mi%C3%B1a_conversa
-We have enqueued 0x6000023356e0
-
-successfully downloaded and added: https://lad.wikipedia.org/wiki/Especial:MiDiskusy%C3%B3n
-We have enqueued 0x600002322400
+successfully downloaded and added: https://commons.wikimedia.org/wiki/File:Travail_du_chanvre.JPG
+We have enqueued 0x6000031ba2e0
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Deutschland
-We have enqueued 0x60000233dd40
+We have enqueued 0x6000031b60a0
 
-successfully downloaded and added: https://meta.wikimedia.org/wiki/Special:MyLanguage/Answers
-We have enqueued 0x600002304a80
+successfully downloaded and added: https://www.wikidata.org/wiki/Q565
+We have enqueued 0x6000031b62e0
 
-Thread 6 Task 0x70000de7fef0 finished
-Hello from thread 6 was assigned task at 0x70000de7fef0
-Working task on node 0x600002321080
-Count: 441
-successfully downloaded and added: https://www.wikidata.org/wiki/Q701061
-We have enqueued 0x600002308360
-
-Thread 2 Task 0x70000dc73ef0 finished
-Hello from thread 2 was assigned task at 0x70000dc73ef0
-Working task on node 0x60000232c0c0
-Count: 442
-successfully downloaded and added: https://www.wikidata.org/wiki/Q18328071
-We have enqueued 0x60000232ea00
+successfully downloaded and added: https://de.wikibooks.org/wiki/Hilfe:Willkommen
+We have enqueued 0x6000031b5ec0
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Estland
-We have enqueued 0x60000232dce0
+We have enqueued 0x6000031be100
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Property:P569
-We have enqueued 0x6000023082a0
+successfully downloaded and added: https://es.wikipedia.org/wiki/Jayme_Matarazzo
+We have enqueued 0x60000319cf00
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P17
+We have enqueued 0x6000031bdce0
+
+successfully downloaded and added: https://de.wikinews.org/wiki/Wikinews:Willkommen
+We have enqueued 0x6000031b0f60
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:F%C3%A4r%C3%B6er
-We have enqueued 0x60000232f300
+We have enqueued 0x6000031b0a20
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Property:P19
-We have enqueued 0x60000232f2a0
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Especial:Cambios_recentes
+We have enqueued 0x6000031b9f80
+
+successfully downloaded and added: https://es.wikipedia.org/wiki/Ayuda:Contenidos
+We have enqueued 0x6000031be040
+
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%96%E1%9E%B7%E1%9E%9F%E1%9F%81%E1%9E%9F:%E1%9E%80%E1%9E%B6%E1%9E%9A%E1%9E%9A%E1%9E%BD%E1%9E%98%E1%9E%85%E1%9F%86%E1%9E%8E%E1%9F%82%E1%9E%80%E1%9E%9A%E1%9E%94%E1%9E%9F%E1%9F%8B%E1%9E%81%E1%9F%92%E1%9E%89%E1%9E%BB%E1%9F%86
+We have enqueued 0x6000031bde00
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q142
+We have enqueued 0x6000031b6220
+
+successfully downloaded and added: https://de.wikiquote.org/wiki/Wikiquote:Willkommen
+We have enqueued 0x6000031b6160
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Finnland
-We have enqueued 0x6000023355c0
+We have enqueued 0x6000031a5b00
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Hriso%C3%BAla_Anagnostopo%C3%BAlou
-We have enqueued 0x60000233d9e0
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Wikipedia:Artigos_de_calidade
+We have enqueued 0x6000031a5c80
 
-successfully downloaded and added: https://lad.wikipedia.org/wiki/Especial:Mis%C3%80justamientos
-We have enqueued 0x600002335740
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P131
+We have enqueued 0x6000031b6040
+
+successfully downloaded and added: https://de.wikiversity.org/wiki/Wikiversity:Willkommen
+We have enqueued 0x6000031b6400
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Frankreich
-We have enqueued 0x600002302460
+We have enqueued 0x6000031b0ba0
 
-successfully downloaded and added: https://wikimediafoundation.org/participate/
-We have enqueued 0x6000023383c0
+successfully downloaded and added: https://de.wikivoyage.org/wiki/Wikivoyage:Herzlich_willkommen
+We have enqueued 0x6000031b0900
 
+Finishing task on node 0x6000031ba760
+Thread 4
+Hello from thread 4
+Working task on node 0x6000031a83c0
+Count: 385
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Griechenland
-We have enqueued 0x60000232ea60
+We have enqueued 0x60000319ca20
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Kuurne-Bruxelles-Kuurne_1980
-We have enqueued 0x600002335680
+successfully downloaded and added: https://km.wikipedia.org/wiki/%E1%9E%96%E1%9E%B7%E1%9E%9F%E1%9F%81%E1%9E%9F:%E1%9E%80%E1%9E%B6%E1%9E%9A%E1%9E%96%E1%9E%B7%E1%9E%97%E1%9E%B6%E1%9E%80%E1%9F%92%E1%9E%9F%E1%9E%B6%E1%9E%9A%E1%9E%94%E1%9E%9F%E1%9F%8B%E1%9E%81%E1%9F%92%E1%9E%89%E1%9E%BB%E1%9F%86
+We have enqueued 0x6000031b0d20
 
-successfully downloaded and added: https://fr.wikipedia.org/wiki/Begonia_schlumbergeriana
-We have enqueued 0x600002335800
-
+Finishing task on node 0x600003198780
+Thread 5
+Hello from thread 5
+Working task on node 0x6000031a80c0
+Count: 387
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Irland
-We have enqueued 0x60000233df20
+We have enqueued 0x60000319cf60
+
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Serlio
+We have enqueued 0x60000319ce40
+
+successfully downloaded and added: https://ext.wikipedia.org/wiki/Especial:Buscar
+We have enqueued 0x6000031be220
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Vikipedya:Venidos_buenos/2
+We have enqueued 0x6000031be0a0
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Island
-We have enqueued 0x600002322460
+We have enqueued 0x6000031bdfe0
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Q181725
-We have enqueued 0x600002334e40
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Wikipedia:Axuda
+We have enqueued 0x6000031a58c0
 
-successfully downloaded and added: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Bylaws
-We have enqueued 0x6000023357a0
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Vikipedya:Venidos_buenos/3
+We have enqueued 0x6000031be1c0
+
+successfully downloaded and added: https://es.wikipedia.org/wiki/Wikipedia:Informes_de_error
+We have enqueued 0x6000031be160
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Italien
-We have enqueued 0x60000232f240
+We have enqueued 0x6000031b0e40
 
-successfully downloaded and added: https://wikimediafoundation.org/about/values/
-We have enqueued 0x600002322520
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Vikipedya
+We have enqueued 0x6000031988a0
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Property:P1412
-We have enqueued 0x6000023224c0
+successfully downloaded and added: https://www.wikidata.org/wiki/Q833791
+We have enqueued 0x6000031a5d40
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kosovo
-We have enqueued 0x600002335620
+We have enqueued 0x6000031b6580
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Q150
-We have enqueued 0x600002335980
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Lorenzo_Zepeda
+We have enqueued 0x6000031b9aa0
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Djudeo-espanyol
+We have enqueued 0x6000031be340
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P625
+We have enqueued 0x6000031a5e00
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kroatien
-We have enqueued 0x600002335860
+We have enqueued 0x6000031b64c0
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Property:P106
-We have enqueued 0x600002302400
+successfully downloaded and added: https://chy.wikipedia.org/wiki/Special:MyContributions
+We have enqueued 0x6000031be3a0
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Lettland
-We have enqueued 0x600002322580
+We have enqueued 0x6000031a5860
 
-successfully downloaded and added: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policies
-We have enqueued 0x6000023025e0
+successfully downloaded and added: https://es.wikipedia.org/wiki/Especial:Buscar
+We have enqueued 0x600003190180
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Liechtenstein
-We have enqueued 0x600002304ea0
+We have enqueued 0x6000031b1320
 
+successfully downloaded and added: https://lad.wikipedia.org/wiki/La_Primera_Hoja
+We have enqueued 0x6000031b11a0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Special:Map/13/47.6169/5.51428/en
+We have enqueued 0x6000031a5da0
+
+Finishing task on node 0x6000031a4ae0
+Thread 6
+Hello from thread 6
+Working task on node 0x6000031b9fe0
+Count: 409
+successfully downloaded and added: https://chy.wikipedia.org/wiki/Special:MyTalk
+We have enqueued 0x6000031a5f80
+
+Finishing task on node 0x6000031b0180
+Thread 1
+Hello from thread 1
+Working task on node 0x6000031a88a0
+Count: 410
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Litauen
-We have enqueued 0x600002335b00
-
-successfully downloaded and added: https://lad.wikipedia.org/wiki/Vikipedya:Portal_de_la_komunit%C3%A1
-We have enqueued 0x600002302700
+We have enqueued 0x6000031b16e0
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Luxemburg
-We have enqueued 0x600002304de0
+We have enqueued 0x60000319d200
 
-successfully downloaded and added: https://lad.wikipedia.org/wiki/Vikipedya:Novedades
-We have enqueued 0x600002302940
-
-successfully downloaded and added: https://www.wikidata.org/wiki/Q3270578
-We have enqueued 0x60000232f3c0
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Especial:Procurar
+We have enqueued 0x600003190000
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Malta
-We have enqueued 0x600002308600
+We have enqueued 0x6000031b63a0
 
-successfully downloaded and added: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Resolutions
-We have enqueued 0x600002322640
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Histoire_de_la_Tch%C3%A9quie
+We have enqueued 0x6000031b1860
 
-successfully downloaded and added: https://www.wikidata.org/wiki/Q14089670
-We have enqueued 0x6000023222e0
-
-Thread 3 Task 0x70000dcf6ef0 finished
-Hello from thread 3 was assigned task at 0x70000dcf6ef0
-Working task on node 0x6000023006c0
-Count: 477
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Republik_Moldau
-We have enqueued 0x600002322a60
+We have enqueued 0x6000031b6640
 
-successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/af
-We have enqueued 0x600002308840
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Especial:TrocamientosFreskos
+We have enqueued 0x6000031b1620
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Special:SetLabelDescriptionAliases/Q389000/en
+We have enqueued 0x6000031ba520
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Monaco
-We have enqueued 0x600002308780
-
-successfully downloaded and added: https://lad.wikipedia.org/wiki/Harghita
-We have enqueued 0x600002308900
-
-successfully downloaded and added: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Meetings
-We have enqueued 0x600002308960
-
-successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/ca
-We have enqueued 0x60000233e040
+We have enqueued 0x6000031ba400
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Montenegro
-We have enqueued 0x6000023085a0
+We have enqueued 0x6000031b6820
 
-successfully downloaded and added: https://lad.wikipedia.org/wiki/Ayudo:Cont%C3%A8nidos
-We have enqueued 0x6000023358c0
-
-successfully downloaded and added: https://de.wikipedia.org/wiki/Henry_Montgomery_Lawrence
-We have enqueued 0x60000232e8e0
-
-successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/cs
-We have enqueued 0x600002335920
+successfully downloaded and added: https://www.wikidata.org/wiki/Q5
+We have enqueued 0x6000031a5a40
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Niederlande
-We have enqueued 0x6000023229a0
+We have enqueued 0x6000031ba0a0
 
-successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/da
-We have enqueued 0x60000232f4e0
+successfully downloaded and added: https://www.wikidata.org/wiki/Q206855
+We have enqueued 0x6000031b17a0
 
-successfully downloaded and added: https://en.wikipedia.org/wiki/Henry_Montgomery_Lawrence
-We have enqueued 0x600002322700
+successfully downloaded and added: https://ext.wikipedia.org/wiki/Especial:MisContribuciones
+We have enqueued 0x6000031b19e0
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Ansiklopedia
+We have enqueued 0x6000031a0000
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Nordmazedonien
-We have enqueued 0x600002335500
+We have enqueued 0x60000319d3e0
 
-successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/de
-We have enqueued 0x600002304fc0
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P248
+We have enqueued 0x6000031a5ec0
+
+successfully downloaded and added: https://es.wikipedia.org/wiki/Ayuda:Introducci%C3%B3n
+We have enqueued 0x6000031b69a0
+
+Finishing task on node 0x6000031a83c0
+Thread 4
+Hello from thread 4
+Working task on node 0x6000031ba580
+Count: 428
+successfully downloaded and added: https://www.wikidata.org/wiki/Q19938912
+We have enqueued 0x6000031be2e0
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Norwegen
-We have enqueued 0x600002335a40
+We have enqueued 0x6000031b1b60
 
-successfully downloaded and added: https://it.wikipedia.org/wiki/Henry_Montgomery_Lawrence
-We have enqueued 0x6000023026a0
-
-successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/el
-We have enqueued 0x600002305140
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P813
+We have enqueued 0x6000031a5e60
 
 successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:%C3%96sterreich
-We have enqueued 0x6000023024c0
+We have enqueued 0x6000031b1da0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P854
+We have enqueued 0x6000031b1e60
+
+HTTP NOT S
+data.bnf.fr
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Polen
+We have enqueued 0x6000031b1c20
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Special:SetLabelDescriptionAliases/Q534791/en
+We have enqueued 0x6000031b67c0
+
+Sent HTTP GET request to 194.199.8.147
+successfully downloaded and added: https://ext.wikipedia.org/wiki/Especial:MiDiscusi%C3%B3n
+We have enqueued 0x6000031a5ce0
+
+Finishing task on node 0x600003198240
+Thread 0
+Hello from thread 0
+Working task on node 0x6000031bc5a0
+Count: 436
+HTTP NOT S
+data.bnf.fr
+successfully downloaded and added: https://es.wikipedia.org/wiki/Especial:MisContribuciones
+We have enqueued 0x6000031b1560
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Portugal
+We have enqueued 0x6000031ba340
+
+Sent HTTP GET request to 194.199.8.147
+successfully downloaded and added: https://www.wikidata.org/wiki/Q328
+We have enqueued 0x6000031b6a00
+
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Axuda:Introduci%C3%B3n
+We have enqueued 0x60000319d320
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Rum%C3%A4nien
+We have enqueued 0x6000031b14a0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P21
+We have enqueued 0x6000031b6b80
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:San_Marino
+We have enqueued 0x6000031b1ce0
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Especial:Kat%C4%93ggor%C3%ADas
+We have enqueued 0x6000031a3120
+
+successfully downloaded and added: https://data.bnf.fr/fr/13924122/ciprian_porumbescu/
+We have enqueued 0x6000031be400
+
+successfully downloaded and added: https://es.wikipedia.org/wiki/Especial:MiDiscusi%C3%B3n
+We have enqueued 0x6000031b6880
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q6581097
+We have enqueued 0x6000031be520
+
+Finishing task on node 0x600003198180
+Thread 7
+Hello from thread 7
+Working task on node 0x6000031a44e0
+Count: 447
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Belle_Delphine
+We have enqueued 0x6000031ba040
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Schweden
+We have enqueued 0x6000031a6220
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Kateggor%C3%ADa:Vikipedya
+We have enqueued 0x6000031a6040
+
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Especial:As_mi%C3%B1as_contribuci%C3%B3ns
+We have enqueued 0x6000031ba7c0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P27
+We have enqueued 0x6000031a9680
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Schweiz
+We have enqueued 0x6000031b6a60
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Serbien
+We have enqueued 0x600003190360
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Droit_de_la_communication
+We have enqueued 0x6000031a5f20
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Slowakei
+We have enqueued 0x600003190240
+
+successfully downloaded and added: https://gl.wikipedia.org/wiki/Especial:A_mi%C3%B1a_conversa
+We have enqueued 0x6000031ba5e0
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Especial:MiDiskusy%C3%B3n
+We have enqueued 0x600003190420
+
+successfully downloaded and added: https://commons.wikimedia.org/wiki/File:Ciprian_Porumbescu_-_Foto02.jpg
+We have enqueued 0x600003190300
+
+Finishing task on node 0x6000031a82a0
+Thread 3
+Hello from thread 3
+Working task on node 0x6000031a84e0
+Count: 459
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Slowenien
+We have enqueued 0x600003194000
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q54919
+We have enqueued 0x6000031be700
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Spanien
+We have enqueued 0x600003194120
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P214
+We have enqueued 0x6000031a6280
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Tschechien
+We have enqueued 0x6000031b68e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Ukraine
+We have enqueued 0x6000031a6100
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Especial:Mis%C3%80justamientos
+We have enqueued 0x600003194060
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Ungarn
+We have enqueued 0x6000031b6c40
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Maro_Chermayeff
+We have enqueued 0x6000031b2220
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q241
+We have enqueued 0x6000031b65e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Vatikan
+We have enqueued 0x6000031a61c0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q11920
+We have enqueued 0x60000319d500
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Vereinigtes_K%C3%B6nigreich
+We have enqueued 0x60000319d620
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P735
+We have enqueued 0x6000031be760
+
+successfully downloaded and added: https://viaf.org/viaf/17409809/
+We have enqueued 0x6000031b23a0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Zypern
+We have enqueued 0x60000319d2c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Baden-W%C3%BCrttemberg
+We have enqueued 0x6000031baa60
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q36578
+We have enqueued 0x6000031b1fe0
+
+HTTP NOT S
+data.bnf.fr
+Sent HTTP GET request to 194.199.8.147
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Bayern
+We have enqueued 0x6000031a62e0
+
+HTTP NOT S
+data.bnf.fr
+Sent HTTP GET request to 194.199.8.147
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Berlin
+We have enqueued 0x6000031904e0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q14346236
+We have enqueued 0x6000031a6160
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Brandenburg
+We have enqueued 0x6000031be6a0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P734
+We have enqueued 0x6000031905a0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Bremen
+We have enqueued 0x6000031be580
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Hamburg
+We have enqueued 0x60000319d4a0
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Vikipedya:Portal_de_la_komunit%C3%A1
+We have enqueued 0x6000031b22e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Hessen
+We have enqueued 0x6000031ba700
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Vikipedya:Novedades
+We have enqueued 0x6000031b6be0
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Jorge_Soc%C3%ADas
+We have enqueued 0x600003190540
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Mecklenburg-Vorpommern
+We have enqueued 0x60000319cc60
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Niedersachsen
+We have enqueued 0x6000031a4180
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q28499475
+We have enqueued 0x6000031be460
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Nordrhein-Westfalen
+We have enqueued 0x6000031b26a0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q164892
+We have enqueued 0x6000031b6e80
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Pavo
+We have enqueued 0x6000031b2520
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Rheinland-Pfalz
+We have enqueued 0x60000319db60
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P569
+We have enqueued 0x6000031a6340
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q28513
+We have enqueued 0x6000031b1f20
+
+Finishing task on node 0x6000031b9fe0
+Thread 6
+Hello from thread 6
+Working task on node 0x6000031a45a0
+Count: 497
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Ayudo:Cont%C3%A8nidos
+We have enqueued 0x6000031a63a0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Saarland
+We have enqueued 0x6000031901e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Sachsen
+We have enqueued 0x60000319d5c0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:Nkongzok_II
+We have enqueued 0x60000319d800
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Gustave-Roussy
+We have enqueued 0x6000031be7c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Sachsen-Anhalt
+We have enqueued 0x6000031bac40
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q54960205
+We have enqueued 0x6000031b28e0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Schleswig-Holstein
+We have enqueued 0x6000031be5e0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q2636660
+We have enqueued 0x6000031ba9a0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Th%C3%BCringen
+We have enqueued 0x6000031baac0
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Vikipedya:La_Kavan%C3%A9
+We have enqueued 0x6000031bab80
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Burgenland
+We have enqueued 0x60000319d680
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Diskusy%C3%B3n_de_Vikipedya:Embasada
+We have enqueued 0x600003190660
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:K%C3%A4rnten
+We have enqueued 0x6000031bafa0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:Jorge_Soc%C3%ADas
+We have enqueued 0x6000031b0120
+
+Finishing task on node 0x6000031a44e0
+Thread 7
+Hello from thread 7
+Working task on node 0x6000031ba280
+Count: 512
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Nieder%C3%B6sterreich
+We have enqueued 0x6000031be9a0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Index/Discussion:Mus%C3%A9es_d%C3%A9partementaux_de_la_Haute-Sa%C3%B4ne/
+We have enqueued 0x6000031b2940
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Ober%C3%B6sterreich
+We have enqueued 0x6000031b6ac0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Mod%C3%A8le:Wikiprojet
+We have enqueued 0x6000031a6400
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P1146
+We have enqueued 0x6000031b6d60
+
+SSL error
+Error code: 1
+M
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Salzburg
+We have enqueued 0x6000031b2760
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Especial:LoKeSeAtaKonAk%C3%AD/Vikipedya:Venidos_buenos
+We have enqueued 0x6000031a67c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Steiermark
+We have enqueued 0x6000031a68e0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P1810
+We have enqueued 0x600003190780
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Discussion:Ciprian_Porumbescu
+We have enqueued 0x6000031be820
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Property:P19
+We have enqueued 0x600003190480
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Tirol
+We have enqueued 0x6000031a6a60
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Vorarlberg
+We have enqueued 0x6000031b2b80
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Projet:Mus%C3%A9es
+We have enqueued 0x6000031a3060
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Wien
+We have enqueued 0x6000031a6a00
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Aargau
+We have enqueued 0x60000319d9e0
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/31st_Motorized_Infantry_Division_(People%27s_Republic_of_China)
+We have enqueued 0x6000031b6e20
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Graub%C3%BCnden
+We have enqueued 0x600003190960
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kanton_Schaffhausen
+We have enqueued 0x6000031b6fa0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Solothurn
+We have enqueued 0x6000031b2a60
+
+successfully downloaded and added: https://commons.wikimedia.org/wiki/Special:UploadWizard
+We have enqueued 0x600003190a20
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q986387
+We have enqueued 0x6000031907e0
+
+Finishing task on node 0x6000031ba580
+Thread 4
+Hello from thread 4
+Working task on node 0x6000031b4cc0
+Count: 534
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Projet:Arts
+We have enqueued 0x6000031b7000
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Suivi_des_liens/Discussion:Ciprian_Porumbescu
+We have enqueued 0x6000031bdf80
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Tessin
+We have enqueued 0x600003190060
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Suivi_des_liens/Nkongzok_II
+We have enqueued 0x6000031908a0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Thurgau
+We have enqueued 0x6000031beac0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Waadt
+We have enqueued 0x6000031a6580
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Projet:Haute-Sa%C3%B4ne
+We have enqueued 0x6000031beb80
+
+successfully downloaded and added: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Home
+We have enqueued 0x600003190a80
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Wallis
+We have enqueued 0x600003190ae0
+
+successfully downloaded and added: https://lad.wikipedia.org/wiki/Especial:HojasEspesyales
+We have enqueued 0x6000031a91a0
+
+successfully downloaded and added: https://wikimediafoundation.org/
+We have enqueued 0x6000031909c0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Projet:Accueil
+We have enqueued 0x600003190900
+
+Finishing task on node 0x6000031a88a0
+Thread 1
+Hello from thread 1
+Working task on node 0x6000031b0540
+Count: 546
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kanton_Z%C3%BCrich
+We have enqueued 0x600003190720
+
+successfully downloaded and added: https://wikimediafoundation.org/about/contact/
+We have enqueued 0x6000031bec40
+
+successfully downloaded and added: https://wikimediafoundation.org/news/
+We have enqueued 0x6000031beca0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Datei:Arrasate-mondragon.jpg
+We have enqueued 0x6000031bae80
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:St%C3%A4dteregion_Aachen
+We have enqueued 0x60000319dbc0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Alaska
+We have enqueued 0x6000031b29a0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Alpenrheintal
+We have enqueued 0x6000031a9440
+
+Finishing task on node 0x6000031ba280
+Thread 7
+Hello from thread 7
+Working task on node 0x60000319c0c0
+Count: 553
+Finishing task on node 0x6000031bc5a0
+Thread 0
+Hello from thread 0
+Working task on node 0x6000031a8240
+Count: 553
+successfully downloaded and added: https://en.wikipedia.org/wiki/Francis_Labrosse
+We have enqueued 0x6000031b2b20
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Altmark
+We have enqueued 0x6000031bad60
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Arabische_Welt
+We have enqueued 0x600003190b40
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/af
+We have enqueued 0x600003190ba0
+
+successfully downloaded and added: https://diff.wikimedia.org/
+We have enqueued 0x6000031b7120
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/ca
+We have enqueued 0x600003190c60
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Augsburg/Region
+We have enqueued 0x6000031986c0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Index/Discussion:Ciprian_Porumbescu/
+We have enqueued 0x6000031bb060
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Canoe_Rugby_Club_Madrid
+We have enqueued 0x6000031b2ac0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Basken
+We have enqueued 0x60000319da40
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/cs
+We have enqueued 0x6000031a9560
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Bergisches_Land
+We have enqueued 0x600003190cc0
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/da
+We have enqueued 0x60000319d980
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:Ciprian_Porumbescu/%C3%80_faire
+We have enqueued 0x600003190d80
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Suivi_des_liens/Discussion:Jorge_Fern%C3%A1ndez_(athl%C3%A9tisme)
+We have enqueued 0x6000031b70c0
+
+successfully downloaded and added: https://meta.wikimedia.org/wiki/Special:MyLanguage/Answers
+We have enqueued 0x60000319d920
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Bodensee
+We have enqueued 0x600003194420
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/de
+We have enqueued 0x6000031a2dc0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Projet:Musique_classique
+We have enqueued 0x6000031a60a0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Bonn/Rhein-Sieg
+We have enqueued 0x6000031a2e80
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/el
+We have enqueued 0x6000031942a0
+
+Finishing task on node 0x6000031a80c0
+Thread 5
+Hello from thread 5
+Working task on node 0x6000031bad00
+Count: 574
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Region_Braunschweig
+We have enqueued 0x600003190de0
 
 successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/es
-We have enqueued 0x6000023051a0
+We have enqueued 0x6000031beb20
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Britische_%C3%9Cberseegebiete_und_Kronbesitzungen
+We have enqueued 0x6000031a65e0
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/fr
+We have enqueued 0x600003190f00
+
+successfully downloaded and added: https://wikimediafoundation.org/participate/
+We have enqueued 0x60000319dd40
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Landkreis_Diepholz
+We have enqueued 0x6000031bee80
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/he
+We have enqueued 0x6000031baf40
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Dobrudscha
+We have enqueued 0x6000031987e0
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/hu
+We have enqueued 0x6000031bee20
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Dresden/Region
+We have enqueued 0x6000031b6f40
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/it
+We have enqueued 0x600003190d20
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/20e_%C3%A9tape_du_Tour_de_France_1994
+We have enqueued 0x6000031a8c60
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Kreis_D%C3%BCren
+We have enqueued 0x6000031ac1e0
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/ja
+We have enqueued 0x600003198000
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/lv
+We have enqueued 0x600003190840
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Eifel
+We have enqueued 0x6000031be940
+
+successfully downloaded and added: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Bylaws
+We have enqueued 0x6000031a6760
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Projet:Roumanie
+We have enqueued 0x6000031a66a0
+
+successfully downloaded and added: https://wikimediafoundation.org/about/values/
+We have enqueued 0x6000031beee0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Elbe-Elster
+We have enqueued 0x600003194360
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/nb
+We have enqueued 0x6000031943c0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Elbe-Weser-Dreieck
+We have enqueued 0x6000031b7300
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/nl
+We have enqueued 0x6000031bef40
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Index/Discussion:Jorge_Fern%C3%A1ndez_(athl%C3%A9tisme)/
+We have enqueued 0x600003198900
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Elbsandsteingebirge
+We have enqueued 0x60000319dc20
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/pl
+We have enqueued 0x600003198960
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Fichier:Fairytale_bookmark_half_gold_silverlight.png
+We have enqueued 0x600003194720
+
+Finishing task on node 0x6000031a84e0
+Thread 3
+Hello from thread 3
+Working task on node 0x6000031a85a0
+Count: 601
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Emsland
+We have enqueued 0x600003190ea0
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/pt
+We have enqueued 0x6000031a6c40
+
+successfully downloaded and added: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policies
+We have enqueued 0x6000031911a0
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Bed%C5%99ich_Smetana_Museum
+We have enqueued 0x600003191260
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Erzgebirge
+We have enqueued 0x6000031a6b20
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/pt-br
+We have enqueued 0x600003198a80
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Franken
+We have enqueued 0x600003191140
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Frankfurt_Rhein-Main
+We have enqueued 0x6000031bb180
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Projet:Sport
+We have enqueued 0x6000031982a0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Gr%C3%B6nland
+We have enqueued 0x600003191440
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/ro
+We have enqueued 0x6000031ac060
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Harz
+Finishing task on node 0x6000031a85a0
+Thread 3
+Hello from thread 3
+Working task on node 0x6000031a0180
+Count: 613
+We have enqueued 0x6000031b9860
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/Talk:Choctawhatchee_River
+We have enqueued 0x6000031906c0
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/ru
+Finishing task on node We have enqueued 0x6000031b0540
+0x6000031a6ac0
+
+Thread 1
+Hello from thread 1
+Working task on node 0x6000031b9c20
+Count: 615
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Heilbronn
+We have enqueued 0x6000031b6d00
+
+successfully downloaded and added: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Resolutions
+We have enqueued 0x600003191320
+
+successfully downloaded and added: https://da.wikipedia.org/wiki/Forside
+We have enqueued 0x6000031bf120
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Projet:Athl%C3%A9tisme
+We have enqueued successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Hausruckviertel
+We have enqueued 0x600003198a20
+
+0x60000319e460
+
+successfully downloaded and added: https://da.wikipedia.org/wiki/Wikipedia:Kategorier
+We have enqueued 0x6000031bf060
+
+successfully downloaded and added: https://en.wikipedia.org/wiki/The_Madness_(The_Madness_album)
+We have enqueued 0x600003198840
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Hunsr%C3%BCck
+We have enqueued 0x6000031a6ca0
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/sk
+We have enqueued 0x6000031bf180
+
+successfully downloaded and added: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Meetings
+We have enqueued 0x6000031bb1e0
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Q813969
+We have enqueued 0x6000031b7240
+
+successfully downloaded and added: https://da.wikipedia.org/wiki/Wikipedia:Fremh%C3%A6vet_indhold
+We have enqueued 0x60000319de00
+
+successfully downloaded and added: https://www.wikidata.org/wiki/Special:SetLabelDescriptionAliases/Q4272077/en
+We have enqueued 0x6000031b72a0
+
+successfully downloaded and added: https://de.wikipedia.org/wiki/Portal:Ilm-Kreis
+We have enqueued 0x6000031bebe0
+
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Projet:Cara%C3%AFbe
+We have enqueued 0x6000031914a0
+
+successfully downloaded and added: https://donate.wikimedia.org/wiki/Ways_to_Give/sv
+We have enqueued 0x6000031a69a0
+
+Finishing task on node 0x6000031a45a0
+Thread 6
+Hello from thread 6
+Working task on node 0x6000031b4c00
+Count: 631
+successfully downloaded and added: https://fr.wikipedia.org/wiki/Discussion:Mus%C3%A9e_Bed%C5%99ich-Smetana
+We have enqueued 0x600003194540
 

@@ -46,10 +46,10 @@ inline ThreadPool::ThreadPool(int numThreads, int maxQueueSize) : stop(false), m
                         tasks.pop();
                         //condition.notify_all();
                     }
-                    std::cout << "Hello from thread " << i <<  " was assigned task at " << &task << std::endl; 
+                    std::cout << "Hello from thread " << i << std::endl; //  " was assigned task at " << &task << std::endl; 
                     //std::cout << "Before tasking " << tasks.size() << std::endl; 
                     task();
-                    std::cout << "Thread " << i << " Task "<< &task << " finished" << std::endl; 
+                    std::cout << "Thread " << i << std::endl;  //" Task "<< &task << " finished" << std::endl; 
                 }
             }
         );
