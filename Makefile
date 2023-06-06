@@ -1,7 +1,7 @@
-OPENSSL_DIR = /usr/local/opt/openssl/
+OPENSSL_DIR = /opt/homebrew/opt/openssl@3
 
 CXX = g++
-CFLAGS = -pthread -std=c++11 -Wall -I$(OPENSSL_DIR)/include -lssl -lprofiler
+CFLAGS = -pthread -std=c++11 -Wall -I$(OPENSSL_DIR)/include -lssl 
 LDFLAGS =
 
 SOURCES = main.cpp 

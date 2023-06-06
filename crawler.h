@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <string>
+#include <atomic>
 #include "HashTable.cpp"
 #include "Website.h"
 #include "thread_pool.h"
@@ -17,21 +18,24 @@
 
 
 class Crawler{
+    std::atomic<int> count;
+
     public:
 
     //std::vector<std::thread> workers; //STE TO MAX
     ThreadPool* threadPool;
 
-    int count;
     int MAX;
     std::string initial_link;
     std::string starting_link; 
     URL_info initial_link_info; 
     StripedHashSet<Website> hashtable;
 
-    Crawler(){};
+    Crawler(){
+        this->count; 
+    };
 
-    Crawler(std::string& first_link, int max_depth, int numthreads, int maxsize){
+    void init(std::string& first_link, int max_depth, int numthreads, int maxsize){
         
         this->count = 0;
         this->starting_link = first_link; 
@@ -66,7 +70,7 @@ class Crawler{
         }
         */
         //set counter to 1;
-        count++;
+        count.fetch_add(1); 
         this->initial_link = first_link; 
     }
 
@@ -99,17 +103,30 @@ class Crawler{
                 continue; 
             }
 
+            if (new_link.find("wikipedia") != std::string::npos){
+                if( !(new_link.find("fr") != std::string::npos || new_link.find("en") != std::string::npos)){
+                    continue; 
+                }
+            }
+
             //std::cout << "==============================" << std::endl << "IMPORTANT LOG: found new link to crawl:  " << new_link  << std::endl << "==============================" << std::endl;
             if(new_link.front() == '/'){
 
-                URL_info parent_info; 
-                std::string parent_url_string = curr->value->get_url(); 
-                char* parent_url = convert_string(parent_url_string); 
-                parse_url(parent_url, &parent_info); 
+                if(new_link.find("//") != std::string::npos){
+                    new_link = "https:" + new_link; 
+                }
+                else{
 
-                new_link =  std::string(parent_info.protocol) + "://" + std::string(parent_info.host) + new_link; 
-                //std::cout << "Changed linked to " << new_link << std::endl; 
+                    URL_info parent_info; 
+                    std::string parent_url_string = curr->value->get_url(); 
+                    char* parent_url = convert_string(parent_url_string); 
+                    parse_url(parent_url, &parent_info); 
+
+                    new_link =  std::string(parent_info.protocol) + "://" + std::string(parent_info.host) + new_link; 
+                    //std::cout << "Changed linked to " << new_link << std::endl; 
+                }
             }
+
 
             //Check that link is not already in the table
             if(hashtable.contains(new_link)){

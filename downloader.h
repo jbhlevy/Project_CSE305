@@ -362,6 +362,7 @@ int download_webpage(std::string& string_url, HTTP_reply *reply, bool verbose=fa
     }
 
     if(return_code != 0){
+        std::cout << "M" << std::endl; 
         //c la merde
         return 2; 
     }

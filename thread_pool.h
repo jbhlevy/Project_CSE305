@@ -29,7 +29,7 @@ private:
 inline ThreadPool::ThreadPool(int numThreads, int maxQueueSize) : stop(false), maxQueueSize(maxQueueSize) {
     for (int i = 0; i < numThreads; ++i) {
         threads.emplace_back(
-            [this]() {
+            [this, i]() {
                 while (true) {
                     std::function<void()> task;
                     {
@@ -41,7 +41,9 @@ inline ThreadPool::ThreadPool(int numThreads, int maxQueueSize) : stop(false), m
                         tasks.pop();
                         //condition.notify_all();
                     }
+                    std::cout << "Hello from thread " << i << std::endl; 
                     task();
+                    std::cout << "Task finished" << std::endl; 
                 }
             }
         );
@@ -66,7 +68,7 @@ void ThreadPool::enqueue(F&& f, Args&&... args) {
         tasks.emplace([f, args...]() { f(args...); });
     }
     condition.notify_one();
-    std::cout << tasks.size() << std::endl;
+    std::cout << "t size " << tasks.size() << std::endl;
 }
 
 inline ThreadPool::~ThreadPool() {
