@@ -24,7 +24,7 @@ class Crawler{
 
     //std::vector<std::thread> workers; //STE TO MAX
     ThreadPool* threadPool;
-    std::mutex mutex;
+    //std::mutex mutex;
 
     int MAX;
     std::string initial_link;
@@ -52,7 +52,7 @@ class Crawler{
         downloader::HTTP_reply first_html; 
         int return_code;
         return_code = download_webpage(first_link, &first_html, false);
-        char* actual_html = parse_reply(&first_html);
+        char* actual_html = first_html.reply_buffer;
 
         if(return_code != 0)
             std::cerr << "Could not download: " << first_link << " most likely cause: " << parse_url_errstr[return_code] << std::endl; 
@@ -77,14 +77,12 @@ class Crawler{
     
 
     void crawl_this_website(Node<Website>* curr) {
-        mutex.lock();
 
-        std::cout << "Working task on node " << curr << std::endl; 
+        //std::cout << "Working task on node " << curr << std::endl; 
         std::cout << "Count: " << count << std::endl; 
         
         //std::cout<< "hello crawl this website " << curr->value->url << std::endl; 
         if(count >=MAX){
-            mutex.unlock();
             //std::cout << "Reached Max, stopping" << std::endl; 
             return ; 
         }   
@@ -104,7 +102,6 @@ class Crawler{
             std::string new_link = fetchFirstLink(html);
             if (new_link == ""){ //there is no more link in this website
                 //std::cout << "Link is empty meaning, we break" << std::endl;
-                mutex.unlock();
                 break;
             }
             if(new_link == "bad"){
@@ -129,7 +126,8 @@ class Crawler{
 
                     URL_info parent_info; 
                     std::string parent_url_string = curr->value->get_url(); 
-                    char* parent_url = convert_string(parent_url_string); 
+                    //char* parent_url = convert_string(parent_url_string); 
+                    char* parent_url = convert_string(parent_url_string);
                     parse_url(parent_url, &parent_info); 
 
                     new_link =  std::string(parent_info.protocol) + "://" + std::string(parent_info.host) + new_link; 
@@ -174,12 +172,12 @@ class Crawler{
             
             if (res == 0){ //this shoudl be the case, we only want to parse links which return correct thing, implement https allowance
                 //create website object next link    //DO PARENT
-                Website* new_Website = new Website(new_link, std::string(downloader::parse_reply(&new_html)));
+                Website* new_Website = new Website(new_link, std::string(new_html.reply_buffer));
 
                 //put in hash table 
                 Node<Website>* website_node = new Node<Website>(new_Website, curr); //curr is the parent, new_website is our new website,the depth will be one more
                 hashtable.add(website_node); //is depth a thing
-                std::cout << "successfully downloaded and added: "<< new_link << std::endl;
+                //std::cout << "successfully downloaded and added: "<< new_link << std::endl;
                 //std::cout << "Now about to recurse and crawl the website at node (Pointer) " << website_node <<  std::endl << "=======" << std::endl; 
                 //std::cout << "COUNTER:"<< count<< std::endl;
                 count.fetch_add(1); ;
@@ -189,11 +187,11 @@ class Crawler{
                 //crawl_this_website(website_node); //this should spawn new thread
 
                 //pararell
-                mutex.unlock();
+
                 threadPool->enqueue(([this, website_node]() {
                     crawl_this_website(website_node);
                     }));
-                std::cout << "We have enqueued " << website_node << "\n"<<std::endl; 
+                //std::cout << "We have enqueued " << website_node << "\n"<<std::endl; 
                     
                 //crawl next link
             }/*
@@ -207,11 +205,11 @@ class Crawler{
         }
         std::cout << "Finishing task on node " << curr << std::endl; 
         //std::cout << "Exited extraction loop for website at node (Pointer) " << curr << std::endl; 
-        mutex.unlock();
+        //mutex.unlock();
         return ;
     }
 
-    int crawl(){
+    void crawl(){
         
 
         std::cout << "Started main crawling function" << std::endl; 
@@ -222,18 +220,18 @@ class Crawler{
         std::cout << "current hashtable first (Pointer) " << current << std::endl;
 
         int hash_first_link = std::hash<std::string>{}(initial_link); 
+        
         std::cout << "Hash of first link in crawl function: " << hash_first_link << std::endl; 
-
         std::cout<< "we launch crawl" <<std::endl;
         
 
         //parallel
         crawl_this_website(current);
-        /*
-         threadPool->enqueue(([this, current]() {
+        
+        /*threadPool->enqueue(([this, current]() {
                      crawl_this_website(current);
-                     }));
-        */
+                     }));*/
+        
         threadPool->stopAndJoin() ;
         
 
@@ -245,9 +243,7 @@ class Crawler{
 
         //std::cout << current->value.html << std::endl;
 
-        //std::cout << "count: " << count << std::endl;
-
-        return 0;
+        std::cout << "count: " << count << std::endl;
     }
 
 };

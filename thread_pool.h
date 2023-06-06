@@ -9,7 +9,6 @@
 #include <iostream>
 #include <future>
 
-int MAX_TASKS = 2; 
 
 class ThreadPool {
 public:
@@ -36,6 +35,7 @@ inline ThreadPool::ThreadPool(int numThreads, int maxQueueSize) : stop(false), m
         threads.emplace_back(
             [this, i]() {
                 while (true) {
+                    //std::cout << "Hello from thread " << i << std::endl; //  " was assigned task at " << &task << std::endl; 
                     std::function<void()> task;
                     {
                         std::unique_lock<std::mutex> lock(queueMutex);
@@ -46,10 +46,10 @@ inline ThreadPool::ThreadPool(int numThreads, int maxQueueSize) : stop(false), m
                         tasks.pop();
                         //condition.notify_all();
                     }
-                    std::cout << "Hello from thread " << i << std::endl; //  " was assigned task at " << &task << std::endl; 
+                    
                     //std::cout << "Before tasking " << tasks.size() << std::endl; 
                     task();
-                    std::cout << "Thread " << i << std::endl;  //" Task "<< &task << " finished" << std::endl; 
+                    //std::cout << "Thread " << i << " finished" << std::endl; 
                 }
             }
         );
@@ -75,7 +75,7 @@ void ThreadPool::enqueue(F&& f, Args&&... args) {
         tasks.emplace([f, args...]() { f(args...); });
     }
     condition.notify_all();
-    //std::cout << "t size " << tasks.size() << std::endl;
+    std::cout << "t size new:" << tasks.size() << std::endl;
 }
 
 inline ThreadPool::~ThreadPool() {

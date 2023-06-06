@@ -167,6 +167,7 @@ namespace test
         auto start = std::chrono::high_resolution_clock::now();
         //std::string first_link = "http://www.google.com/"; //the html here doesnt match 
         std::string first_link = "https://fr.wikipedia.org/"; //good to test first step
+        //std::string first_link = "https://everything.curl.dev/libcurl/callbacks/write";
         //std::string first_link =  "https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Mes_discussions";
         //std::string first_link = "http://iamjmm.ovh/NSI/http/site/http.html";
         //std::string first_link = "https://hackingcpp.com/"; //gives invalid port
