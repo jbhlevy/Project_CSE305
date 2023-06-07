@@ -1,5 +1,11 @@
 Hello World !
-Running parallel program with 8 threads
+==========================================================
+Testing on maxisze = 200
+==========================================================
+==========================================================
+Running tests on different numnber of threads (1, 4, 8, 16)
+==========================================================
+Running parallel program with 0 threads
 ====================================
 IMPORTANT LOG: Finished Crawler init
 ====================================
