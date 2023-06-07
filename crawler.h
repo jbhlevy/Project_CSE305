@@ -138,8 +138,10 @@ class Crawler{
                         }));
                 }
                 else{
-                    
-                    std::cout << "THREADS SHOULD DIE!!" << std::endl; 
+                    if(threadPool->is_empty())
+                        return; 
+                    std::cout << "THREADS WILL DIE!!" << std::endl; 
+                    threadPool->killall(); 
                 }
                     
                 //crawl next link

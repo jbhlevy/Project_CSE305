@@ -18,6 +18,8 @@ public:
     template <class F, class... Args>
     void enqueue(F&& f, Args&&... args);
     void stopAndJoin();
+    void killall(); 
+    bool is_empty(); 
 
 private:
     std::vector<std::thread> threads;
@@ -25,6 +27,7 @@ private:
     std::mutex queueMutex;
     std::condition_variable condition;
     bool stop;
+
 };
 
 inline ThreadPool::ThreadPool(int numThreads) : stop(false) {
@@ -48,6 +51,22 @@ inline ThreadPool::ThreadPool(int numThreads) : stop(false) {
         );
     }
 }
+
+inline void ThreadPool::killall(){
+    std::unique_lock<std::mutex> lock(queueMutex);
+    if(!tasks.empty()){
+        std::queue<std::function<void()>> empty; 
+        std::swap(tasks, empty); 
+        std::cout << "Flushed the queue" << std::endl; 
+    }
+
+}
+
+inline bool ThreadPool::is_empty(){
+    std::unique_lock<std::mutex> lock(queueMutex);
+    return tasks.empty(); 
+}
+
 
 inline void ThreadPool::stopAndJoin() {
     {
