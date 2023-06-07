@@ -138,8 +138,8 @@ class Crawler{
                         }));
                 }
                 else{
-                    if(threadPool->is_empty())
-                        return; 
+                    // if(threadPool->is_empty())
+                    //     return; 
                     std::cout << "THREADS WILL DIE!!" << std::endl; 
                     threadPool->killall(); 
                 }
@@ -153,8 +153,6 @@ class Crawler{
     }
 
     void crawl(){
-        
-
         std::cout << "Started main crawling function..." << std::endl; 
         Node<Website>* current = hashtable.get(initial_link);
         //std::cout << "current hashtable first (Pointer) " << current << std::endl;

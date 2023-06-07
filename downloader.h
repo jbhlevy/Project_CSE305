@@ -42,6 +42,7 @@ int download_webpage(std::string& url, HTTP_reply *reply, bool verbose=false){
 
         // Set the write callback function
         std::string response;
+        curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT,  2); 
         curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 5);
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
         curl_easy_setopt(curl, CURLOPT_WRITEDATA, &response);

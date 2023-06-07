@@ -54,6 +54,7 @@ inline ThreadPool::ThreadPool(int numThreads) : stop(false) {
 
 inline void ThreadPool::killall(){
     std::unique_lock<std::mutex> lock(queueMutex);
+    stop = true;
     if(!tasks.empty()){
         std::queue<std::function<void()>> empty; 
         std::swap(tasks, empty); 
