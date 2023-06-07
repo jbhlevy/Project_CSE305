@@ -4,7 +4,7 @@
 #include "test.h"
 
 int main(int argc, const char * argv[]){
-    freopen("output.txt","w",stdout);
+    //freopen("output.txt","w",stdout);
     std::cout << "Hello World !" << std::endl; 
 
     //test::test_url_parsing(); 

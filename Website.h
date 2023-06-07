@@ -5,10 +5,9 @@
 class Website{
     public:
         std::string url;
-        std::string html; //DOES THIS TAKE SHIT TON OF MEMORY
+        std::string html;
 
         Website(std::string url, std::string html){
-            //std::cout << "CREATING WEBSITE " << url << std::endl; 
             this->url = url;
             this->html = html;
         }
@@ -32,7 +31,7 @@ class Website{
         }
 
         bool operator==(const Website &a){
-            return ((url == a.url));// && (html == a.html));
+            return ((url == a.url));
 	        }
 
         int hash(){
@@ -40,11 +39,11 @@ class Website{
         }
 
         void print(){
-            std::cout << url;// << std::endl;
+            std::cout << url;
         }
 
         std::string toString(){
-            return url;// << std::endl;
+            return url;
         }
 };
 

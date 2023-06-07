@@ -9,14 +9,12 @@
 
 #include "thread_pool.h"
 
-#include "integer.h"
+#include "Integer.h"
 
 #include <fstream>
 #include<sstream>
 
 #include <set>
-
-//#define MAX_THREADS =100
 
 class TestHashtable{
     public:
@@ -27,14 +25,14 @@ class TestHashtable{
 
         TestHashtable(int depth){
             this-> hashtable = StripedHashSet<Integer>(10);
-            this-> threadPool = new ThreadPool(100, 200);
+            this-> threadPool = new ThreadPool(100);
             this->counter = 0;
 
         }
 
         void hash_this_int(){
         int c = 0;
-        //i = 1;
+
         std::cout << "current counter =" << counter << std::endl;
         if (counter < 200){ 
             while (c <= 10){
@@ -136,32 +134,6 @@ namespace test
         std::cout << "ENDED TEST SUCESSFULLY" << std::endl << "==============================" << std::endl; 
     }
 
-    void test_extracting(){
-        std::ifstream myfile; 
-        myfile.open("some_website.txt"); 
-        std::string mystring; 
-        if(myfile.is_open()){
-            std::ostringstream ss;
-            ss << myfile.rdbuf(); 
-            mystring = ss.str(); 
-        }
-        std::cout << " =============== " << std::endl << "Now running extractor function" << std::endl; 
-        std::cout << "Input string is" << mystring << std::endl; 
-        std::cout << " =============== " << std::endl; 
-
-        
-
-        std::vector<std::string> links; 
-
-        links = extract_links(mystring, 10); 
-
-        std::cout << "Finished extracting..." << std::endl; 
-        int i = 0;
-        for (auto it = links.begin(); it != links.end(); it++){
-            std::cout << i << " " << *it << std::endl; 
-            i += 1;
-        }
-    }
 
     void test_crawler(){
         auto start = std::chrono::high_resolution_clock::now();
@@ -175,12 +147,14 @@ namespace test
         //std::string first_link = "https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents"; 
         //Crawler my_crawler(first_link, 10);
 
-        int maxsize = 2000;
+        int maxsize = 200;
         int depth_hashtable = 40;
         int num_threads = 8;
         Crawler my_crawler;
         my_crawler.init(first_link, depth_hashtable, num_threads, maxsize); 
-        std::cout << "=======================" << std::endl << "IMPORTANT LOG: Finished Crawler init" << std::endl << "=================" << std::endl; 
+        std::cout << "====================================" <<
+        std::endl << "IMPORTANT LOG: Finished Crawler init" << 
+        std::endl << "====================================" << std::endl; 
 
         //my_crawler.hashtable.printHashtable();
 
@@ -190,7 +164,9 @@ namespace test
 
         my_crawler.crawl();
         //my_crawler.crawl_this_website();
-        std::cout << "=======================" << std::endl << "IMPORTANT LOG: Finished Crawling" << std::endl << "=================" << std::endl; 
+        std::cout << "================================" << 
+        std::endl << "IMPORTANT LOG: Finished Crawling" << 
+        std::endl << "================================" << std::endl; 
 
 
         my_crawler.hashtable.printHashtable();

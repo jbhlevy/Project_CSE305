@@ -12,7 +12,7 @@
 
 class ThreadPool {
 public:
-    ThreadPool(int numThreads, int maxQueueSize);
+    ThreadPool(int numThreads);
     ~ThreadPool();
 
     template <class F, class... Args>
@@ -25,17 +25,14 @@ private:
     std::mutex queueMutex;
     std::condition_variable condition;
     bool stop;
-    int maxQueueSize;
 };
 
-inline ThreadPool::ThreadPool(int numThreads, int maxQueueSize) : stop(false), maxQueueSize(maxQueueSize) {
-    std::cout << numThreads << std::endl; 
+inline ThreadPool::ThreadPool(int numThreads) : stop(false) {
+    std::cout << "Running parallel program with " << numThreads << " threads" << std::endl; 
     for (int i = 0; i < numThreads; ++i) {
-        //std::cout << "Hello from thread " << i << std::endl; 
         threads.emplace_back(
-            [this, i]() {
+            [this]() {
                 while (true) {
-                    //std::cout << "Hello from thread " << i << std::endl; //  " was assigned task at " << &task << std::endl; 
                     std::function<void()> task;
                     {
                         std::unique_lock<std::mutex> lock(queueMutex);
@@ -44,12 +41,8 @@ inline ThreadPool::ThreadPool(int numThreads, int maxQueueSize) : stop(false), m
                             return;
                         task = std::move(tasks.front());
                         tasks.pop();
-                        //condition.notify_all();
                     }
-                    
-                    //std::cout << "Before tasking " << tasks.size() << std::endl; 
                     task();
-                    //std::cout << "Thread " << i << " finished" << std::endl; 
                 }
             }
         );
@@ -69,13 +62,10 @@ inline void ThreadPool::stopAndJoin() {
 template <class F, class... Args>
 void ThreadPool::enqueue(F&& f, Args&&... args) {
     { 
-        //std::cout << "t_before size " << tasks.size() << std::endl;
         std::unique_lock<std::mutex> lock(queueMutex);
-        //condition.wait(lock, [this]() { return tasks.size() < maxQueueSize; });
         tasks.emplace([f, args...]() { f(args...); });
     }
     condition.notify_all();
-    std::cout << "t size new:" << tasks.size() << std::endl;
 }
 
 inline ThreadPool::~ThreadPool() {
@@ -87,26 +77,4 @@ inline ThreadPool::~ThreadPool() {
     for (auto& thread : threads)
         thread.join();
 }
-
-/*
-// Example usage
-void processData(int data) {
-    std::cout << "Processing data: " << data << std::endl;
-    // Perform some data processing
-}
-
-int main() {
-    ThreadPool threadPool(4, 10); // Create a thread pool with 4 threads and maximum queue size of 10
-
-    // Enqueue tasks to be executed by the thread pool
-    for (int i = 0; i < 20; ++i) {
-        threadPool.enqueue(processData, i);
-    }
-
-    // Wait for all tasks to complete
-    threadPool.stopAndJoin();
-
-    return 0;
-}
-*/
 #endif

@@ -1,9 +1,9 @@
-OPENSSL_DIR = /usr/local/opt/openssl/
+OPENSSL_DIR =  /opt/homebrew/opt/openssl@3
 
 LDLIBS += -lcurl
 
 CXX = g++
-CFLAGS = -pthread -std=c++11 -Wall -I$(OPENSSL_DIR)/include -I/usr/local/opt/curl/include  -lssl
+CFLAGS = -pthread -std=c++11 -Wall -O3 -I$(OPENSSL_DIR)/include -I/usr/local/opt/curl/include
 LDFLAGS = 
 
 SOURCES = main.cpp 

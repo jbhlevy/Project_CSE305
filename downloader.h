@@ -25,16 +25,12 @@ typedef struct http_reply HTTP_reply;
 // Callback function to write received data into a string
 size_t WriteCallback(char* ptr, size_t size, size_t nmemb, std::string* data) {
     
-    //std::cout << "we enter callback" << std::endl;
     size_t totalSize = size * nmemb;
-    //std::cout << "Received data size: " << totalSize << std::endl;
     data->append(ptr, totalSize);
     return totalSize;
 }
 
 int download_webpage(std::string& url, HTTP_reply *reply, bool verbose=false){
-    //std::cout << url <<std::endl;
-    //url = "https://fr.wikipedia.org/";
     // Initialize libcurl
     curl_global_init(CURL_GLOBAL_DEFAULT);
 
@@ -53,13 +49,9 @@ int download_webpage(std::string& url, HTTP_reply *reply, bool verbose=false){
         // Perform the request
         CURLcode res = curl_easy_perform(curl);
         if (res == CURLE_OK) {
-            //std::cout << "HTML content:\n" << std::string(response) << std::endl;
             reply->reply_buffer = convert_string(response); 
             reply->length = strlen(convert_string(response)); 
-            //std::cout << reply->length << std::endl;
-            // Request successful, the response is stored in the 'response' variable
             
-
             // Clean up
             curl_easy_cleanup(curl);
 
@@ -91,14 +83,6 @@ int download_webpage(std::string& url, HTTP_reply *reply, bool verbose=false){
     return 1;
 }
 
-}
+}; 
 
 #endif
-
-
-
-
-
-
-
-
