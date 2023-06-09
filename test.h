@@ -15,7 +15,7 @@
 #include<sstream>
 
 #include <set>
-
+/*
 class TestHashtable{
     public:
         ThreadPool* threadPool;
@@ -25,7 +25,7 @@ class TestHashtable{
 
         TestHashtable(int depth){
             this-> hashtable = StripedHashSet<Integer>(10);
-            this-> threadPool = new ThreadPool(100);
+            this-> threadPool = new ThreadPool(100, 50000);
             this->counter = 0;
 
         }
@@ -34,17 +34,17 @@ class TestHashtable{
         int c = 0;
 
         std::cout << "current counter =" << counter << std::endl;
-        if (counter < 200){ 
+        if (counter < 100000){ 
+            c = counter;
             while (c <= 10){
                 std::cout << "hashing :" << counter << std::endl; 
                 Integer* integer = new Integer(counter);
                 Node<Integer>* node = new Node<Integer>(integer);
-                std::cout << "current1 counter =" << counter << std::endl;
                 hashtable.add(node);
                 std::unique_lock<std::mutex> lock(counterMutex);
-                counter++;
+                //scounter++;
                 lock.unlock();
-                std::cout << "current2 counter =" << counter << std::endl;
+            
                 //hash_this_int();
 
                 threadPool->enqueue([this](){
@@ -54,6 +54,7 @@ class TestHashtable{
                 c++;
 
             }
+            counter += 10;
         }
         else{
             std::cout << "WE EXIT: current counter =" << counter << std::endl;
@@ -71,6 +72,7 @@ class TestHashtable{
             
         }
 };
+*/
 
 
 namespace test
@@ -136,6 +138,7 @@ namespace test
 
 
     void test_crawler(std::string first_link, int maxsize, int depth_hashtable, int num_threads){
+        //std::cout << std::numeric_limits<int>::max();
         std::cout << "maxsixe:  " << maxsize << " depth hashtable:  " << depth_hashtable << " num threads: " << num_threads << std::endl;
         auto start = std::chrono::high_resolution_clock::now();
         //std::string first_link = "https://www.google.com/"; //the html here doesnt match 
@@ -173,7 +176,7 @@ namespace test
         std::endl << "================================" << std::endl; 
 
 
-        my_crawler.hashtable.printHashtable(); //Include when want to test mormally 
+        //my_crawler.hashtable.printHashtable(); //Include when want to test mormally 
         //my_crawler.hashtable.writeHashtableToFile("output.txt");
 
         auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now() - start);
@@ -181,13 +184,13 @@ namespace test
 
     }
 
-
+/*
     void test_hashtable(){
         auto start = std::chrono::high_resolution_clock::now();
         TestHashtable testi(10);
         testi.test_hash(); 
 
-        testi.hashtable.printHashtable();
+        //testi.hashtable.printHashtable();
 
         auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now() - start);
         std::cout << "Duration: " << duration.count() / 1000. << "s" << std::endl;
@@ -195,21 +198,27 @@ namespace test
 
     }
     //gprof crawler gmon.out > analysis.txt
-
+*/
 
     void test_different_threads(std::string first_link, int maxsize){
         std::cout << "==========================================================" <<
         std::endl << "Running tests on different numnber of threads (1, 4, 8, 16)" << 
         std::endl << "==========================================================" << std::endl;
         std::vector<int> thread_numbers; 
+        if (maxsize < 201){
+            thread_numbers.push_back(1); 
+        }
 
-        //thread_numbers.push_back(1); 
-        //thread_numbers.push_back(4); 
+        if (maxsize < 10000){           
+            thread_numbers.push_back(4); 
+        }
+        
         thread_numbers.push_back(8); 
         thread_numbers.push_back(16); 
-        //thread_numbers.push_back(32);
+        thread_numbers.push_back(32);
 
-        int depth_hashtable = 40; 
+
+        int depth_hashtable = 100; 
 
         for (size_t i = 0; i < thread_numbers.size(); i++) // no -1???
         {
@@ -232,12 +241,12 @@ namespace test
         depth_sizes.push_back(20); 
         //depth_sizes.push_back(30); 
         depth_sizes.push_back(40); 
-        /*
-        //depth_sizes.push_back(80); 
+        
+        depth_sizes.push_back(80); 
 
         if(maxsize >= 2000)
             depth_sizes.push_back(160);
-*/
+
         if(maxsize >= 10000){            
             depth_sizes.push_back(320);
             depth_sizes.push_back(640);
@@ -255,34 +264,58 @@ namespace test
 
     }
     void run_tests(std::string first_link){
+        //std::cout << std::numeric_limits<atomic<int>>::max();
         std::cout << "==========================================================" <<
-        std::endl << "Testing on maxisze = 200" << 
+        std::endl << "Testing on maxisze = 2000" << 
         std::endl << "==========================================================" << std::endl;
-        test_different_threads(first_link, 200); 
+        //test_different_threads(first_link, 200); 
         //test_different_depths(first_link, 200, 8); 
         //test_different_depths(first_link, 200, 16); 
         std::cout << "==========================================================" <<
         std::endl << "Testing on maxisze = 2000" << 
         std::endl << "==========================================================" << std::endl;
-        test_different_threads(first_link, 2000); 
+        //test_different_threads(first_link, 2000); 
         //test_different_depths(first_link, 2000, 8); 
         //test_different_depths(first_link, 2000, 16); 
+
         std::cout << "==========================================================" <<
-        std::endl << "Testing on maxisze = 10 000" << 
+        std::endl << "Testing on maxisze = 10000" << 
         std::endl << "==========================================================" << std::endl;
-        test_different_threads(first_link, 10000);
+        //test_different_threads(first_link, 10000);
+        //test_different_depths(first_link, 10000, 8); 
         //test_different_depths(first_link, 10000, 16); 
 
         std::cout << "==========================================================" <<
         std::endl << "Testing on maxisze = 50 000" << 
         std::endl << "==========================================================" << std::endl;
-        test_different_threads(first_link, 50000);
+        //test_different_threads(first_link, 50000);
+        //test_different_depths(first_link, 50000, 8); 
         //test_different_depths(first_link, 50000, 16); 
+
+
+        std::cout << "==========================================================" <<
+        std::endl << "Testing on maxisze = 100 000" << 
+        std::endl << "==========================================================" << std::endl;
+        test_different_threads(first_link, 100000);
+        //test_different_depths(first_link, 50000, 8); 
         //test_different_depths(first_link, 50000, 16); 
         std::cout << "==========================================================" <<
         std::endl << "Finished all test with sucess, we are geniuses !!" << 
         std::endl << "==========================================================" << std::endl;
         
+    }
+
+    void test_extractor(){
+        std::string html = "<html><body><a href=\"https://example.com\">Example Link</a>"
+                       "<a href=\"https://openai.com\">OpenAI Link</a></body></html>";
+
+    std::vector<std::string> links = extractLinksFromHTML(html);
+
+    // Print the extracted links
+    for (const std::string& link : links) {
+        std::cout << link << std::endl;
+    }
+
     }
 
 

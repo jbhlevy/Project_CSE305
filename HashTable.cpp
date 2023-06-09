@@ -61,6 +61,7 @@ public:
             }
         }
         table[myBucket].emplace_back(x);
+        //std::cout << table[myBucket].size() << std::endl;
         return true;
     }
 

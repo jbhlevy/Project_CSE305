@@ -1,100 +1,102 @@
 #ifndef THREAD_POOL_H
 #define THREAD_POOL_H
 
+#include <vector>
 #include <thread>
 #include <mutex>
 #include <condition_variable>
 #include <queue>
 #include <functional>
-#include <iostream>
-#include <future>
-
-
 class ThreadPool {
 public:
-    ThreadPool(int numThreads);
+    ThreadPool(int numThreads, int maxQueueSize);
     ~ThreadPool();
 
     template <class F, class... Args>
     void enqueue(F&& f, Args&&... args);
+
     void stopAndJoin();
-    void killall(); 
-    bool is_empty(); 
+    void killall();
+    bool is_empty();
+    bool isFull();
 
 private:
     std::vector<std::thread> threads;
     std::queue<std::function<void()>> tasks;
     std::mutex queueMutex;
-    std::condition_variable condition;
+    std::condition_variable notEmptyCondition;
+    std::condition_variable notFullCondition;
     bool stop;
-
+    int maxQueueSize;
 };
 
-inline ThreadPool::ThreadPool(int numThreads) : stop(false) {
-    //std::cout << "Running parallel program with " << numThreads << " threads" << std::endl; 
+inline ThreadPool::ThreadPool(int numThreads, int maxQueueSize) : stop(false), maxQueueSize(maxQueueSize) {
     for (int i = 0; i < numThreads; ++i) {
-        threads.emplace_back(
-            [this]() {
-                while (true) {
-                    std::function<void()> task;
-                    {
-                        std::unique_lock<std::mutex> lock(queueMutex);
-                        condition.wait(lock, [this]() { return stop || !tasks.empty(); });
-                        if (stop && tasks.empty())
-                            return;
-                        task = std::move(tasks.front());
-                        tasks.pop();
-                    }
-                    task();
+        threads.emplace_back([this]() {
+            while (true) {
+                std::function<void()> task;
+                {
+                    std::unique_lock<std::mutex> lock(queueMutex);
+                    notEmptyCondition.wait(lock, [this]() { return stop || !tasks.empty(); });
+                    if (stop && tasks.empty())
+                        return;
+                    task = std::move(tasks.front());
+                    tasks.pop();
                 }
+                notFullCondition.notify_one();
+                task();
             }
-        );
+        });
     }
 }
 
-inline void ThreadPool::killall(){
+inline void ThreadPool::killall() {
     std::unique_lock<std::mutex> lock(queueMutex);
     stop = true;
-    if(!tasks.empty()){
-        std::queue<std::function<void()>> empty; 
-        std::swap(tasks, empty); 
-        //std::cout << "Flushed the queue" << std::endl; 
-    }
-
+    std::queue<std::function<void()>> emptyQueue;
+    std::swap(tasks, emptyQueue);
 }
 
-inline bool ThreadPool::is_empty(){
+inline bool ThreadPool::is_empty() {
     std::unique_lock<std::mutex> lock(queueMutex);
-    return tasks.empty(); 
+    return tasks.empty();
 }
 
+inline bool ThreadPool::isFull() {
+    std::unique_lock<std::mutex> lock(queueMutex);
+    return tasks.size() >= maxQueueSize;
+}
 
 inline void ThreadPool::stopAndJoin() {
     {
         std::unique_lock<std::mutex> lock(queueMutex);
         stop = true;
+        //notEmptyCondition.wait(lock, [this]() { return tasks.empty(); });
     }
-    condition.notify_all();
+    //notEmptyCondition.notify_all();
     for (auto& thread : threads)
         thread.join();
 }
+
 
 template <class F, class... Args>
 void ThreadPool::enqueue(F&& f, Args&&... args) {
-    { 
+    {
         std::unique_lock<std::mutex> lock(queueMutex);
+        /*if (tasks.size() > maxQueueSize){
+            std::cout << "queue full" <<std::endl;
+            return;
+        }
+        */  //ugly fix, if the queue is full we ignore this url.
+        //notFullCondition.wait(lock, [this]() { return tasks.size() < maxQueueSize; });
         tasks.emplace([f, args...]() { f(args...); });
+        //std::cout << tasks.size() << std::endl;
     }
-    condition.notify_all();
+    notEmptyCondition.notify_one();
 }
 
 inline ThreadPool::~ThreadPool() {
-    {
-        std::unique_lock<std::mutex> lock(queueMutex);
-        stop = true;
-    }
-    condition.notify_all();
-    for (auto& thread : threads)
-        thread.join();
+    stopAndJoin();
 }
-#endif
+
+#endif  // THREAD_POOL_H

@@ -35,23 +35,23 @@ class Crawler{
         this->starting_link = first_link; 
         this->starting_link.pop_back(); 
         this->MAX = maxsize;
-        this-> threadPool = new ThreadPool(numthreads); 
+        this-> threadPool = new ThreadPool(numthreads, std::min(maxsize, 50000)); 
 
         //Initiialise hashtable
         hashtable = StripedHashSet<Website>(max_depth);
 
         //download html for first 
-        downloader::HTTP_reply first_html; 
-        int return_code;
-        return_code = download_webpage(first_link, &first_html, false);
-        char* actual_html = first_html.reply_buffer;
+        //downloader::HTTP_reply first_html; 
+        //int return_code;
+        //return_code = download_webpage(first_link, &first_html, false);
+        //char* actual_html = first_html.reply_buffer;
 
-        if(return_code != 0)
-            std::cerr << "Could not download: " << first_link << " most likely cause: " << parse_url_errstr[return_code] << std::endl; 
+        //if(return_code != 0)
+          //  std::cerr << "Could not download: " << first_link << " most likely cause: " << parse_url_errstr[return_code] << std::endl; 
 
 
         //create first website object
-        Website* first_website = new Website(first_link, actual_html);
+        Website* first_website = new Website(first_link);
         Node<Website>* node_first_website = new Node<Website>(first_website); //the parent is its own parent
         //put first object in hashtable  
         hashtable.add(node_first_website); 
@@ -76,9 +76,13 @@ class Crawler{
 
             std::string html = html_download.reply_buffer; //make sure we dont modify curr.value.html
 
-            while (html != "" && count < MAX ){ 
+            std::vector<std::string> links = extractLinksFromHTML(html);
+
+            for (std::string& new_link : links) {
+                if (count >= MAX) break;
+            //while (html != "" && count < MAX ){ 
             //extract next link
-                std::string new_link = fetchFirstLink(html);
+                //std::string new_link = fetchFirstLink(html);
                 if (new_link == ""){ //there is no more link in this website
                     break;
                 }
@@ -123,6 +127,8 @@ class Crawler{
              //this shoudl be the case, we only want to parse links which return correct thing
                 //create website object next link    //DO PARENT
                     Website* new_Website = new Website(new_link);//, std::string(new_html.reply_buffer));
+                    //Website new_Website(new_link);//Website(new_link);//, std::string(new_html.reply_buffer));
+
 
                 //put in hash table 
                     Node<Website>* website_node = new Node<Website>(new_Website, curr); //curr is the parent, new_website is our new website,the depth will be one more
@@ -141,8 +147,10 @@ class Crawler{
                             }));
                     }
                     else{
-                        if(threadPool->is_empty())
+                        if(threadPool->is_empty()){
+                            //delete html_download;
                             return; 
+                        }
                         //std::cout << "THREADS WILL DIE!!" << std::endl; 
                         threadPool->killall(); 
                     }   
@@ -151,9 +159,11 @@ class Crawler{
                 }
             
         }
+        //delete html_download;
         //std::cout << "Finishing task on node " << curr << std::endl; 
         return ;
     }
+
 
     void crawl(){
         //std::cout << "Started main crawling function..." << std::endl; 
@@ -168,11 +178,12 @@ class Crawler{
 
         //parallel
         crawl_this_website(current);
-        
-        /*threadPool->enqueue(([this, current]() {
+        /*
+        threadPool->enqueue(([this, current]() {
                      crawl_this_website(current);
-                     }));*/
-        
+                     }));
+                     */
+        //finish_crawl();
         threadPool->stopAndJoin() ;
         
                         
