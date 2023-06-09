@@ -12,9 +12,9 @@ int main(int argc, const char * argv[]){
     //test::test_extracting();
     std::string first_link = "https://fr.wikipedia.org/"; 
     //test::test_crawler(first_link, 200, 40, 8);
-    test::test_crawler(first_link, 100000, 40, 16);
+    //test::test_crawler(first_link, 500000, 40, 16);
     //test::test_extractor();
-    //test::run_tests(first_link); 
+    test::run_tests(first_link); 
     //test::test_hashtable();
     return 0; 
 

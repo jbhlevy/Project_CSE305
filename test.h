@@ -15,7 +15,7 @@
 #include<sstream>
 
 #include <set>
-/*
+
 class TestHashtable{
     public:
         ThreadPool* threadPool;
@@ -25,7 +25,7 @@ class TestHashtable{
 
         TestHashtable(int depth){
             this-> hashtable = StripedHashSet<Integer>(10);
-            this-> threadPool = new ThreadPool(100, 50000);
+            this-> threadPool = new ThreadPool(100);
             this->counter = 0;
 
         }
@@ -72,7 +72,7 @@ class TestHashtable{
             
         }
 };
-*/
+
 
 
 namespace test
@@ -164,10 +164,6 @@ namespace test
 
         //my_crawler.hashtable.printHashtable();
 
-
-        //std::cout <<"CHECK THAT WE ADDED WEBSITE in test 1:"<< my_crawler.hashtable.table[std::hash<std::string>{}("http://www.google.com/")].front() << std::endl;
-        //std::cout <<"CHECK THAT WE ADDED WEBSITE in test 2:"<< my_crawler.hashtable.contains(Website(first_link)) << std::endl; 
-
         my_crawler.crawl();
         //my_crawler.crawl_this_website();
         
@@ -184,7 +180,19 @@ namespace test
 
     }
 
-/*
+    void test_extractor(){
+        std::string html = "<html><body><a href=\"https://example.com\">Example Link</a>"
+                       "<a href=\"https://openai.com\">OpenAI Link</a></body></html>";
+
+    std::vector<std::string> links = extractLinksFromHTML(html);
+
+    // Print the extracted links
+    for (const std::string& link : links) {
+        std::cout << link << std::endl;
+    }
+    }
+
+
     void test_hashtable(){
         auto start = std::chrono::high_resolution_clock::now();
         TestHashtable testi(10);
@@ -197,8 +205,7 @@ namespace test
 
 
     }
-    //gprof crawler gmon.out > analysis.txt
-*/
+
 
     void test_different_threads(std::string first_link, int maxsize){
         std::cout << "==========================================================" <<
@@ -216,6 +223,7 @@ namespace test
         thread_numbers.push_back(8); 
         thread_numbers.push_back(16); 
         thread_numbers.push_back(32);
+        thread_numbers.push_back(64);
 
 
         int depth_hashtable = 100; 
@@ -238,7 +246,7 @@ namespace test
 
         //int num_threads = 16; 
 
-        depth_sizes.push_back(20); 
+        //depth_sizes.push_back(20); 
         //depth_sizes.push_back(30); 
         depth_sizes.push_back(40); 
         
@@ -274,53 +282,43 @@ namespace test
         std::cout << "==========================================================" <<
         std::endl << "Testing on maxisze = 2000" << 
         std::endl << "==========================================================" << std::endl;
-        //test_different_threads(first_link, 2000); 
-        //test_different_depths(first_link, 2000, 8); 
-        //test_different_depths(first_link, 2000, 16); 
+        test_different_threads(first_link, 2000); 
+        test_different_depths(first_link, 2000, 8); 
+        test_different_depths(first_link, 2000, 16); 
 
         std::cout << "==========================================================" <<
         std::endl << "Testing on maxisze = 10000" << 
         std::endl << "==========================================================" << std::endl;
-        //test_different_threads(first_link, 10000);
-        //test_different_depths(first_link, 10000, 8); 
-        //test_different_depths(first_link, 10000, 16); 
+        test_different_threads(first_link, 10000);
+        test_different_depths(first_link, 10000, 8); 
+        test_different_depths(first_link, 10000, 16); 
 
         std::cout << "==========================================================" <<
         std::endl << "Testing on maxisze = 50 000" << 
         std::endl << "==========================================================" << std::endl;
-        //test_different_threads(first_link, 50000);
-        //test_different_depths(first_link, 50000, 8); 
-        //test_different_depths(first_link, 50000, 16); 
+        test_different_threads(first_link, 50000);
+        test_different_depths(first_link, 50000, 8); 
+        test_different_depths(first_link, 50000, 16); 
 
 
         std::cout << "==========================================================" <<
         std::endl << "Testing on maxisze = 100 000" << 
         std::endl << "==========================================================" << std::endl;
-        test_different_threads(first_link, 100000);
-        //test_different_depths(first_link, 50000, 8); 
-        //test_different_depths(first_link, 50000, 16); 
+         test_different_threads(first_link, 100000);
+        //test_different_depths(first_link, 100000, 8); 
+        test_different_depths(first_link, 100000, 16); 
+
+        std::cout << "==========================================================" <<
+        std::endl << "Testing on maxisze = 500 000" << 
+        std::endl << "==========================================================" << std::endl;
+
+        test_different_depths(first_link, 500000, 16); 
+
         std::cout << "==========================================================" <<
         std::endl << "Finished all test with sucess, we are geniuses !!" << 
         std::endl << "==========================================================" << std::endl;
         
     }
-
-    void test_extractor(){
-        std::string html = "<html><body><a href=\"https://example.com\">Example Link</a>"
-                       "<a href=\"https://openai.com\">OpenAI Link</a></body></html>";
-
-    std::vector<std::string> links = extractLinksFromHTML(html);
-
-    // Print the extracted links
-    for (const std::string& link : links) {
-        std::cout << link << std::endl;
-    }
-
-    }
-
-
-
-
     
 } // namespace test
 

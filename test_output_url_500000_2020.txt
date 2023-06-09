@@ -1,0 +1,9 @@
+Hello World !
+maxsixe:  500000 depth hashtable:  40 num threads: 16
+====================================
+IMPORTANT LOG: Finished Crawler init
+====================================
+================================
+IMPORTANT LOG: Finished Crawling
+================================
+Duration: 193.786s

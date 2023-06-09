@@ -9,7 +9,7 @@
 #include <functional>
 class ThreadPool {
 public:
-    ThreadPool(int numThreads, int maxQueueSize);
+    ThreadPool(int numThreads);
     ~ThreadPool();
 
     template <class F, class... Args>
@@ -30,7 +30,7 @@ private:
     int maxQueueSize;
 };
 
-inline ThreadPool::ThreadPool(int numThreads, int maxQueueSize) : stop(false), maxQueueSize(maxQueueSize) {
+inline ThreadPool::ThreadPool(int numThreads) : stop(false) {
     for (int i = 0; i < numThreads; ++i) {
         threads.emplace_back([this]() {
             while (true) {
@@ -83,14 +83,7 @@ template <class F, class... Args>
 void ThreadPool::enqueue(F&& f, Args&&... args) {
     {
         std::unique_lock<std::mutex> lock(queueMutex);
-        /*if (tasks.size() > maxQueueSize){
-            std::cout << "queue full" <<std::endl;
-            return;
-        }
-        */  //ugly fix, if the queue is full we ignore this url.
-        //notFullCondition.wait(lock, [this]() { return tasks.size() < maxQueueSize; });
         tasks.emplace([f, args...]() { f(args...); });
-        //std::cout << tasks.size() << std::endl;
     }
     notEmptyCondition.notify_one();
 }

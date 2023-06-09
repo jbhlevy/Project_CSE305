@@ -6,7 +6,7 @@
 #include <string>
 #include <iostream>
 
-
+//used for html in hashtable version
 std::string fetchFirstLink(std::string& html) //call on copy of string. 
 {
     // Regular expression pattern for extracting the first URL within <a href> tag
@@ -61,6 +61,7 @@ std::string fetchFirstLink(std::string& html) //call on copy of string.
     return "";
 }
 
+//used for only url in hashtable version
 std::vector<std::string> extractLinksFromHTML(const std::string& html) {
     // Regular expression pattern for extracting URLs within <a href> tags
     const std::regex urlRegex("<\\s*a\\s+[^>]*href\\s*=\\s*\"([^\"]*)\"", std::regex_constants::icase);
