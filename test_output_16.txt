@@ -1,0 +1,86 @@
+Hello World !
+==========================================================
+Testing on maxisze = 200
+==========================================================
+==========================================================
+Running tests on different depths of hashtable (20, 30, 40, 80) for 200 maxsize
+==========================================================
+maxsixe:  200 depth hashtable:  20 num threads: 8
+====================================
+IMPORTANT LOG: Finished Crawler init
+====================================
+================================
+IMPORTANT LOG: Finished Crawling
+================================
+Duration: 16.45s
+maxsixe:  200 depth hashtable:  40 num threads: 8
+====================================
+IMPORTANT LOG: Finished Crawler init
+====================================
+================================
+IMPORTANT LOG: Finished Crawling
+================================
+Duration: 17.155s
+maxsixe:  200 depth hashtable:  80 num threads: 8
+====================================
+IMPORTANT LOG: Finished Crawler init
+====================================
+================================
+IMPORTANT LOG: Finished Crawling
+================================
+Duration: 17.013s
+==========================================================
+Finished running test: SUCESS !
+==========================================================
+
+
+==========================================================
+Running tests on different depths of hashtable (20, 30, 40, 80) for 200 maxsize
+==========================================================
+maxsixe:  200 depth hashtable:  20 num threads: 16
+====================================
+IMPORTANT LOG: Finished Crawler init
+====================================
+================================
+IMPORTANT LOG: Finished Crawling
+================================
+Duration: 13.649s
+maxsixe:  200 depth hashtable:  40 num threads: 16
+====================================
+IMPORTANT LOG: Finished Crawler init
+====================================
+================================
+IMPORTANT LOG: Finished Crawling
+================================
+Duration: 12.73s
+maxsixe:  200 depth hashtable:  80 num threads: 16
+====================================
+IMPORTANT LOG: Finished Crawler init
+====================================
+================================
+IMPORTANT LOG: Finished Crawling
+================================
+Duration: 12.786s
+==========================================================
+Finished running test: SUCESS !
+==========================================================
+
+
+==========================================================
+Testing on maxisze = 2000
+==========================================================
+==========================================================
+Running tests on different depths of hashtable (20, 30, 40, 80) for 2000 maxsize
+==========================================================
+maxsixe:  2000 depth hashtable:  20 num threads: 8
+====================================
+IMPORTANT LOG: Finished Crawler init
+====================================
+================================
+IMPORTANT LOG: Finished Crawling
+================================
+Duration: 130.345s
+maxsixe:  2000 depth hashtable:  40 num threads: 8
+====================================
+IMPORTANT LOG: Finished Crawler init
+====================================

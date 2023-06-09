@@ -63,89 +63,92 @@ class Crawler{
     
 
     void crawl_this_website(Node<Website>* curr) {
-        if(count >=MAX){
-            std::cout << "reached max, stopping..." << std::endl; 
+        downloader::HTTP_reply html_download;
+        int res = download_webpage(curr->value->url, &html_download, false); 
+        if (res == 0){
+            if(count >=MAX){
+            //std::cout << "reached max, stopping..." << std::endl; 
             return ; 
-        }   
+            }   
 
-        const std::regex url_re(R"!!(<\s*A\s+[^>]*href\s*=\s*"([^"]*)")!!", std::regex_constants::icase);
-        //Regular expression used to create chunks of the html file
+            const std::regex url_re(R"!!(<\s*A\s+[^>]*href\s*=\s*"([^"]*)")!!", std::regex_constants::icase);
+            //Regular expression used to create chunks of the html file
 
-        std::string html = curr->value->get_html(); //make sure we dont modify curr.value.html
+            std::string html = html_download.reply_buffer; //make sure we dont modify curr.value.html
 
-        while (html != "" && count < MAX ){ 
+            while (html != "" && count < MAX ){ 
             //extract next link
-            std::string new_link = fetchFirstLink(html);
-            if (new_link == ""){ //there is no more link in this website
-                break;
-            }
-            if(new_link == "bad"){
-                continue; 
-            }
-
-            if (new_link.find("wikipedia") != std::string::npos){
-                if( !(new_link.find("fr") != std::string::npos || new_link.find("en") != std::string::npos)){
+                std::string new_link = fetchFirstLink(html);
+                if (new_link == ""){ //there is no more link in this website
+                    break;
+                }
+                if(new_link == "bad"){
                     continue; 
                 }
-            }
 
-            //std::cout << "==============================" << std::endl << "IMPORTANT LOG: found new link to crawl:  " << new_link  << std::endl << "==============================" << std::endl;
-            if(new_link.front() == '/'){
-
-                if(new_link.find("//") != std::string::npos){
-                    new_link = "https:" + new_link; 
+                if (new_link.find("wikipedia") != std::string::npos){
+                    if( !(new_link.find("fr") != std::string::npos || new_link.find("en") != std::string::npos)){
+                        continue; 
+                    }
                 }
-                else{
 
-                    URL_info parent_info; 
-                    std::string parent_url_string = curr->value->get_url(); 
-                    char* parent_url = convert_string(parent_url_string);
-                    parse_url(parent_url, &parent_info); 
+                //std::cout << "==============================" << std::endl << "IMPORTANT LOG: found new link to crawl:  " << new_link  << std::endl << "==============================" << std::endl;
+                if(new_link.front() == '/'){
 
-                    new_link =  std::string(parent_info.protocol) + "://" + std::string(parent_info.host) + new_link; 
+                    if(new_link.find("//") != std::string::npos){
+                        new_link = "https:" + new_link; 
+                    }
+                    else{
+
+                        URL_info parent_info; 
+                        std::string parent_url_string = curr->value->get_url(); 
+                        char* parent_url = convert_string(parent_url_string);
+                        parse_url(parent_url, &parent_info); 
+
+                        new_link =  std::string(parent_info.protocol) + "://" + std::string(parent_info.host) + new_link; 
                 }
             }
-            //Check that link is not already in the table
-            if(hashtable.contains(new_link)){
-                continue;
-            }
+                //Check that link is not already in the table
+                if(hashtable.contains(new_link)){
+                    continue;
+                }
             //download next link
-            downloader::HTTP_reply new_html;
-            int res = download_webpage(new_link, &new_html, false);   
+            //downloader::HTTP_reply new_html;
+            //int res = download_webpage(new_link, &new_html, false);   
 
-            if(hashtable.contains(new_link)){
-                continue;
-            }
+                if(hashtable.contains(new_link)){
+                    continue;
+                }
             
-            if (res == 0){ //this shoudl be the case, we only want to parse links which return correct thing
+             //this shoudl be the case, we only want to parse links which return correct thing
                 //create website object next link    //DO PARENT
-                Website* new_Website = new Website(new_link, std::string(new_html.reply_buffer));
+                    Website* new_Website = new Website(new_link);//, std::string(new_html.reply_buffer));
 
                 //put in hash table 
-                Node<Website>* website_node = new Node<Website>(new_Website, curr); //curr is the parent, new_website is our new website,the depth will be one more
-                hashtable.add(website_node);
-                count.fetch_add(1); 
+                    Node<Website>* website_node = new Node<Website>(new_Website, curr); //curr is the parent, new_website is our new website,the depth will be one more
+                    hashtable.add(website_node);
+                    count.fetch_add(1); 
 
                 //sequential
                 //crawl_this_website(website_node); //this should spawn new thread
 
                 //pararell
 
-                if(count < MAX){
+                    if(count < MAX){
 
-                    threadPool->enqueue(([this, website_node]() {
-                        crawl_this_website(website_node);
-                        }));
-                }
-                else{
-                    if(threadPool->is_empty())
-                        return; 
-                    //std::cout << "THREADS WILL DIE!!" << std::endl; 
-                    threadPool->killall(); 
-                }
+                        threadPool->enqueue(([this, website_node]() {
+                            crawl_this_website(website_node);
+                            }));
+                    }
+                    else{
+                        if(threadPool->is_empty())
+                            return; 
+                        //std::cout << "THREADS WILL DIE!!" << std::endl; 
+                        threadPool->killall(); 
+                    }   
                     
                 //crawl next link
-            }
+                }
             
         }
         //std::cout << "Finishing task on node " << curr << std::endl; 
@@ -153,7 +156,7 @@ class Crawler{
     }
 
     void crawl(){
-        std::cout << "Started main crawling function..." << std::endl; 
+        //std::cout << "Started main crawling function..." << std::endl; 
         Node<Website>* current = hashtable.get(initial_link);
         //std::cout << "current hashtable first (Pointer) " << current << std::endl;
 
@@ -177,7 +180,7 @@ class Crawler{
         //crawl_this_website(current); //will always be first link
 
 
-        std::cout << "Exiting crawling function, " << count << " links in the hashtable!" << std::endl;
+        //std::cout << "Exiting crawling function, " << count << " links in the hashtable!" << std::endl;
     }
 
 };

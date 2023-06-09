@@ -11,8 +11,9 @@ int main(int argc, const char * argv[]){
     //test::test_downloading(); 
     //test::test_extracting();
     std::string first_link = "https://fr.wikipedia.org/"; 
-    //test::test_crawler(first_link, 200, 40, 8);
-    test::run_tests(first_link); 
+    test::test_crawler(first_link, 2000, 40, 8);
+    test::test_crawler(first_link, 2000, 40, 16);
+    //test::run_tests(first_link); 
     //test::test_hashtable();
     return 0; 
 

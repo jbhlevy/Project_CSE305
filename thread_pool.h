@@ -31,7 +31,7 @@ private:
 };
 
 inline ThreadPool::ThreadPool(int numThreads) : stop(false) {
-    std::cout << "Running parallel program with " << numThreads << " threads" << std::endl; 
+    //std::cout << "Running parallel program with " << numThreads << " threads" << std::endl; 
     for (int i = 0; i < numThreads; ++i) {
         threads.emplace_back(
             [this]() {
@@ -58,7 +58,7 @@ inline void ThreadPool::killall(){
     if(!tasks.empty()){
         std::queue<std::function<void()>> empty; 
         std::swap(tasks, empty); 
-        std::cout << "Flushed the queue" << std::endl; 
+        //std::cout << "Flushed the queue" << std::endl; 
     }
 
 }
