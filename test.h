@@ -33,19 +33,15 @@ class TestHashtable{
         void hash_this_int(){
         int c = 0;
 
-        std::cout << "current counter =" << counter << std::endl;
-        if (counter < 100000){ 
+        if (counter < 1000){ 
             c = counter;
             while (c <= 10){
-                std::cout << "hashing :" << counter << std::endl; 
                 Integer* integer = new Integer(counter);
                 Node<Integer>* node = new Node<Integer>(integer);
                 hashtable.add(node);
                 std::unique_lock<std::mutex> lock(counterMutex);
-                //scounter++;
                 lock.unlock();
             
-                //hash_this_int();
 
                 threadPool->enqueue([this](){
                 hash_this_int();
@@ -56,14 +52,15 @@ class TestHashtable{
             }
             counter += 10;
         }
+        /*
         else{
-            std::cout << "WE EXIT: current counter =" << counter << std::endl;
+            //std::cout << "WE EXIT: current counter =" << counter << std::endl;
 
         }
+        */
         }
 
         void test_hash(){    
-            //hash_this_int();      
             threadPool->enqueue([this]() {
                 hash_this_int();
             });
@@ -138,22 +135,8 @@ namespace test
 
 
     void test_crawler(std::string first_link, int maxsize, int depth_hashtable, int num_threads){
-        //std::cout << std::numeric_limits<int>::max();
         std::cout << "maxsixe:  " << maxsize << " depth hashtable:  " << depth_hashtable << " num threads: " << num_threads << std::endl;
         auto start = std::chrono::high_resolution_clock::now();
-        //std::string first_link = "https://www.google.com/"; //the html here doesnt match 
-        //std::string first_link = "https://fr.wikipedia.org/"; //good to test first step
-        //std::string first_link = "https://everything.curl.dev/libcurl/callbacks/write";
-        //std::string first_link =  "https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Mes_discussions";
-        //std::string first_link = "http://iamjmm.ovh/NSI/http/site/http.html";
-        //std::string first_link = "https://hackingcpp.com/"; //gives invalid port
-        //std::string first_link = "https://github.com/gperftools/gperftools/wiki";
-        //std::string first_link = "https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents"; 
-        //Crawler my_crawler(first_link, 10);
-
-        // int maxsize = 200;
-        // int depth_hashtable = 40;
-        // int num_threads = 8;
         Crawler my_crawler;
         my_crawler.init(first_link, depth_hashtable, num_threads, maxsize); 
         
@@ -223,7 +206,6 @@ namespace test
         thread_numbers.push_back(8); 
         thread_numbers.push_back(16); 
         thread_numbers.push_back(32);
-        thread_numbers.push_back(64);
 
 
         int depth_hashtable = 100; 
@@ -312,7 +294,7 @@ namespace test
         std::endl << "Testing on maxisze = 500 000" << 
         std::endl << "==========================================================" << std::endl;
 
-        test_different_depths(first_link, 500000, 16); 
+        //test_different_depths(first_link, 500000, 16); 
 
         std::cout << "==========================================================" <<
         std::endl << "Finished all test with sucess, we are geniuses !!" << 
